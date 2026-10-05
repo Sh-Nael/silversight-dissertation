@@ -1,0 +1,184 @@
+<svg width="800" height="280" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" baseProfile="full" viewBox="0 0 800 280">
+<rect width="800" height="280" x="0" y="0" fill="#ffffff"></rect>
+<path d="M61.9 236.5L781.5 236.5" fill="none" stroke="#14191f14" class="zr5-cls-10"></path>
+<path d="M61.9 201.5L781.5 201.5" fill="none" stroke="#14191f14" class="zr5-cls-10"></path>
+<path d="M61.9 167.5L781.5 167.5" fill="none" stroke="#14191f14" class="zr5-cls-10"></path>
+<path d="M61.9 133.5L781.5 133.5" fill="none" stroke="#14191f14" class="zr5-cls-10"></path>
+<path d="M61.9 98.5L781.5 98.5" fill="none" stroke="#14191f14" class="zr5-cls-10"></path>
+<path d="M61.9 64.5L781.5 64.5" fill="none" stroke="#14191f14" class="zr5-cls-10"></path>
+<path d="M61.9 30.5L781.5 30.5" fill="none" stroke="#14191f14" class="zr5-cls-10"></path>
+<path d="M62.5 30L62.5 236" fill="none" stroke="#14191f14" class="zr5-cls-10"></path>
+<path d="M206.5 30L206.5 236" fill="none" stroke="#14191f14" class="zr5-cls-10"></path>
+<path d="M349.5 30L349.5 236" fill="none" stroke="#14191f14" class="zr5-cls-10"></path>
+<path d="M493.5 30L493.5 236" fill="none" stroke="#14191f14" class="zr5-cls-10"></path>
+<path d="M637.5 30L637.5 236" fill="none" stroke="#14191f14" class="zr5-cls-10"></path>
+<path d="M781.5 30L781.5 236" fill="none" stroke="#14191f14" class="zr5-cls-10"></path>
+<text dominant-baseline="central" text-anchor="middle" style="font-size:11px;font-family:IBM Plex Sans, system-ui, sans-serif;" y="-5.5" transform="matrix(0,-1,1,0,19,133)" fill="#56616c">accuracy</text>
+<path d="M62.5 236L62.5 30" fill="none" stroke="#d5dbe1" stroke-linecap="round" class="zr5-cls-10"></path>
+<text dominant-baseline="central" text-anchor="middle" style="font-size:11px;font-family:IBM Plex Sans, system-ui, sans-serif;" xml:space="preserve" y="5.5" transform="translate(421.7 264)" fill="#56616c">coverage (share of days with a call)</text>
+<path d="M61.9 236.5L781.5 236.5" fill="none" stroke="#d5dbe1" stroke-linecap="round" class="zr5-cls-10"></path>
+<text dominant-baseline="central" text-anchor="end" style="font-size:11px;font-family:IBM Plex Sans, system-ui, sans-serif;" transform="translate(53.9 236)" fill="#56616c">40%</text>
+<text dominant-baseline="central" text-anchor="end" style="font-size:11px;font-family:IBM Plex Sans, system-ui, sans-serif;" transform="translate(53.9 201.6667)" fill="#56616c">45%</text>
+<text dominant-baseline="central" text-anchor="end" style="font-size:11px;font-family:IBM Plex Sans, system-ui, sans-serif;" transform="translate(53.9 167.3333)" fill="#56616c">50%</text>
+<text dominant-baseline="central" text-anchor="end" style="font-size:11px;font-family:IBM Plex Sans, system-ui, sans-serif;" transform="translate(53.9 133)" fill="#56616c">55%</text>
+<text dominant-baseline="central" text-anchor="end" style="font-size:11px;font-family:IBM Plex Sans, system-ui, sans-serif;" transform="translate(53.9 98.6667)" fill="#56616c">60%</text>
+<text dominant-baseline="central" text-anchor="end" style="font-size:11px;font-family:IBM Plex Sans, system-ui, sans-serif;" transform="translate(53.9 64.3333)" fill="#56616c">65%</text>
+<text dominant-baseline="central" text-anchor="end" style="font-size:11px;font-family:IBM Plex Sans, system-ui, sans-serif;" transform="translate(53.9 30)" fill="#56616c">70%</text>
+<text dominant-baseline="central" text-anchor="middle" style="font-size:11px;font-family:IBM Plex Sans, system-ui, sans-serif;" y="5.5" transform="translate(61.9 244)" fill="#56616c">0%</text>
+<text dominant-baseline="central" text-anchor="middle" style="font-size:11px;font-family:IBM Plex Sans, system-ui, sans-serif;" y="5.5" transform="translate(205.82 244)" fill="#56616c">20%</text>
+<text dominant-baseline="central" text-anchor="middle" style="font-size:11px;font-family:IBM Plex Sans, system-ui, sans-serif;" y="5.5" transform="translate(349.74 244)" fill="#56616c">40%</text>
+<text dominant-baseline="central" text-anchor="middle" style="font-size:11px;font-family:IBM Plex Sans, system-ui, sans-serif;" y="5.5" transform="translate(493.66 244)" fill="#56616c">60%</text>
+<text dominant-baseline="central" text-anchor="middle" style="font-size:11px;font-family:IBM Plex Sans, system-ui, sans-serif;" y="5.5" transform="translate(637.58 244)" fill="#56616c">80%</text>
+<text dominant-baseline="central" text-anchor="middle" style="font-size:11px;font-family:IBM Plex Sans, system-ui, sans-serif;" y="5.5" transform="translate(781.5 244)" fill="#56616c">100%</text>
+<g clip-path="url(#zr5-c0)">
+<path d="M61.9 167.3333L781.5 167.3333" fill="none" stroke="#8a949d" stroke-dasharray="1" stroke-linejoin="bevel" class="zr5-cls-10"></path>
+</g>
+<g clip-path="url(#zr5-c1)">
+<path d="M61.9 64.3333L781.5 64.3333" fill="none" stroke="#56616c" stroke-dasharray="4,2" stroke-linejoin="bevel" class="zr5-cls-10"></path>
+</g>
+<g clip-path="url(#zr5-c2)">
+<path d="M142.8789 187.5294L210.4772 107.6232L278.2492 157.7963L410.6653 213.4527L781.5 169.4141" fill="none" stroke="#7F5539" stroke-width="1.6" stroke-linejoin="bevel" class="zr5-cls-12"></path>
+</g>
+<g clip-path="url(#zr5-c3)">
+<path d="M183.8897 119.977L250.0977 172.3455L306.2269 171.6358L411.1866 161.6024L781.5 165.0383" fill="none" stroke="#1C7F92" stroke-width="1.6" stroke-linejoin="bevel" class="zr5-cls-12"></path>
+</g>
+<g clip-path="url(#zr5-c4)">
+<path d="M188.5816 144.7186L260.1766 135.5011L327.7749 141.6417L449.417 146.6019L781.5 148.1437" fill="none" stroke="#C2456F" stroke-width="1.6" stroke-linejoin="bevel" class="zr5-cls-12"></path>
+</g>
+<g clip-path="url(#zr5-c5)">
+<path d="M167.7286 191.4269L240.7139 156.9293L291.2823 156.6042L398.5011 168.9155L781.5 175.2297" fill="none" stroke="#3E8E3E" stroke-width="1.6" stroke-linejoin="bevel" class="zr5-cls-12"></path>
+</g>
+<g clip-path="url(#zr5-c6)">
+<path d="M189.9718 210.25L263.4784 167.3333L320.8239 170.0367L415.531 171.4699L781.5 176.1227" fill="none" stroke="#9B2FAE" stroke-width="1.6" stroke-linejoin="bevel" class="zr5-cls-12"></path>
+</g>
+<g clip-path="url(#zr5-c7)">
+<path d="M177.1125 205.4815L267.9965 180.6114L327.0798 165.9545L444.5513 156.3025L781.5 184.5296" fill="none" stroke="#2F63C0" stroke-width="1.6" stroke-linejoin="bevel" class="zr5-cls-12"></path>
+</g>
+<g clip-path="url(#zr5-c8)">
+<path d="M170.509 181.4429L245.7534 153.6L324.1256 179.8182L434.1249 196.4843L781.5 178.8693" fill="none" stroke="#A8860F" stroke-width="1.6" stroke-linejoin="bevel" class="zr5-cls-12"></path>
+</g>
+<path d="M1 0A1 1 0 1 1 1 -0.0001" transform="matrix(3.5,0,0,3.5,142.8789,187.5294)" fill="#fff" stroke="#7F5539" stroke-width="0.5714285714285714" class="zr5-cls-13"></path>
+<path d="M1 0A1 1 0 1 1 1 -0.0001" transform="matrix(3.5,0,0,3.5,210.4772,107.6232)" fill="#fff" stroke="#7F5539" stroke-width="0.5714285714285714" class="zr5-cls-13"></path>
+<path d="M1 0A1 1 0 1 1 1 -0.0001" transform="matrix(3.5,0,0,3.5,278.2492,157.7963)" fill="#fff" stroke="#7F5539" stroke-width="0.5714285714285714" class="zr5-cls-13"></path>
+<path d="M1 0A1 1 0 1 1 1 -0.0001" transform="matrix(3.5,0,0,3.5,410.6653,213.4527)" fill="#fff" stroke="#7F5539" stroke-width="0.5714285714285714" class="zr5-cls-13"></path>
+<path d="M1 0A1 1 0 1 1 1 -0.0001" transform="matrix(3.5,0,0,3.5,781.5,169.4141)" fill="#fff" stroke="#7F5539" stroke-width="0.5714285714285714" class="zr5-cls-13"></path>
+<path d="M1 0A1 1 0 1 1 1 -0.0001" transform="matrix(3.5,0,0,3.5,183.8897,119.977)" fill="#fff" stroke="#1C7F92" stroke-width="0.5714285714285714" class="zr5-cls-13"></path>
+<path d="M1 0A1 1 0 1 1 1 -0.0001" transform="matrix(3.5,0,0,3.5,250.0977,172.3455)" fill="#fff" stroke="#1C7F92" stroke-width="0.5714285714285714" class="zr5-cls-13"></path>
+<path d="M1 0A1 1 0 1 1 1 -0.0001" transform="matrix(3.5,0,0,3.5,306.2269,171.6358)" fill="#fff" stroke="#1C7F92" stroke-width="0.5714285714285714" class="zr5-cls-13"></path>
+<path d="M1 0A1 1 0 1 1 1 -0.0001" transform="matrix(3.5,0,0,3.5,411.1866,161.6024)" fill="#fff" stroke="#1C7F92" stroke-width="0.5714285714285714" class="zr5-cls-13"></path>
+<path d="M1 0A1 1 0 1 1 1 -0.0001" transform="matrix(3.5,0,0,3.5,781.5,165.0383)" fill="#fff" stroke="#1C7F92" stroke-width="0.5714285714285714" class="zr5-cls-13"></path>
+<path d="M1 0A1 1 0 1 1 1 -0.0001" transform="matrix(3.5,0,0,3.5,188.5816,144.7186)" fill="#fff" stroke="#C2456F" stroke-width="0.5714285714285714" class="zr5-cls-13"></path>
+<path d="M1 0A1 1 0 1 1 1 -0.0001" transform="matrix(3.5,0,0,3.5,260.1766,135.5011)" fill="#fff" stroke="#C2456F" stroke-width="0.5714285714285714" class="zr5-cls-13"></path>
+<path d="M1 0A1 1 0 1 1 1 -0.0001" transform="matrix(3.5,0,0,3.5,327.7749,141.6417)" fill="#fff" stroke="#C2456F" stroke-width="0.5714285714285714" class="zr5-cls-13"></path>
+<path d="M1 0A1 1 0 1 1 1 -0.0001" transform="matrix(3.5,0,0,3.5,449.417,146.6019)" fill="#fff" stroke="#C2456F" stroke-width="0.5714285714285714" class="zr5-cls-13"></path>
+<path d="M1 0A1 1 0 1 1 1 -0.0001" transform="matrix(3.5,0,0,3.5,781.5,148.1437)" fill="#fff" stroke="#C2456F" stroke-width="0.5714285714285714" class="zr5-cls-13"></path>
+<path d="M1 0A1 1 0 1 1 1 -0.0001" transform="matrix(3.5,0,0,3.5,167.7286,191.4269)" fill="#fff" stroke="#3E8E3E" stroke-width="0.5714285714285714" class="zr5-cls-13"></path>
+<path d="M1 0A1 1 0 1 1 1 -0.0001" transform="matrix(3.5,0,0,3.5,240.7139,156.9293)" fill="#fff" stroke="#3E8E3E" stroke-width="0.5714285714285714" class="zr5-cls-13"></path>
+<path d="M1 0A1 1 0 1 1 1 -0.0001" transform="matrix(3.5,0,0,3.5,291.2823,156.6042)" fill="#fff" stroke="#3E8E3E" stroke-width="0.5714285714285714" class="zr5-cls-13"></path>
+<path d="M1 0A1 1 0 1 1 1 -0.0001" transform="matrix(3.5,0,0,3.5,398.5011,168.9155)" fill="#fff" stroke="#3E8E3E" stroke-width="0.5714285714285714" class="zr5-cls-13"></path>
+<path d="M1 0A1 1 0 1 1 1 -0.0001" transform="matrix(3.5,0,0,3.5,781.5,175.2297)" fill="#fff" stroke="#3E8E3E" stroke-width="0.5714285714285714" class="zr5-cls-13"></path>
+<path d="M1 0A1 1 0 1 1 1 -0.0001" transform="matrix(3.5,0,0,3.5,189.9718,210.25)" fill="#fff" stroke="#9B2FAE" stroke-width="0.5714285714285714" class="zr5-cls-13"></path>
+<path d="M1 0A1 1 0 1 1 1 -0.0001" transform="matrix(3.5,0,0,3.5,263.4784,167.3333)" fill="#fff" stroke="#9B2FAE" stroke-width="0.5714285714285714" class="zr5-cls-13"></path>
+<path d="M1 0A1 1 0 1 1 1 -0.0001" transform="matrix(3.5,0,0,3.5,320.8239,170.0367)" fill="#fff" stroke="#9B2FAE" stroke-width="0.5714285714285714" class="zr5-cls-13"></path>
+<path d="M1 0A1 1 0 1 1 1 -0.0001" transform="matrix(3.5,0,0,3.5,415.531,171.4699)" fill="#fff" stroke="#9B2FAE" stroke-width="0.5714285714285714" class="zr5-cls-13"></path>
+<path d="M1 0A1 1 0 1 1 1 -0.0001" transform="matrix(3.5,0,0,3.5,781.5,176.1227)" fill="#fff" stroke="#9B2FAE" stroke-width="0.5714285714285714" class="zr5-cls-13"></path>
+<path d="M1 0A1 1 0 1 1 1 -0.0001" transform="matrix(3.5,0,0,3.5,177.1125,205.4815)" fill="#fff" stroke="#2F63C0" stroke-width="0.5714285714285714" class="zr5-cls-13"></path>
+<path d="M1 0A1 1 0 1 1 1 -0.0001" transform="matrix(3.5,0,0,3.5,267.9965,180.6114)" fill="#fff" stroke="#2F63C0" stroke-width="0.5714285714285714" class="zr5-cls-13"></path>
+<path d="M1 0A1 1 0 1 1 1 -0.0001" transform="matrix(3.5,0,0,3.5,327.0798,165.9545)" fill="#fff" stroke="#2F63C0" stroke-width="0.5714285714285714" class="zr5-cls-13"></path>
+<path d="M1 0A1 1 0 1 1 1 -0.0001" transform="matrix(3.5,0,0,3.5,444.5513,156.3025)" fill="#fff" stroke="#2F63C0" stroke-width="0.5714285714285714" class="zr5-cls-13"></path>
+<path d="M1 0A1 1 0 1 1 1 -0.0001" transform="matrix(3.5,0,0,3.5,781.5,184.5296)" fill="#fff" stroke="#2F63C0" stroke-width="0.5714285714285714" class="zr5-cls-13"></path>
+<path d="M1 0A1 1 0 1 1 1 -0.0001" transform="matrix(3.5,0,0,3.5,170.509,181.4429)" fill="#fff" stroke="#A8860F" stroke-width="0.5714285714285714" class="zr5-cls-13"></path>
+<path d="M1 0A1 1 0 1 1 1 -0.0001" transform="matrix(3.5,0,0,3.5,245.7534,153.6)" fill="#fff" stroke="#A8860F" stroke-width="0.5714285714285714" class="zr5-cls-13"></path>
+<path d="M1 0A1 1 0 1 1 1 -0.0001" transform="matrix(3.5,0,0,3.5,324.1256,179.8182)" fill="#fff" stroke="#A8860F" stroke-width="0.5714285714285714" class="zr5-cls-13"></path>
+<path d="M1 0A1 1 0 1 1 1 -0.0001" transform="matrix(3.5,0,0,3.5,434.1249,196.4843)" fill="#fff" stroke="#A8860F" stroke-width="0.5714285714285714" class="zr5-cls-13"></path>
+<path d="M1 0A1 1 0 1 1 1 -0.0001" transform="matrix(3.5,0,0,3.5,781.5,178.8693)" fill="#fff" stroke="#A8860F" stroke-width="0.5714285714285714" class="zr5-cls-13"></path>
+<path d="M-5 -5l562 0l0 21l-562 0Z" transform="translate(243 5)" fill="rgb(0,0,0)" fill-opacity="0" stroke="#b7b9be" stroke-width="0" class="zr5-cls-10"></path>
+<path d="M0 4L12 4" transform="translate(244 6.5)" fill="#000" stroke="#8a949d" stroke-width="2" stroke-dasharray="2" stroke-linecap="butt" stroke-miterlimit="10" class="zr5-cls-10"></path>
+<path d="M9.2 4A3.2 3.2 0 1 1 9.2 3.9997" transform="translate(244 6.5)" fill="#fff" stroke="#8a949d" stroke-width="2" stroke-linecap="butt" stroke-miterlimit="10" class="zr5-cls-10"></path>
+<text dominant-baseline="central" text-anchor="start" style="font-size:11px;font-family:IBM Plex Sans, system-ui, sans-serif;" xml:space="preserve" x="17" y="4" transform="translate(244 6.5)" fill="#56616c">coin (50%)</text>
+<path d="M-1 -1.5l74 0l0 11l-74 0Z" transform="translate(244 6.5)" fill="none" class="zr5-cls-14"></path>
+<path d="M0 4L12 4" transform="translate(326 6.5)" fill="#000" stroke="#56616c" stroke-width="2" stroke-dasharray="8,4" stroke-linecap="butt" stroke-miterlimit="10" class="zr5-cls-10"></path>
+<path d="M9.2 4A3.2 3.2 0 1 1 9.2 3.9997" transform="translate(326 6.5)" fill="#fff" stroke="#56616c" stroke-width="2" stroke-linecap="butt" stroke-miterlimit="10" class="zr5-cls-10"></path>
+<text dominant-baseline="central" text-anchor="start" style="font-size:11px;font-family:IBM Plex Sans, system-ui, sans-serif;" xml:space="preserve" x="17" y="4" transform="translate(326 6.5)" fill="#56616c">goal (65%)</text>
+<path d="M-1 -1.5l74 0l0 11l-74 0Z" transform="translate(326 6.5)" fill="none" class="zr5-cls-14"></path>
+<path d="M0 4L12 4" transform="translate(408 6.5)" fill="#000" stroke="#7F5539" stroke-width="2" stroke-linecap="butt" stroke-miterlimit="10" class="zr5-cls-10"></path>
+<path d="M9.2 4A3.2 3.2 0 1 1 9.2 3.9997" transform="translate(408 6.5)" fill="#fff" stroke="#7F5539" stroke-width="2" stroke-linecap="butt" stroke-miterlimit="10" class="zr5-cls-10"></path>
+<text dominant-baseline="central" text-anchor="start" style="font-size:11px;font-family:IBM Plex Sans, system-ui, sans-serif;" x="17" y="4" transform="translate(408 6.5)" fill="#56616c">ar_garch</text>
+<path d="M-1 -1.5l61 0l0 11l-61 0Z" transform="translate(408 6.5)" fill="none" class="zr5-cls-14"></path>
+<path d="M0 4L12 4" transform="translate(477 6.5)" fill="#000" stroke="#1C7F92" stroke-width="2" stroke-linecap="butt" stroke-miterlimit="10" class="zr5-cls-10"></path>
+<path d="M9.2 4A3.2 3.2 0 1 1 9.2 3.9997" transform="translate(477 6.5)" fill="#fff" stroke="#1C7F92" stroke-width="2" stroke-linecap="butt" stroke-miterlimit="10" class="zr5-cls-10"></path>
+<text dominant-baseline="central" text-anchor="start" style="font-size:11px;font-family:IBM Plex Sans, system-ui, sans-serif;" x="17" y="4" transform="translate(477 6.5)" fill="#56616c">linear</text>
+<path d="M-1 -1.5l46 0l0 11l-46 0Z" transform="translate(477 6.5)" fill="none" class="zr5-cls-14"></path>
+<path d="M0 4L12 4" transform="translate(531 6.5)" fill="#000" stroke="#C2456F" stroke-width="2" stroke-linecap="butt" stroke-miterlimit="10" class="zr5-cls-10"></path>
+<path d="M9.2 4A3.2 3.2 0 1 1 9.2 3.9997" transform="translate(531 6.5)" fill="#fff" stroke="#C2456F" stroke-width="2" stroke-linecap="butt" stroke-miterlimit="10" class="zr5-cls-10"></path>
+<text dominant-baseline="central" text-anchor="start" style="font-size:11px;font-family:IBM Plex Sans, system-ui, sans-serif;" x="17" y="4" transform="translate(531 6.5)" fill="#56616c">gbm</text>
+<path d="M-1 -1.5l40 0l0 11l-40 0Z" transform="translate(531 6.5)" fill="none" class="zr5-cls-14"></path>
+<path d="M0 4L12 4" transform="translate(579 6.5)" fill="#000" stroke="#3E8E3E" stroke-width="2" stroke-linecap="butt" stroke-miterlimit="10" class="zr5-cls-10"></path>
+<path d="M9.2 4A3.2 3.2 0 1 1 9.2 3.9997" transform="translate(579 6.5)" fill="#fff" stroke="#3E8E3E" stroke-width="2" stroke-linecap="butt" stroke-miterlimit="10" class="zr5-cls-10"></path>
+<text dominant-baseline="central" text-anchor="start" style="font-size:11px;font-family:IBM Plex Sans, system-ui, sans-serif;" x="17" y="4" transform="translate(579 6.5)" fill="#56616c">lstm</text>
+<path d="M-1 -1.5l40 0l0 11l-40 0Z" transform="translate(579 6.5)" fill="none" class="zr5-cls-14"></path>
+<path d="M0 4L12 4" transform="translate(627 6.5)" fill="#000" stroke="#9B2FAE" stroke-width="2" stroke-linecap="butt" stroke-miterlimit="10" class="zr5-cls-10"></path>
+<path d="M9.2 4A3.2 3.2 0 1 1 9.2 3.9997" transform="translate(627 6.5)" fill="#fff" stroke="#9B2FAE" stroke-width="2" stroke-linecap="butt" stroke-miterlimit="10" class="zr5-cls-10"></path>
+<text dominant-baseline="central" text-anchor="start" style="font-size:11px;font-family:IBM Plex Sans, system-ui, sans-serif;" x="17" y="4" transform="translate(627 6.5)" fill="#56616c">gru</text>
+<path d="M-1 -1.5l34 0l0 11l-34 0Z" transform="translate(627 6.5)" fill="none" class="zr5-cls-14"></path>
+<path d="M0 4L12 4" transform="translate(669 6.5)" fill="#000" stroke="#2F63C0" stroke-width="2" stroke-linecap="butt" stroke-miterlimit="10" class="zr5-cls-10"></path>
+<path d="M9.2 4A3.2 3.2 0 1 1 9.2 3.9997" transform="translate(669 6.5)" fill="#fff" stroke="#2F63C0" stroke-width="2" stroke-linecap="butt" stroke-miterlimit="10" class="zr5-cls-10"></path>
+<text dominant-baseline="central" text-anchor="start" style="font-size:11px;font-family:IBM Plex Sans, system-ui, sans-serif;" x="17" y="4" transform="translate(669 6.5)" fill="#56616c">static_gnn</text>
+<path d="M-1 -1.5l70 0l0 11l-70 0Z" transform="translate(669 6.5)" fill="none" class="zr5-cls-14"></path>
+<path d="M0 4L12 4" transform="translate(747 6.5)" fill="#000" stroke="#A8860F" stroke-width="2" stroke-linecap="butt" stroke-miterlimit="10" class="zr5-cls-10"></path>
+<path d="M9.2 4A3.2 3.2 0 1 1 9.2 3.9997" transform="translate(747 6.5)" fill="#fff" stroke="#A8860F" stroke-width="2" stroke-linecap="butt" stroke-miterlimit="10" class="zr5-cls-10"></path>
+<text dominant-baseline="central" text-anchor="start" style="font-size:11px;font-family:IBM Plex Sans, system-ui, sans-serif;" x="17" y="4" transform="translate(747 6.5)" fill="#56616c">aimdg</text>
+<path d="M-1 -1.5l49 0l0 11l-49 0Z" transform="translate(747 6.5)" fill="none" class="zr5-cls-14"></path>
+<defs >
+<clipPath id="zr5-c0">
+<path d="M61 29.5l722 0l0 207l-722 0Z" fill="#000" class="zr5-cls-10"></path>
+</clipPath>
+<clipPath id="zr5-c1">
+<path d="M61 29.5l722 0l0 207l-722 0Z" fill="#000" class="zr5-cls-10"></path>
+</clipPath>
+<clipPath id="zr5-c2">
+<path d="M61 29.2l723 0l0 207.6l-723 0Z" fill="#000" class="zr5-cls-11"></path>
+</clipPath>
+<clipPath id="zr5-c3">
+<path d="M61 29.2l723 0l0 207.6l-723 0Z" fill="#000" class="zr5-cls-11"></path>
+</clipPath>
+<clipPath id="zr5-c4">
+<path d="M61 29.2l723 0l0 207.6l-723 0Z" fill="#000" class="zr5-cls-11"></path>
+</clipPath>
+<clipPath id="zr5-c5">
+<path d="M61 29.2l723 0l0 207.6l-723 0Z" fill="#000" class="zr5-cls-11"></path>
+</clipPath>
+<clipPath id="zr5-c6">
+<path d="M61 29.2l723 0l0 207.6l-723 0Z" fill="#000" class="zr5-cls-11"></path>
+</clipPath>
+<clipPath id="zr5-c7">
+<path d="M61 29.2l723 0l0 207.6l-723 0Z" fill="#000" class="zr5-cls-11"></path>
+</clipPath>
+<clipPath id="zr5-c8">
+<path d="M61 29.2l723 0l0 207.6l-723 0Z" fill="#000" class="zr5-cls-11"></path>
+</clipPath>
+</defs>
+<style ><![CDATA[
+.zr5-cls-10:hover {
+pointer-events:none;
+}
+.zr5-cls-11:hover {
+cursor:pointer;
+fill:rgba(0,0,0,1);
+}
+.zr5-cls-12:hover {
+cursor:pointer;
+}
+.zr5-cls-13:hover {
+cursor:pointer;
+fill:rgba(255,255,255,1);
+}
+.zr5-cls-14:hover {
+cursor:pointer;
+fill:rgba(0,0,0,0);
+}
+
+]]>
+
+</style>
+</svg>

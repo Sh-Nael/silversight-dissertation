@@ -1,0 +1,9 @@
+model,task,mean,count
+gbm,direction_h1,0.6879548165222923,17
+gbm,direction_h5,0.6911481390982701,17
+gbm,volatility_h1,-6.96545745492617,17
+gbm,volatility_h5,-5.323746122263836,17
+linear,direction_h1,0.6902811590186779,17
+linear,direction_h5,0.6938708788816502,17
+linear,volatility_h1,-6.963075010732916,17
+linear,volatility_h5,-5.321886108137626,17

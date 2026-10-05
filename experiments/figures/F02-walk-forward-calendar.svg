@@ -1,0 +1,72 @@
+<svg width="800" height="280" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" baseProfile="full" viewBox="0 0 800 280">
+<rect width="800" height="280" x="0" y="0" fill="#ffffff"></rect>
+<path d="M60.5 12L60.5 250" fill="none" stroke="#d5dbe1" stroke-linecap="round" class="zr1-cls-0"></path>
+<text dominant-baseline="central" text-anchor="end" style="font-size:11px;font-family:IBM Plex Mono, ui-monospace, monospace;" transform="translate(52 25.2222)" fill="#56616c">F0</text>
+<text dominant-baseline="central" text-anchor="end" style="font-size:11px;font-family:IBM Plex Mono, ui-monospace, monospace;" transform="translate(52 51.6667)" fill="#56616c">F1</text>
+<text dominant-baseline="central" text-anchor="end" style="font-size:11px;font-family:IBM Plex Mono, ui-monospace, monospace;" transform="translate(52 78.1111)" fill="#56616c">F2</text>
+<text dominant-baseline="central" text-anchor="end" style="font-size:11px;font-family:IBM Plex Mono, ui-monospace, monospace;" transform="translate(52 104.5556)" fill="#56616c">F3</text>
+<text dominant-baseline="central" text-anchor="end" style="font-size:11px;font-family:IBM Plex Mono, ui-monospace, monospace;" transform="translate(52 131)" fill="#56616c">F4</text>
+<text dominant-baseline="central" text-anchor="end" style="font-size:11px;font-family:IBM Plex Mono, ui-monospace, monospace;" transform="translate(52 157.4444)" fill="#56616c">F5</text>
+<text dominant-baseline="central" text-anchor="end" style="font-size:11px;font-family:IBM Plex Mono, ui-monospace, monospace;" transform="translate(52 183.8889)" fill="#56616c">F6</text>
+<text dominant-baseline="central" text-anchor="end" style="font-size:11px;font-family:IBM Plex Mono, ui-monospace, monospace;" transform="translate(52 210.3333)" fill="#56616c">F7</text>
+<text dominant-baseline="central" text-anchor="end" style="font-size:11px;font-family:IBM Plex Mono, ui-monospace, monospace;" transform="translate(52 236.7778)" fill="#56616c">tuning</text>
+<text dominant-baseline="central" text-anchor="middle" style="font: normal normal 11px IBM Plex Mono, ui-monospace, monospace" y="5.5" transform="translate(151.0016 258)" fill="#56616c">2009</text>
+<text dominant-baseline="central" text-anchor="middle" style="font: normal normal 11px IBM Plex Mono, ui-monospace, monospace" y="5.5" transform="translate(256.4525 258)" fill="#56616c">2012</text>
+<text dominant-baseline="central" text-anchor="middle" style="font: normal normal 11px IBM Plex Mono, ui-monospace, monospace" y="5.5" transform="translate(361.9997 258)" fill="#56616c">2015</text>
+<text dominant-baseline="central" text-anchor="middle" style="font: normal normal 11px IBM Plex Mono, ui-monospace, monospace" y="5.5" transform="translate(467.5469 258)" fill="#56616c">2018</text>
+<text dominant-baseline="central" text-anchor="middle" style="font: normal normal 11px IBM Plex Mono, ui-monospace, monospace" y="5.5" transform="translate(573.0942 258)" fill="#56616c">2021</text>
+<text dominant-baseline="central" text-anchor="middle" style="font: normal normal 11px IBM Plex Mono, ui-monospace, monospace" y="5.5" transform="translate(678.5451 258)" fill="#56616c">2024</text>
+<path d="M82.8013 17.95L183.3855 17.95A2 2 0 0 1 185.3855 19.95L185.3855 30.4944A2 2 0 0 1 183.3855 32.4944L82.8013 32.4944A2 2 0 0 1 80.8013 30.4944L80.8013 19.95A2 2 0 0 1 82.8013 17.95Z" fill="#d5dbe1" class="zr1-cls-1"></path>
+<path d="M188.4448 17.95L256.5752 17.95A2 2 0 0 1 258.5752 19.95L258.5752 30.4944A2 2 0 0 1 256.5752 32.4944L188.4448 32.4944A2 2 0 0 1 186.4448 30.4944L186.4448 19.95A2 2 0 0 1 188.4448 17.95Z" fill="#1c7f92" class="zr1-cls-2"></path>
+<path d="M82.8013 44.3944L255.9973 44.3944A2 2 0 0 1 257.9973 46.3944L257.9973 56.9389A2 2 0 0 1 255.9973 58.9389L82.8013 58.9389A2 2 0 0 1 80.8013 56.9389L80.8013 46.3944A2 2 0 0 1 82.8013 44.3944Z" fill="#d5dbe1" class="zr1-cls-1"></path>
+<path d="M260.6715 44.3944L328.9944 44.3944A2 2 0 0 1 330.9944 46.3944L330.9944 56.9389A2 2 0 0 1 328.9944 58.9389L260.6715 58.9389A2 2 0 0 1 258.6715 56.9389L258.6715 46.3944A2 2 0 0 1 260.6715 44.3944Z" fill="#1c7f92" class="zr1-cls-2"></path>
+<path d="M82.8013 70.8389L328.4166 70.8389A2 2 0 0 1 330.4166 72.8389L330.4166 83.3833A2 2 0 0 1 328.4166 85.3833L82.8013 85.3833A2 2 0 0 1 80.8013 83.3833L80.8013 72.8389A2 2 0 0 1 82.8013 70.8389Z" fill="#d5dbe1" class="zr1-cls-1"></path>
+<path d="M333.0907 70.8389L401.51 70.8389A2 2 0 0 1 403.51 72.8389L403.51 83.3833A2 2 0 0 1 401.51 85.3833L333.0907 85.3833A2 2 0 0 1 331.0907 83.3833L331.0907 72.8389A2 2 0 0 1 333.0907 70.8389Z" fill="#1c7f92" class="zr1-cls-2"></path>
+<path d="M82.8013 97.2833L400.9322 97.2833A2 2 0 0 1 402.9322 99.2833L402.9322 109.8278A2 2 0 0 1 400.9322 111.8278L82.8013 111.8278A2 2 0 0 1 80.8013 109.8278L80.8013 99.2833A2 2 0 0 1 82.8013 97.2833Z" fill="#d5dbe1" class="zr1-cls-1"></path>
+<path d="M405.6063 97.2833L474.3144 97.2833A2 2 0 0 1 476.3144 99.2833L476.3144 109.8278A2 2 0 0 1 474.3144 111.8278L405.6063 111.8278A2 2 0 0 1 403.6063 109.8278L403.6063 99.2833A2 2 0 0 1 405.6063 97.2833Z" fill="#1c7f92" class="zr1-cls-2"></path>
+<path d="M82.8013 123.7278L473.6403 123.7278A2 2 0 0 1 475.6403 125.7278L475.6403 136.2722A2 2 0 0 1 473.6403 138.2722L82.8013 138.2722A2 2 0 0 1 80.8013 136.2722L80.8013 125.7278A2 2 0 0 1 82.8013 123.7278Z" fill="#d5dbe1" class="zr1-cls-1"></path>
+<path d="M478.4107 123.7278L546.6374 123.7278A2 2 0 0 1 548.6374 125.7278L548.6374 136.2722A2 2 0 0 1 546.6374 138.2722L478.4107 138.2722A2 2 0 0 1 476.4107 136.2722L476.4107 125.7278A2 2 0 0 1 478.4107 123.7278Z" fill="#1c7f92" class="zr1-cls-2"></path>
+<path d="M82.8013 150.1722L546.0596 150.1722A2 2 0 0 1 548.0596 152.1722L548.0596 162.7167A2 2 0 0 1 546.0596 164.7167L82.8013 164.7167A2 2 0 0 1 80.8013 162.7167L80.8013 152.1722A2 2 0 0 1 82.8013 150.1722Z" fill="#d5dbe1" class="zr1-cls-1"></path>
+<path d="M550.7337 150.1722L618.6715 150.1722A2 2 0 0 1 620.6715 152.1722L620.6715 162.7167A2 2 0 0 1 618.6715 164.7167L550.7337 164.7167A2 2 0 0 1 548.7337 162.7167L548.7337 152.1722A2 2 0 0 1 550.7337 150.1722Z" fill="#1c7f92" class="zr1-cls-2"></path>
+<path d="M82.8013 176.6167L618.0936 176.6167A2 2 0 0 1 620.0936 178.6167L620.0936 189.1611A2 2 0 0 1 618.0936 191.1611L82.8013 191.1611A2 2 0 0 1 80.8013 189.1611L80.8013 178.6167A2 2 0 0 1 82.8013 176.6167Z" fill="#d5dbe1" class="zr1-cls-1"></path>
+<path d="M622.7678 176.6167L691.0907 176.6167A2 2 0 0 1 693.0907 178.6167L693.0907 189.1611A2 2 0 0 1 691.0907 191.1611L622.7678 191.1611A2 2 0 0 1 620.7678 189.1611L620.7678 178.6167A2 2 0 0 1 622.7678 176.6167Z" fill="#1c7f92" class="zr1-cls-2"></path>
+<path d="M82.8013 203.0611L690.4166 203.0611A2 2 0 0 1 692.4166 205.0611L692.4166 215.6056A2 2 0 0 1 690.4166 217.6056L82.8013 217.6056A2 2 0 0 1 80.8013 215.6056L80.8013 205.0611A2 2 0 0 1 82.8013 203.0611Z" fill="#d5dbe1" class="zr1-cls-1"></path>
+<path d="M695.3796 203.0611L763.6063 203.0611A2 2 0 0 1 765.6063 205.0611L765.6063 215.6056A2 2 0 0 1 763.6063 217.6056L695.3796 217.6056A2 2 0 0 1 693.3796 215.6056L693.3796 205.0611A2 2 0 0 1 695.3796 203.0611Z" fill="#1c7f92" class="zr1-cls-2"></path>
+<path d="M0 -1L1 0L0 1L-1 0Z" transform="matrix(4.5,0,0,4.5,186.4408,236.7778)" fill="#a87913" fill-opacity="0.8" class="zr1-cls-3"></path>
+<path d="M0 -1L1 0L0 1L-1 0Z" transform="matrix(4.5,0,0,4.5,221.4948,236.7778)" fill="#a87913" fill-opacity="0.8" class="zr1-cls-3"></path>
+<path d="M0 -1L1 0L0 1L-1 0Z" transform="matrix(4.5,0,0,4.5,256.6451,236.7778)" fill="#a87913" fill-opacity="0.8" class="zr1-cls-3"></path>
+<path d="M0 -1L1 0L0 1L-1 0Z" transform="matrix(4.5,0,0,4.5,294.0104,236.7778)" fill="#a87913" fill-opacity="0.8" class="zr1-cls-3"></path>
+<path d="M0 -1L1 0L0 1L-1 0Z" transform="matrix(4.5,0,0,4.5,329.3533,236.7778)" fill="#a87913" fill-opacity="0.8" class="zr1-cls-3"></path>
+<path d="M0 -1L1 0L0 1L-1 0Z" transform="matrix(4.5,0,0,4.5,366.5259,236.7778)" fill="#a87913" fill-opacity="0.8" class="zr1-cls-3"></path>
+<path d="M0 -1L1 0L0 1L-1 0Z" transform="matrix(4.5,0,0,4.5,401.6762,236.7778)" fill="#a87913" fill-opacity="0.8" class="zr1-cls-3"></path>
+<path d="M0 -1L1 0L0 1L-1 0Z" transform="matrix(4.5,0,0,4.5,438.9452,236.7778)" fill="#a87913" fill-opacity="0.8" class="zr1-cls-3"></path>
+<path d="M0 -1L1 0L0 1L-1 0Z" transform="matrix(4.5,0,0,4.5,474.3844,236.7778)" fill="#a87913" fill-opacity="0.8" class="zr1-cls-3"></path>
+<path d="M0 -1L1 0L0 1L-1 0Z" transform="matrix(4.5,0,0,4.5,511.553,236.7778)" fill="#a87913" fill-opacity="0.8" class="zr1-cls-3"></path>
+<path d="M0 -1L1 0L0 1L-1 0Z" transform="matrix(4.5,0,0,4.5,546.7033,236.7778)" fill="#a87913" fill-opacity="0.8" class="zr1-cls-3"></path>
+<path d="M0 -1L1 0L0 1L-1 0Z" transform="matrix(4.5,0,0,4.5,583.876,236.7778)" fill="#a87913" fill-opacity="0.8" class="zr1-cls-3"></path>
+<path d="M0 -1L1 0L0 1L-1 0Z" transform="matrix(4.5,0,0,4.5,618.93,236.7778)" fill="#a87913" fill-opacity="0.8" class="zr1-cls-3"></path>
+<path d="M0 -1L1 0L0 1L-1 0Z" transform="matrix(4.5,0,0,4.5,656.0063,236.7778)" fill="#a87913" fill-opacity="0.8" class="zr1-cls-3"></path>
+<path d="M0 -1L1 0L0 1L-1 0Z" transform="matrix(4.5,0,0,4.5,691.4456,236.7778)" fill="#a87913" fill-opacity="0.8" class="zr1-cls-3"></path>
+<path d="M0 -1L1 0L0 1L-1 0Z" transform="matrix(4.5,0,0,4.5,728.6182,236.7778)" fill="#a87913" fill-opacity="0.8" class="zr1-cls-3"></path>
+<path d="M0 -1L1 0L0 1L-1 0Z" transform="matrix(4.5,0,0,4.5,763.7685,236.7778)" fill="#a87913" fill-opacity="0.8" class="zr1-cls-3"></path>
+<style ><![CDATA[
+.zr1-cls-0:hover {
+pointer-events:none;
+}
+.zr1-cls-1:hover {
+cursor:pointer;
+fill:rgba(234,240,247,1);
+}
+.zr1-cls-2:hover {
+cursor:pointer;
+fill:rgba(30,139,160,1);
+}
+.zr1-cls-3:hover {
+cursor:pointer;
+fill:rgba(184,133,20,1);
+}
+
+]]>
+
+</style>
+</svg>

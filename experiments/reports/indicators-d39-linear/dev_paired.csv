@@ -1,0 +1,11 @@
+task,model,mean_diff,won,points
+direction_h1,linear_ta,9.55268562259098e-05,7,17
+direction_h1,linear_ta_all,0.0001153519844883361,7,17
+direction_h5,linear_ta,-0.00012538664110892269,10,17
+direction_h5,linear_ta_all,-0.0001090853378111375,8,17
+joint,linear_ta,0.0007665002267053571,6,17
+joint,linear_ta_all,0.0035095651169386012,1,17
+volatility_h1,linear_ta,0.00012796981906399864,7,17
+volatility_h1,linear_ta_all,0.0026605129662498977,3,17
+volatility_h5,linear_ta,0.0014647502041127806,5,17
+volatility_h5,linear_ta_all,0.004346083974273039,1,17

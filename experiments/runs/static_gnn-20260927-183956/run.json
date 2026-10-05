@@ -1,0 +1,94 @@
+{
+  "run_id": "static_gnn-20260927-183956",
+  "model": "static_gnn",
+  "model_class": "xaglab.models.neural.forecaster.TunedNeural",
+  "model_kwargs": {
+    "net": "static_gnn"
+  },
+  "model_config": {
+    "net": "static_gnn",
+    "cell": "lstm",
+    "window": 60,
+    "windows": [
+      20,
+      60
+    ],
+    "refit_all": true,
+    "max_weight_decay": 0.1,
+    "max_dropout": 0.5,
+    "n_seeds": 5,
+    "tune_seeds": 5,
+    "n_trials": 20,
+    "cv_blocks": 3,
+    "block": 252,
+    "tune_every": 252,
+    "max_epochs": 150,
+    "patience": 12,
+    "sampler": "optuna TPE",
+    "objective": "joint NLL: logloss1 + logloss5 + 0.5 (QLIKE1 + QLIKE5)",
+    "volatility_target": "log(rv / (h * EWMA variance)), EWMA lambda 0.94",
+    "calibration": "Platt on out-of-fold ensemble predictions, refreshed every refit"
+  },
+  "protocol": {
+    "val_size_h1": 252,
+    "val_size_long": 756,
+    "val_cap_share_of_train": 0.5,
+    "purge": 5,
+    "refit_every": 21,
+    "n_refits": 200
+  },
+  "seed": 0,
+  "n_jobs": 6,
+  "started_utc": "2026-09-27T18:39:56+00:00",
+  "wall_seconds": 5464.9,
+  "folds": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+  ],
+  "fold_fingerprint": "66e8186fa7846b46",
+  "data": {
+    "calendar_v1": {
+      "events.csv": "77a8b2e89a866ac2"
+    },
+    "dissertation_v1": {
+      "fred_api__DFII10.parquet": "05a373eedfecb0a5",
+      "fred_api__DGS10.parquet": "431e94b2fdbd1e87",
+      "yfinance__DX-Y.NYB.parquet": "298592e7d4b11ce4",
+      "yfinance__GC_F.parquet": "a461d9b5ac5a8ae3",
+      "yfinance__HG_F.parquet": "381ec53b466a4323",
+      "yfinance__SI_F.parquet": "55ac6b793c529568",
+      "yfinance__idx_VIX.parquet": "2664aab0b8b57838"
+    }
+  },
+  "code": {
+    "commit": "7b2d127ff224be193708be2b7ac3914a8c923d1c",
+    "dirty": false
+  },
+  "env": {
+    "python": "3.13.15",
+    "machine": "x86_64",
+    "numpy": "2.5.3",
+    "pandas": "3.0.6",
+    "scikit-learn": "1.9.1",
+    "statsmodels": "0.15.0",
+    "arch": "8.0.0",
+    "torch": "2.14.0+cu130",
+    "torch-geometric": "2.8.0.post1",
+    "deap": "1.4.4",
+    "gpu": "NVIDIA GeForce RTX 5070 Ti Laptop GPU"
+  },
+  "tuning": {
+    "n_points": 17,
+    "every": 252,
+    "wall_seconds": 0.01,
+    "cpu_seconds": 35031.93,
+    "from": "static_gnn-dev-20260927-164105"
+  },
+  "fit_seconds_total": 32597.81
+}

@@ -1,0 +1,11 @@
+model,task,mean,count
+aimdg,direction_h1,0.6927337666605177,17
+aimdg,direction_h5,0.6895362326373575,17
+aimdg,joint,-4.756979046296007,17
+aimdg,volatility_h1,-6.961903217761683,17
+aimdg,volatility_h5,-5.316594873426082,17
+static_gnn,direction_h1,0.6935134045121643,17
+static_gnn,direction_h5,0.6927926521414998,17
+static_gnn,joint,-4.757987759433033,17
+static_gnn,volatility_h1,-6.969032049917457,17
+static_gnn,volatility_h5,-5.319555582255937,17

@@ -1,0 +1,197 @@
+[
+ {
+  "tuning_point": 2,
+  "fold": 0,
+  "refit": 24,
+  "origin": "2012-01-03",
+  "train_end": "2011-12-23",
+  "seconds": 2237.37,
+  "results": {
+   "joint": {
+    "params": {
+     "hidden": 16,
+     "layers": 1,
+     "dropout": 0.4671484140520308,
+     "lr": 0.0004980492553939749,
+     "weight_decay": 0.0013178912180020596,
+     "lam": 0.8191949454041347,
+     "window": 20,
+     "gnn_layers": 2,
+     "lam2": 0.004508518775805333,
+     "lam3": 0.0017454349879532424
+    },
+    "cv_loss": -4.351180642366273,
+    "n_trials": 20,
+    "seconds": 2237.37
+   },
+   "direction_h1": {
+    "cv_loss": 0.6847531425203387
+   },
+   "direction_h5": {
+    "cv_loss": 0.6765810143219267
+   },
+   "volatility_h1": {
+    "cv_loss": -6.541931506575417
+   },
+   "volatility_h5": {
+    "cv_loss": -4.883098091841661
+   }
+  }
+ },
+ {
+  "tuning_point": 5,
+  "fold": 2,
+  "refit": 12,
+  "origin": "2015-02-17",
+  "train_end": "2015-02-09",
+  "seconds": 2206.56,
+  "results": {
+   "joint": {
+    "params": {
+     "hidden": 16,
+     "layers": 2,
+     "dropout": 0.30418814917755277,
+     "lr": 0.0003335304286721397,
+     "weight_decay": 0.0013821559629191792,
+     "lam": 0.49644007695956316,
+     "window": 60,
+     "gnn_layers": 1,
+     "lam2": 0.0023700427428328874,
+     "lam3": 0.00441470253967179
+    },
+    "cv_loss": -4.765612190750871,
+    "n_trials": 20,
+    "seconds": 2206.56
+   },
+   "direction_h1": {
+    "cv_loss": 0.6978025394945266
+   },
+   "direction_h5": {
+    "cv_loss": 0.6930205332785412
+   },
+   "volatility_h1": {
+    "cv_loss": -6.988219040661866
+   },
+   "volatility_h5": {
+    "cv_loss": -5.324651486386012
+   }
+  }
+ },
+ {
+  "tuning_point": 8,
+  "fold": 3,
+  "refit": 24,
+  "origin": "2018-03-13",
+  "train_end": "2018-03-06",
+  "seconds": 1899.1,
+  "results": {
+   "joint": {
+    "params": {
+     "hidden": 64,
+     "layers": 2,
+     "dropout": 0.464455071825909,
+     "lr": 0.001841515658218168,
+     "weight_decay": 0.00036537251824746993,
+     "lam": 1.1449088450587677,
+     "window": 60,
+     "gnn_layers": 1,
+     "lam2": 0.0001724093839677926,
+     "lam3": 0.004302201346043869
+    },
+    "cv_loss": -5.2340434849512025,
+    "n_trials": 20,
+    "seconds": 1899.1
+   },
+   "direction_h1": {
+    "cv_loss": 0.6943864637322117
+   },
+   "direction_h5": {
+    "cv_loss": 0.6902690796657485
+   },
+   "volatility_h1": {
+    "cv_loss": -7.431468027879948
+   },
+   "volatility_h5": {
+    "cv_loss": -5.805930028818378
+   }
+  }
+ },
+ {
+  "tuning_point": 11,
+  "fold": 5,
+  "refit": 12,
+  "origin": "2021-04-23",
+  "train_end": "2021-04-16",
+  "seconds": 2345.73,
+  "results": {
+   "joint": {
+    "params": {
+     "hidden": 64,
+     "layers": 1,
+     "dropout": 0.1531167459721251,
+     "lr": 0.0007105465358079906,
+     "weight_decay": 4.5207139495968646e-05,
+     "lam": 0.9365544915622841,
+     "window": 20,
+     "gnn_layers": 1,
+     "lam2": 0.0015238741954384173,
+     "lam3": 0.004964771344461481
+    },
+    "cv_loss": -4.907891702331633,
+    "n_trials": 20,
+    "seconds": 2345.72
+   },
+   "direction_h1": {
+    "cv_loss": 0.6944893638332438
+   },
+   "direction_h5": {
+    "cv_loss": 0.6988260658041161
+   },
+   "volatility_h1": {
+    "cv_loss": -7.1429335953802315
+   },
+   "volatility_h5": {
+    "cv_loss": -5.459480668557755
+   }
+  }
+ },
+ {
+  "tuning_point": 14,
+  "fold": 6,
+  "refit": 24,
+  "origin": "2024-05-14",
+  "train_end": "2024-05-07",
+  "seconds": 2685.06,
+  "results": {
+   "joint": {
+    "params": {
+     "hidden": 16,
+     "layers": 1,
+     "dropout": 0.4311289791074731,
+     "lr": 0.001025178667560211,
+     "weight_decay": 1.9435966720191653e-05,
+     "lam": 0.5904527613617021,
+     "window": 60,
+     "gnn_layers": 1,
+     "lam2": 0.004578336539764023,
+     "lam3": 0.0023521661126663664
+    },
+    "cv_loss": -4.884901535682497,
+    "n_trials": 20,
+    "seconds": 2685.06
+   },
+   "direction_h1": {
+    "cv_loss": 0.6931661356740177
+   },
+   "direction_h5": {
+    "cv_loss": 0.697670975758447
+   },
+   "volatility_h1": {
+    "cv_loss": -7.086408768079417
+   },
+   "volatility_h5": {
+    "cv_loss": -5.465068526150505
+   }
+  }
+ }
+]

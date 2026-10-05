@@ -1,0 +1,58 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "xaglab"
+version = "0.1.0"
+description = "Adaptive inter-market driver graph for silver (XAG/USD)"
+requires-python = ">=3.13,<3.14"
+dependencies = [
+    "torch",
+    "torch-geometric",
+    "deap",
+    "pandas",
+    "numpy",
+    "statsmodels",
+    "arch",
+    "yfinance",
+    "fredapi",
+    "scikit-learn",
+    "matplotlib",
+    "pyyaml",
+    "pyarrow",
+    "requests",
+    "optuna",
+    "pydantic",
+    "typer",
+    "rich",
+    "fastapi",
+    "uvicorn[standard]",
+    "python-docx",
+]
+
+[project.optional-dependencies]
+# The web app (FastAPI) is a core dependency: viewers run `xag ui` after `pip install -e .`.
+dev = ["pytest", "pytest-cov", "ruff", "httpx2"]
+# Live app after submission (Phase C): scheduler and Telegram notifications.
+app = ["apscheduler", "python-telegram-bot"]
+
+[project.scripts]
+xag = "xaglab.cli:app"
+
+[tool.setuptools.packages.find]
+include = ["xaglab*"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+
+[tool.ruff]
+line-length = 100
+target-version = "py313"
+
+[tool.ruff.lint.per-file-ignores]
+# Source adapters return None on any failure by design (availability report needs the full picture).
+"xaglab/data/sources.py" = ["BLE001", "S110", "RUF015"]
+"scripts/*" = ["DTZ011"]
+# FastAPI declares parameters with Depends()/Query() defaults by design.
+"xaglab/api/**" = ["B008"]

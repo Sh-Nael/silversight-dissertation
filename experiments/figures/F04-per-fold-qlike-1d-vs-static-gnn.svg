@@ -1,0 +1,113 @@
+<svg width="800" height="476" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" baseProfile="full" viewBox="0 0 800 476">
+<rect width="800" height="476" x="0" y="0" fill="#ffffff"></rect>
+<path d="M81 448.5L788 448.5" fill="none" stroke="#14191f14" class="zr2-cls-0"></path>
+<path d="M81 364.5L788 364.5" fill="none" stroke="#14191f14" class="zr2-cls-0"></path>
+<path d="M81 281.5L788 281.5" fill="none" stroke="#14191f14" class="zr2-cls-0"></path>
+<path d="M81 197.5L788 197.5" fill="none" stroke="#14191f14" class="zr2-cls-0"></path>
+<path d="M81 113.5L788 113.5" fill="none" stroke="#14191f14" class="zr2-cls-0"></path>
+<path d="M81 30.5L788 30.5" fill="none" stroke="#14191f14" class="zr2-cls-0"></path>
+<text dominant-baseline="central" text-anchor="middle" style="font-size:11px;font-family:IBM Plex Sans, system-ui, sans-serif;" xml:space="preserve" y="-5.5" transform="matrix(0,-1,1,0,19,239)" fill="#56616c">mean QLIKE − static_gnn (below 0: better)</text>
+<path d="M81 281.5L788 281.5" fill="none" stroke="#d5dbe1" stroke-linecap="round" class="zr2-cls-0"></path>
+<text dominant-baseline="central" text-anchor="end" style="font-size:11px;font-family:IBM Plex Mono, ui-monospace, monospace;" transform="translate(73 448)" fill="#56616c">-0.1</text>
+<text dominant-baseline="central" text-anchor="end" style="font-size:11px;font-family:IBM Plex Mono, ui-monospace, monospace;" transform="translate(73 364.4)" fill="#56616c">-0.05</text>
+<text dominant-baseline="central" text-anchor="end" style="font-size:11px;font-family:IBM Plex Mono, ui-monospace, monospace;" transform="translate(73 280.8)" fill="#56616c">0</text>
+<text dominant-baseline="central" text-anchor="end" style="font-size:11px;font-family:IBM Plex Mono, ui-monospace, monospace;" transform="translate(73 197.2)" fill="#56616c">0.05</text>
+<text dominant-baseline="central" text-anchor="end" style="font-size:11px;font-family:IBM Plex Mono, ui-monospace, monospace;" transform="translate(73 113.6)" fill="#56616c">0.1</text>
+<text dominant-baseline="central" text-anchor="end" style="font-size:11px;font-family:IBM Plex Mono, ui-monospace, monospace;" transform="translate(73 30)" fill="#56616c">0.15</text>
+<text dominant-baseline="central" text-anchor="middle" style="font-size:11px;font-family:IBM Plex Mono, ui-monospace, monospace;" y="5.5" transform="translate(125.1875 456)" fill="#56616c">F0</text>
+<text dominant-baseline="central" text-anchor="middle" style="font-size:11px;font-family:IBM Plex Mono, ui-monospace, monospace;" y="5.5" transform="translate(213.5625 456)" fill="#56616c">F1</text>
+<text dominant-baseline="central" text-anchor="middle" style="font-size:11px;font-family:IBM Plex Mono, ui-monospace, monospace;" y="5.5" transform="translate(301.9375 456)" fill="#56616c">F2</text>
+<text dominant-baseline="central" text-anchor="middle" style="font-size:11px;font-family:IBM Plex Mono, ui-monospace, monospace;" y="5.5" transform="translate(390.3125 456)" fill="#56616c">F3</text>
+<text dominant-baseline="central" text-anchor="middle" style="font-size:11px;font-family:IBM Plex Mono, ui-monospace, monospace;" y="5.5" transform="translate(478.6875 456)" fill="#56616c">F4</text>
+<text dominant-baseline="central" text-anchor="middle" style="font-size:11px;font-family:IBM Plex Mono, ui-monospace, monospace;" y="5.5" transform="translate(567.0625 456)" fill="#56616c">F5</text>
+<text dominant-baseline="central" text-anchor="middle" style="font-size:11px;font-family:IBM Plex Mono, ui-monospace, monospace;" y="5.5" transform="translate(655.4375 456)" fill="#56616c">F6</text>
+<text dominant-baseline="central" text-anchor="middle" style="font-size:11px;font-family:IBM Plex Mono, ui-monospace, monospace;" y="5.5" transform="translate(743.8125 456)" fill="#56616c">F7</text>
+<path d="M89.6281 280.8L99.0422 280.8A2 2 0 0 1 101.0422 282.8L101.0422 331.1528L87.6281 331.1528L87.6281 282.8A2 2 0 0 1 89.6281 280.8Z" fill="#1C7F92" class="zr2-cls-1"></path>
+<path d="M178.0031 197.6578L187.4172 197.6578A2 2 0 0 1 189.4172 199.6578L189.4172 280.8L176.0031 280.8L176.0031 199.6578A2 2 0 0 1 178.0031 197.6578Z" fill="#1C7F92" class="zr2-cls-1"></path>
+<path d="M266.3781 280.8L275.7922 280.8A2 2 0 0 1 277.7922 282.8L277.7922 298.6396L264.3781 298.6396L264.3781 282.8A2 2 0 0 1 266.3781 280.8Z" fill="#1C7F92" class="zr2-cls-1"></path>
+<path d="M354.7531 184.1L364.1672 184.1A2 2 0 0 1 366.1672 186.1L366.1672 280.8L352.7531 280.8L352.7531 186.1A2 2 0 0 1 354.7531 184.1Z" fill="#1C7F92" class="zr2-cls-1"></path>
+<path d="M443.1281 280.8L452.5422 280.8A2 2 0 0 1 454.5422 282.8L454.5422 438.7046L441.1281 438.7046L441.1281 282.8A2 2 0 0 1 443.1281 280.8Z" fill="#1C7F92" class="zr2-cls-1"></path>
+<path d="M531.5031 256.3525L540.9172 256.3525A2 2 0 0 1 542.9172 258.3525L542.9172 280.8L529.5031 280.8L529.5031 258.3525A2 2 0 0 1 531.5031 256.3525Z" fill="#1C7F92" class="zr2-cls-1"></path>
+<path d="M619.8781 229.7888L629.2922 229.7888A2 2 0 0 1 631.2922 231.7888L631.2922 280.8L617.8781 280.8L617.8781 231.7888A2 2 0 0 1 619.8781 229.7888Z" fill="#1C7F92" class="zr2-cls-1"></path>
+<path d="M708.2531 157.1079L717.6672 157.1079A2 2 0 0 1 719.6672 159.1079L719.6672 280.8L706.2531 280.8L706.2531 159.1079A2 2 0 0 1 708.2531 157.1079Z" fill="#1C7F92" class="zr2-cls-1"></path>
+<path d="M105.0543 280.8L114.4684 280.8A2 2 0 0 1 116.4684 282.8L116.4684 286.2514L103.0543 286.2514L103.0543 282.8A2 2 0 0 1 105.0543 280.8Z" fill="#C2456F" class="zr2-cls-2"></path>
+<path d="M193.4293 190.0041L202.8434 190.0041A2 2 0 0 1 204.8434 192.0041L204.8434 280.8L191.4293 280.8L191.4293 192.0041A2 2 0 0 1 193.4293 190.0041Z" fill="#C2456F" class="zr2-cls-2"></path>
+<path d="M281.8043 280.8L291.2184 280.8A2 2 0 0 1 293.2184 282.8L293.2184 302.7046L279.8043 302.7046L279.8043 282.8A2 2 0 0 1 281.8043 280.8Z" fill="#C2456F" class="zr2-cls-2"></path>
+<path d="M370.1793 268.4673L379.5934 268.4673A2 2 0 0 1 381.5934 270.4673L381.5934 280.8L368.1793 280.8L368.1793 270.4673A2 2 0 0 1 370.1793 268.4673Z" fill="#C2456F" class="zr2-cls-2"></path>
+<path d="M458.5543 280.8L467.9684 280.8A2 2 0 0 1 469.9684 282.8L469.9684 301.0851L456.5543 301.0851L456.5543 282.8A2 2 0 0 1 458.5543 280.8Z" fill="#C2456F" class="zr2-cls-2"></path>
+<path d="M546.9293 222.2853L556.3434 222.2853A2 2 0 0 1 558.3434 224.2853L558.3434 280.8L544.9293 280.8L544.9293 224.2853A2 2 0 0 1 546.9293 222.2853Z" fill="#C2456F" class="zr2-cls-2"></path>
+<path d="M635.3043 216.2763L644.7184 216.2763A2 2 0 0 1 646.7184 218.2763L646.7184 280.8L633.3043 280.8L633.3043 218.2763A2 2 0 0 1 635.3043 216.2763Z" fill="#C2456F" class="zr2-cls-2"></path>
+<path d="M723.6793 70.3263L733.0934 70.3263A2 2 0 0 1 735.0934 72.3263L735.0934 280.8L721.6793 280.8L721.6793 72.3263A2 2 0 0 1 723.6793 70.3263Z" fill="#C2456F" class="zr2-cls-2"></path>
+<path d="M120.4805 228.9474L129.8945 228.9474A2 2 0 0 1 131.8945 230.9474L131.8945 280.8L118.4805 280.8L118.4805 230.9474A2 2 0 0 1 120.4805 228.9474Z" fill="#3E8E3E" class="zr2-cls-3"></path>
+<path d="M208.8555 280.8L218.2695 280.8A2 2 0 0 1 220.2695 282.8L220.2695 303.4232L206.8555 303.4232L206.8555 282.8A2 2 0 0 1 208.8555 280.8Z" fill="#3E8E3E" class="zr2-cls-3"></path>
+<path d="M297.2305 191.4485L306.6445 191.4485A2 2 0 0 1 308.6445 193.4485L308.6445 280.8L295.2305 280.8L295.2305 193.4485A2 2 0 0 1 297.2305 191.4485Z" fill="#3E8E3E" class="zr2-cls-3"></path>
+<path d="M385.6055 179.8841L395.0195 179.8841A2 2 0 0 1 397.0195 181.8841L397.0195 280.8L383.6055 280.8L383.6055 181.8841A2 2 0 0 1 385.6055 179.8841Z" fill="#3E8E3E" class="zr2-cls-3"></path>
+<path d="M473.9805 280.8L483.3945 280.8A2 2 0 0 1 485.3945 282.8L485.3945 314.0783L471.9805 314.0783L471.9805 282.8A2 2 0 0 1 473.9805 280.8Z" fill="#3E8E3E" class="zr2-cls-3"></path>
+<path d="M562.3555 258.935L571.7695 258.935A2 2 0 0 1 573.7695 260.935L573.7695 280.8L560.3555 280.8L560.3555 260.935A2 2 0 0 1 562.3555 258.935Z" fill="#3E8E3E" class="zr2-cls-3"></path>
+<path d="M650.7305 238.7498L660.1445 238.7498A2 2 0 0 1 662.1445 240.7498L662.1445 280.8L648.7305 280.8L648.7305 240.7498A2 2 0 0 1 650.7305 238.7498Z" fill="#3E8E3E" class="zr2-cls-3"></path>
+<path d="M739.1055 215.139L748.5195 215.139A2 2 0 0 1 750.5195 217.139L750.5195 280.8L737.1055 280.8L737.1055 217.139A2 2 0 0 1 739.1055 215.139Z" fill="#3E8E3E" class="zr2-cls-3"></path>
+<path d="M135.9066 269.6238L145.3207 269.6238A2 2 0 0 1 147.3207 271.6238L147.3207 280.8L133.9066 280.8L133.9066 271.6238A2 2 0 0 1 135.9066 269.6238Z" fill="#9B2FAE" class="zr2-cls-4"></path>
+<path d="M224.2816 280.8L233.6957 280.8A2 2 0 0 1 235.6957 282.8L235.6957 327.2664L222.2816 327.2664L222.2816 282.8A2 2 0 0 1 224.2816 280.8Z" fill="#9B2FAE" class="zr2-cls-4"></path>
+<path d="M312.6566 204.9963L322.0707 204.9963A2 2 0 0 1 324.0707 206.9963L324.0707 280.8L310.6566 280.8L310.6566 206.9963A2 2 0 0 1 312.6566 204.9963Z" fill="#9B2FAE" class="zr2-cls-4"></path>
+<path d="M401.0316 236.652L410.4457 236.652A2 2 0 0 1 412.4457 238.652L412.4457 280.8L399.0316 280.8L399.0316 238.652A2 2 0 0 1 401.0316 236.652Z" fill="#9B2FAE" class="zr2-cls-4"></path>
+<path d="M489.4066 280.8L498.8207 280.8A2 2 0 0 1 500.8207 282.8L500.8207 392.6216L487.4066 392.6216L487.4066 282.8A2 2 0 0 1 489.4066 280.8Z" fill="#9B2FAE" class="zr2-cls-4"></path>
+<path d="M577.7816 239.3195L587.1957 239.3195A2 2 0 0 1 589.1957 241.3195L589.1957 280.8L575.7816 280.8L575.7816 241.3195A2 2 0 0 1 577.7816 239.3195Z" fill="#9B2FAE" class="zr2-cls-4"></path>
+<path d="M666.1566 216.944L675.5707 216.944A2 2 0 0 1 677.5707 218.944L677.5707 280.8L664.1566 280.8L664.1566 218.944A2 2 0 0 1 666.1566 216.944Z" fill="#9B2FAE" class="zr2-cls-4"></path>
+<path d="M754.5316 147.4029L763.9457 147.4029A2 2 0 0 1 765.9457 149.4029L765.9457 280.8L752.5316 280.8L752.5316 149.4029A2 2 0 0 1 754.5316 147.4029Z" fill="#9B2FAE" class="zr2-cls-4"></path>
+<path d="M151.3328 218.8679L160.7469 218.8679A2 2 0 0 1 162.7469 220.8679L162.7469 280.8L149.3328 280.8L149.3328 220.8679A2 2 0 0 1 151.3328 218.8679Z" fill="#A8860F" class="zr2-cls-5"></path>
+<path d="M239.7078 216.096L249.1219 216.096A2 2 0 0 1 251.1219 218.096L251.1219 280.8L237.7078 280.8L237.7078 218.096A2 2 0 0 1 239.7078 216.096Z" fill="#A8860F" class="zr2-cls-5"></path>
+<path d="M328.0828 208.4923L337.4969 208.4923A2 2 0 0 1 339.4969 210.4923L339.4969 280.8L326.0828 280.8L326.0828 210.4923A2 2 0 0 1 328.0828 208.4923Z" fill="#A8860F" class="zr2-cls-5"></path>
+<path d="M416.4578 264.2388L425.8719 264.2388A2 2 0 0 1 427.8719 266.2388L427.8719 280.8L414.4578 280.8L414.4578 266.2388A2 2 0 0 1 416.4578 264.2388Z" fill="#A8860F" class="zr2-cls-5"></path>
+<path d="M504.8328 280.8L514.2469 280.8A2 2 0 0 1 516.2469 282.8L516.2469 315.2726L502.8328 315.2726L502.8328 282.8A2 2 0 0 1 504.8328 280.8Z" fill="#A8860F" class="zr2-cls-5"></path>
+<path d="M593.2078 228.9142L602.6219 228.9142A2 2 0 0 1 604.6219 230.9142L604.6219 280.8L591.2078 280.8L591.2078 230.9142A2 2 0 0 1 593.2078 228.9142Z" fill="#A8860F" class="zr2-cls-5"></path>
+<path d="M681.5828 260.539L690.9969 260.539A2 2 0 0 1 692.9969 262.539L692.9969 280.8L679.5828 280.8L679.5828 262.539A2 2 0 0 1 681.5828 260.539Z" fill="#A8860F" class="zr2-cls-5"></path>
+<path d="M769.9578 253.5932L779.3719 253.5932A2 2 0 0 1 781.3719 255.5932L781.3719 280.8L767.9578 280.8L767.9578 255.5932A2 2 0 0 1 769.9578 253.5932Z" fill="#A8860F" class="zr2-cls-5"></path>
+<path d="M-5 -5l246 0l0 21l-246 0Z" transform="translate(559 5)" fill="rgb(0,0,0)" fill-opacity="0" stroke="#b7b9be" stroke-width="0" class="zr2-cls-0"></path>
+<path d="M2 0L10 0A2 2 0 0 1 12 2L12 6A2 2 0 0 1 10 8L2 8A2 2 0 0 1 0 6L0 2A2 2 0 0 1 2 0Z" transform="translate(559 6.5)" fill="#1C7F92" class="zr2-cls-0"></path>
+<text dominant-baseline="central" text-anchor="start" style="font-size:11px;font-family:IBM Plex Sans, system-ui, sans-serif;" x="17" y="4" transform="translate(559 6.5)" fill="#56616c">linear</text>
+<path d="M0 -1.5l45 0l0 11l-45 0Z" transform="translate(559 6.5)" fill="none" class="zr2-cls-6"></path>
+<path d="M2 0L10 0A2 2 0 0 1 12 2L12 6A2 2 0 0 1 10 8L2 8A2 2 0 0 1 0 6L0 2A2 2 0 0 1 2 0Z" transform="translate(612 6.5)" fill="#C2456F" class="zr2-cls-0"></path>
+<text dominant-baseline="central" text-anchor="start" style="font-size:11px;font-family:IBM Plex Sans, system-ui, sans-serif;" x="17" y="4" transform="translate(612 6.5)" fill="#56616c">gbm</text>
+<path d="M0 -1.5l39 0l0 11l-39 0Z" transform="translate(612 6.5)" fill="none" class="zr2-cls-6"></path>
+<path d="M2 0L10 0A2 2 0 0 1 12 2L12 6A2 2 0 0 1 10 8L2 8A2 2 0 0 1 0 6L0 2A2 2 0 0 1 2 0Z" transform="translate(659 6.5)" fill="#3E8E3E" class="zr2-cls-0"></path>
+<text dominant-baseline="central" text-anchor="start" style="font-size:11px;font-family:IBM Plex Sans, system-ui, sans-serif;" x="17" y="4" transform="translate(659 6.5)" fill="#56616c">lstm</text>
+<path d="M0 -1.5l39 0l0 11l-39 0Z" transform="translate(659 6.5)" fill="none" class="zr2-cls-6"></path>
+<path d="M2 0L10 0A2 2 0 0 1 12 2L12 6A2 2 0 0 1 10 8L2 8A2 2 0 0 1 0 6L0 2A2 2 0 0 1 2 0Z" transform="translate(706 6.5)" fill="#9B2FAE" class="zr2-cls-0"></path>
+<text dominant-baseline="central" text-anchor="start" style="font-size:11px;font-family:IBM Plex Sans, system-ui, sans-serif;" x="17" y="4" transform="translate(706 6.5)" fill="#56616c">gru</text>
+<path d="M0 -1.5l33 0l0 11l-33 0Z" transform="translate(706 6.5)" fill="none" class="zr2-cls-6"></path>
+<path d="M2 0L10 0A2 2 0 0 1 12 2L12 6A2 2 0 0 1 10 8L2 8A2 2 0 0 1 0 6L0 2A2 2 0 0 1 2 0Z" transform="translate(747 6.5)" fill="#A8860F" class="zr2-cls-0"></path>
+<text dominant-baseline="central" text-anchor="start" style="font-size:11px;font-family:IBM Plex Sans, system-ui, sans-serif;" x="17" y="4" transform="translate(747 6.5)" fill="#56616c">aimdg</text>
+<path d="M0 -1.5l48 0l0 11l-48 0Z" transform="translate(747 6.5)" fill="none" class="zr2-cls-6"></path>
+<style ><![CDATA[
+.zr2-cls-0:hover {
+pointer-events:none;
+}
+.zr2-cls-1:hover {
+cursor:pointer;
+fill:rgba(30,139,160,1);
+}
+.zr2-cls-2:hover {
+cursor:pointer;
+fill:rgba(213,75,122,1);
+}
+.zr2-cls-3:hover {
+cursor:pointer;
+fill:rgba(68,156,68,1);
+}
+.zr2-cls-4:hover {
+cursor:pointer;
+fill:rgba(170,51,191,1);
+}
+.zr2-cls-5:hover {
+cursor:pointer;
+fill:rgba(184,147,16,1);
+}
+.zr2-cls-6:hover {
+cursor:pointer;
+fill:rgba(0,0,0,0);
+}
+
+]]>
+
+</style>
+</svg>

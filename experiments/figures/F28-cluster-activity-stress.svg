@@ -1,0 +1,55 @@
+<svg width="800" height="446" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" baseProfile="full" viewBox="0 0 800 446">
+<rect width="800" height="446" x="0" y="0" fill="#ffffff"></rect>
+<path d="M64 418.5L786 418.5" fill="none" stroke="#14191f14" class="zr5-cls-1803"></path>
+<path d="M64 353.5L786 353.5" fill="none" stroke="#14191f14" class="zr5-cls-1803"></path>
+<path d="M64 288.5L786 288.5" fill="none" stroke="#14191f14" class="zr5-cls-1803"></path>
+<path d="M64 224.5L786 224.5" fill="none" stroke="#14191f14" class="zr5-cls-1803"></path>
+<path d="M64 159.5L786 159.5" fill="none" stroke="#14191f14" class="zr5-cls-1803"></path>
+<path d="M64 94.5L786 94.5" fill="none" stroke="#14191f14" class="zr5-cls-1803"></path>
+<path d="M64 30.5L786 30.5" fill="none" stroke="#14191f14" class="zr5-cls-1803"></path>
+<text dominant-baseline="central" text-anchor="middle" style="font-size:11px;font-family:IBM Plex Sans, system-ui, sans-serif;" xml:space="preserve" y="-5.5" transform="matrix(0,-1,1,0,20,224)" fill="#56616c">share of the cluster&#39;s edges active</text>
+<path d="M64 418.5L786 418.5" fill="none" stroke="#d5dbe1" stroke-linecap="round" class="zr5-cls-1803"></path>
+<text dominant-baseline="central" text-anchor="end" style="font-size:11px;font-family:IBM Plex Sans, system-ui, sans-serif;" transform="translate(56 418)" fill="#56616c">0%</text>
+<text dominant-baseline="central" text-anchor="end" style="font-size:11px;font-family:IBM Plex Sans, system-ui, sans-serif;" transform="translate(56 353.3333)" fill="#56616c">5%</text>
+<text dominant-baseline="central" text-anchor="end" style="font-size:11px;font-family:IBM Plex Sans, system-ui, sans-serif;" transform="translate(56 288.6667)" fill="#56616c">10%</text>
+<text dominant-baseline="central" text-anchor="end" style="font-size:11px;font-family:IBM Plex Sans, system-ui, sans-serif;" transform="translate(56 224)" fill="#56616c">15%</text>
+<text dominant-baseline="central" text-anchor="end" style="font-size:11px;font-family:IBM Plex Sans, system-ui, sans-serif;" transform="translate(56 159.3333)" fill="#56616c">20%</text>
+<text dominant-baseline="central" text-anchor="end" style="font-size:11px;font-family:IBM Plex Sans, system-ui, sans-serif;" transform="translate(56 94.6667)" fill="#56616c">25%</text>
+<text dominant-baseline="central" text-anchor="end" style="font-size:11px;font-family:IBM Plex Sans, system-ui, sans-serif;" transform="translate(56 30)" fill="#56616c">30%</text>
+<text dominant-baseline="central" text-anchor="middle" style="font-size:11px;font-family:IBM Plex Mono, ui-monospace, monospace;" y="5.5" transform="translate(184.3333 426)" fill="#56616c">monetary</text>
+<text dominant-baseline="central" text-anchor="middle" style="font-size:11px;font-family:IBM Plex Mono, ui-monospace, monospace;" y="5.5" transform="translate(425 426)" fill="#56616c">industrial</text>
+<text dominant-baseline="central" text-anchor="middle" style="font-size:11px;font-family:IBM Plex Mono, ui-monospace, monospace;" y="5.5" transform="translate(665.6667 426)" fill="#56616c">risk</text>
+<path d="M96.49 418l83.6603 0l0 -280.038l-83.6603 0Z" fill="#a87913" class="zr5-cls-1804"></path>
+<path d="M337.1567 418l83.6603 0l0 -375.8405l-83.6603 0Z" fill="#a87913" class="zr5-cls-1804"></path>
+<path d="M577.8233 418l83.6603 0l0 -342.6781l-83.6603 0Z" fill="#a87913" class="zr5-cls-1804"></path>
+<path d="M188.5163 418l83.6603 0l0 -207.9687l-83.6603 0Z" fill="#8a949d" class="zr5-cls-1805"></path>
+<path d="M429.183 418l83.6603 0l0 -214.2167l-83.6603 0Z" fill="#8a949d" class="zr5-cls-1805"></path>
+<path d="M669.8497 418l83.6603 0l0 -380.2346l-83.6603 0Z" fill="#8a949d" class="zr5-cls-1805"></path>
+<path d="M-5 -5l187 0l0 21l-187 0Z" transform="translate(618 5)" fill="rgb(0,0,0)" fill-opacity="0" stroke="#b7b9be" stroke-width="0" class="zr5-cls-1803"></path>
+<path d="M2 0L10 0A2 2 0 0 1 12 2L12 6A2 2 0 0 1 10 8L2 8A2 2 0 0 1 0 6L0 2A2 2 0 0 1 2 0Z" transform="translate(618 6.5)" fill="#a87913" class="zr5-cls-1803"></path>
+<text dominant-baseline="central" text-anchor="start" style="font-size:11px;font-family:IBM Plex Sans, system-ui, sans-serif;" xml:space="preserve" x="17" y="4" transform="translate(618 6.5)" fill="#56616c">stress months</text>
+<path d="M0 -1.5l86 0l0 11l-86 0Z" transform="translate(618 6.5)" fill="none" class="zr5-cls-1806"></path>
+<path d="M2 0L10 0A2 2 0 0 1 12 2L12 6A2 2 0 0 1 10 8L2 8A2 2 0 0 1 0 6L0 2A2 2 0 0 1 2 0Z" transform="translate(712 6.5)" fill="#8a949d" class="zr5-cls-1803"></path>
+<text dominant-baseline="central" text-anchor="start" style="font-size:11px;font-family:IBM Plex Sans, system-ui, sans-serif;" xml:space="preserve" x="17" y="4" transform="translate(712 6.5)" fill="#56616c">other months</text>
+<path d="M0 -1.5l83 0l0 11l-83 0Z" transform="translate(712 6.5)" fill="none" class="zr5-cls-1806"></path>
+<style ><![CDATA[
+.zr5-cls-1803:hover {
+pointer-events:none;
+}
+.zr5-cls-1804:hover {
+cursor:pointer;
+fill:rgba(184,133,20,1);
+}
+.zr5-cls-1805:hover {
+cursor:pointer;
+fill:rgba(151,162,172,1);
+}
+.zr5-cls-1806:hover {
+cursor:pointer;
+fill:rgba(0,0,0,0);
+}
+
+]]>
+
+</style>
+</svg>

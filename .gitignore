@@ -1,0 +1,21 @@
+.venv/
+__pycache__/
+*.py[cod]
+.env
+.DS_Store
+.pytest_cache/
+.ruff_cache/
+*.egg-info/
+
+# Data cache: raw pulls are reproducible, do not version them.
+# The FROZEN dissertation snapshot is the exception - see data/snapshots/README.
+data/cache/
+data/raw/
+!data/snapshots/
+
+# Run outputs (experiments/runs, experiments/dev) are versioned since 30 Sep 2026 (backup on GitHub).
+# Trained networks are not: 8.3 GB of cached .pt files, reproducible from the code.
+*.pt
+*.ckpt
+.coverage
+htmlcov/

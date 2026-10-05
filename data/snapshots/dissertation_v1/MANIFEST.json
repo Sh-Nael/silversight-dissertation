@@ -1,0 +1,96 @@
+{
+  "snapshot": "dissertation_v1",
+  "snapshot_end": "2026-06-30",
+  "created": "2026-07-31",
+  "note": "Immutable dissertation dataset. Experiments must read only from this directory. Live cache continues to append for the app.",
+  "files": {
+    "fred_api__DFII10.parquet": {
+      "rows": 5127,
+      "start": "2006-01-03",
+      "end": "2026-06-30",
+      "columns": [
+        "value"
+      ],
+      "sha256": "05a373eedfecb0a5853a06049c4af6bfc2907689051b71b25a8c0e62bee64bfd"
+    },
+    "fred_api__DGS10.parquet": {
+      "rows": 5127,
+      "start": "2006-01-03",
+      "end": "2026-06-30",
+      "columns": [
+        "value"
+      ],
+      "sha256": "431e94b2fdbd1e8763826600715afc47d468495e1c6c7b1c83ee314d46003b3a"
+    },
+    "yfinance__DX-Y.NYB.parquet": {
+      "rows": 5157,
+      "start": "2006-01-03",
+      "end": "2026-06-30",
+      "columns": [
+        "open",
+        "high",
+        "low",
+        "close",
+        "adj_close",
+        "volume"
+      ],
+      "sha256": "298592e7d4b11ce4817222e433936f10df61e7cd47408f6dcea85de339e20d0d"
+    },
+    "yfinance__GC_F.parquet": {
+      "rows": 5153,
+      "start": "2006-01-03",
+      "end": "2026-06-30",
+      "columns": [
+        "open",
+        "high",
+        "low",
+        "close",
+        "adj_close",
+        "volume"
+      ],
+      "sha256": "a461d9b5ac5a8ae335fd5d6825ab10e8d898d0a0a9ad59e8744c341f179164d5"
+    },
+    "yfinance__HG_F.parquet": {
+      "rows": 5156,
+      "start": "2006-01-03",
+      "end": "2026-06-30",
+      "columns": [
+        "open",
+        "high",
+        "low",
+        "close",
+        "adj_close",
+        "volume"
+      ],
+      "sha256": "381ec53b466a43231d252329a5fdafa5b94aba40e3fb1c7307cd2156ef6bf157"
+    },
+    "yfinance__SI_F.parquet": {
+      "rows": 5154,
+      "start": "2006-01-03",
+      "end": "2026-06-30",
+      "columns": [
+        "open",
+        "high",
+        "low",
+        "close",
+        "adj_close",
+        "volume"
+      ],
+      "sha256": "55ac6b793c5295687760587d0ded53af4bb10349426e6b4ba074b4ca7d145236"
+    },
+    "yfinance__idx_VIX.parquet": {
+      "rows": 5155,
+      "start": "2006-01-03",
+      "end": "2026-06-30",
+      "columns": [
+        "open",
+        "high",
+        "low",
+        "close",
+        "adj_close",
+        "volume"
+      ],
+      "sha256": "2664aab0b8b578386716e5017be0bc06bdc44baad8937b4b1243cf89dd510efc"
+    }
+  }
+}

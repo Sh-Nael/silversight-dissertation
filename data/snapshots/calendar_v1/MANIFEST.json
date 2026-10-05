@@ -1,0 +1,26 @@
+{
+  "snapshot": "calendar_v1",
+  "snapshot_end": "2027-12-08",
+  "created": "2026-09-26",
+  "note": "Scheduled US macro events. CPI/NFP = FRED vintage dates of CPIAUCNS/PAYEMS; FOMC = last day of each meeting from federalreserve.gov (scheduled flag separates unscheduled actions). Dates only; no consensus/surprise data.",
+  "files": {
+    "events.csv": {
+      "rows": 709,
+      "columns": [
+        "date",
+        "event",
+        "scheduled",
+        "source"
+      ],
+      "sha256": "77a8b2e89a866ac27f6eb0712f8a0bf25cf42a7d808561650bb08e9d6ecf97c3"
+    }
+  },
+  "sources": {
+    "fred_vintage_series": {
+      "cpi": "CPIAUCNS",
+      "nfp": "PAYEMS"
+    },
+    "fomc_historical": "https://www.federalreserve.gov/monetarypolicy/fomchistorical{year}.htm",
+    "fomc_calendar": "https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm"
+  }
+}

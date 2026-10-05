@@ -1,0 +1,16 @@
+model,task,mean,count
+linear,direction_h1,0.6902811590186779,17
+linear,direction_h5,0.6938708788816502,17
+linear,joint,-4.758328521534942,17
+linear,volatility_h1,-6.963075010732916,17
+linear,volatility_h5,-5.321886108137626,17
+linear_ta,direction_h1,0.6903766858749039,17
+linear_ta,direction_h5,0.6937454922405414,17
+linear_ta,joint,-4.757562021308238,17
+linear_ta,volatility_h1,-6.9629470409138525,17
+linear_ta,volatility_h5,-5.320421357933513,17
+linear_ta_all,direction_h1,0.6903965110031662,17
+linear_ta_all,direction_h5,0.6937617935438392,17
+linear_ta_all,joint,-4.754818956418004,17
+linear_ta_all,volatility_h1,-6.960414497766667,17
+linear_ta_all,volatility_h5,-5.317540024163352,17

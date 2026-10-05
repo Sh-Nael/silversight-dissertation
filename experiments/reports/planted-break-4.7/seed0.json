@@ -1,0 +1,474 @@
+{
+ "aimdg": [
+  {
+   "origin": 816,
+   "months_after_break": -4.0,
+   "hit": 0.9523809523809523,
+   "active": [
+    "gold@5",
+    "gold@21",
+    "copper@1",
+    "copper@5",
+    "dxy@21",
+    "real_yield_10y@5",
+    "real_yield_10y@21",
+    "vix@1",
+    "vix@5"
+   ],
+   "gold5": true,
+   "copper1": true,
+   "tau": 0,
+   "rate": 0.3,
+   "shift": null,
+   "drift": null
+  },
+  {
+   "origin": 837,
+   "months_after_break": -3.0,
+   "hit": 0.9523809523809523,
+   "active": [
+    "gold@5",
+    "gold@21",
+    "copper@5",
+    "dxy@5",
+    "dxy@21",
+    "real_yield_10y@5",
+    "vix@1",
+    "vix@5",
+    "vix@21"
+   ],
+   "gold5": true,
+   "copper1": false,
+   "tau": 1,
+   "rate": 0.267,
+   "shift": 0.003678283608159627,
+   "drift": 0.05102503299713135
+  },
+  {
+   "origin": 858,
+   "months_after_break": -2.0,
+   "hit": 0.9047619047619048,
+   "active": [
+    "gold@1",
+    "gold@5",
+    "gold@21",
+    "copper@5",
+    "dxy@21",
+    "real_yield_10y@1",
+    "real_yield_10y@5",
+    "vix@1",
+    "vix@21"
+   ],
+   "gold5": true,
+   "copper1": false,
+   "tau": 2,
+   "rate": 0.233,
+   "shift": 0.002627393606432471,
+   "drift": 0.11033797264099121
+  },
+  {
+   "origin": 879,
+   "months_after_break": -1.0,
+   "hit": 0.9047619047619048,
+   "active": [
+    "gold@5",
+    "gold@21",
+    "copper@1",
+    "real_yield_10y@1",
+    "vix@21"
+   ],
+   "gold5": true,
+   "copper1": true,
+   "tau": 3,
+   "rate": 0.2,
+   "shift": 0.0049761399160153175,
+   "drift": 0.2578164339065552
+  },
+  {
+   "origin": 900,
+   "months_after_break": 0.0,
+   "hit": 0.5714285714285714,
+   "active": [
+    "gold@5",
+    "gold@21",
+    "dxy@1",
+    "dxy@5",
+    "real_yield_10y@1",
+    "real_yield_10y@21"
+   ],
+   "gold5": true,
+   "copper1": false,
+   "tau": 4,
+   "rate": 0.167,
+   "shift": 0.005353774212323563,
+   "drift": 0.15862274169921875
+  },
+  {
+   "origin": 921,
+   "months_after_break": 1.0,
+   "hit": 0.6190476190476191,
+   "active": [
+    "gold@5",
+    "gold@21",
+    "copper@1",
+    "copper@21",
+    "dxy@1",
+    "real_yield_10y@21"
+   ],
+   "gold5": true,
+   "copper1": true,
+   "tau": 0,
+   "rate": 0.3,
+   "shift": 0.05736419567181541,
+   "drift": 0.4391212463378906
+  },
+  {
+   "origin": 942,
+   "months_after_break": 2.0,
+   "hit": 0.6666666666666666,
+   "active": [
+    "gold@5",
+    "gold@21",
+    "copper@21",
+    "dxy@1",
+    "real_yield_10y@21"
+   ],
+   "gold5": true,
+   "copper1": false,
+   "tau": 1,
+   "rate": 0.267,
+   "shift": 0.010367391215256252,
+   "drift": 0.12993764877319336
+  },
+  {
+   "origin": 963,
+   "months_after_break": 3.0,
+   "hit": 0.5238095238095238,
+   "active": [
+    "gold@1",
+    "gold@21",
+    "real_yield_10y@21"
+   ],
+   "gold5": false,
+   "copper1": false,
+   "tau": 0,
+   "rate": 0.3,
+   "shift": 0.08358910345555642,
+   "drift": 0.26053524017333984
+  },
+  {
+   "origin": 984,
+   "months_after_break": 4.0,
+   "hit": 0.5714285714285714,
+   "active": [
+    "gold@5",
+    "gold@21",
+    "copper@5",
+    "copper@21",
+    "real_yield_10y@1",
+    "real_yield_10y@21",
+    "vix@1",
+    "vix@5",
+    "vix@21"
+   ],
+   "gold5": true,
+   "copper1": false,
+   "tau": 0,
+   "rate": 0.3,
+   "shift": 0.09017555222477108,
+   "drift": 0.050325632095336914
+  },
+  {
+   "origin": 1005,
+   "months_after_break": 5.0,
+   "hit": 0.5238095238095238,
+   "active": [
+    "gold@5",
+    "copper@5",
+    "copper@21",
+    "dxy@5",
+    "dxy@21",
+    "real_yield_10y@5",
+    "vix@5",
+    "vix@21"
+   ],
+   "gold5": true,
+   "copper1": false,
+   "tau": 1,
+   "rate": 0.267,
+   "shift": 0.015537730895410136,
+   "drift": -0.03932023048400879
+  },
+  {
+   "origin": 1026,
+   "months_after_break": 6.0,
+   "hit": 0.47619047619047616,
+   "active": [
+    "gold@5",
+    "copper@1",
+    "dxy@1",
+    "real_yield_10y@21"
+   ],
+   "gold5": true,
+   "copper1": true,
+   "tau": 0,
+   "rate": 0.3,
+   "shift": 0.04934296916006532,
+   "drift": 0.10012626647949219
+  },
+  {
+   "origin": 1047,
+   "months_after_break": 7.0,
+   "hit": 0.38095238095238093,
+   "active": [
+    "gold@5",
+    "copper@21",
+    "real_yield_10y@5",
+    "vix@21"
+   ],
+   "gold5": true,
+   "copper1": false,
+   "tau": 0,
+   "rate": 0.3,
+   "shift": 0.05062441484049671,
+   "drift": -0.07301640510559082
+  },
+  {
+   "origin": 1068,
+   "months_after_break": 8.0,
+   "hit": 0.47619047619047616,
+   "active": [
+    "gold@5",
+    "copper@5",
+    "vix@1",
+    "vix@21"
+   ],
+   "gold5": true,
+   "copper1": false,
+   "tau": 0,
+   "rate": 0.3,
+   "shift": 0.05622495665080423,
+   "drift": -0.06595563888549805
+  },
+  {
+   "origin": 1089,
+   "months_after_break": 9.0,
+   "hit": 0.38095238095238093,
+   "active": [
+    "gold@21",
+    "copper@5",
+    "real_yield_10y@5",
+    "real_yield_10y@21",
+    "vix@21"
+   ],
+   "gold5": false,
+   "copper1": false,
+   "tau": 1,
+   "rate": 0.267,
+   "shift": 0.08447138083806448,
+   "drift": -0.07504630088806152
+  },
+  {
+   "origin": 1110,
+   "months_after_break": 10.0,
+   "hit": 0.5238095238095238,
+   "active": [
+    "gold@21",
+    "copper@5",
+    "real_yield_10y@5",
+    "real_yield_10y@21"
+   ],
+   "gold5": false,
+   "copper1": false,
+   "tau": 2,
+   "rate": 0.233,
+   "shift": 0.06341573226654132,
+   "drift": -0.05354428291320801
+  },
+  {
+   "origin": 1131,
+   "months_after_break": 11.0,
+   "hit": 0.42857142857142855,
+   "active": [
+    "gold@21",
+    "copper@5",
+    "dxy@1",
+    "real_yield_10y@5",
+    "vix@1"
+   ],
+   "gold5": false,
+   "copper1": false,
+   "tau": 3,
+   "rate": 0.2,
+   "shift": 0.0625086185815398,
+   "drift": 0.027370452880859375
+  },
+  {
+   "origin": 1152,
+   "months_after_break": 12.0,
+   "hit": 0.5238095238095238,
+   "active": [
+    "copper@21",
+    "real_yield_10y@5",
+    "real_yield_10y@21",
+    "vix@5"
+   ],
+   "gold5": false,
+   "copper1": false,
+   "tau": 4,
+   "rate": 0.167,
+   "shift": 0.044543247753572754,
+   "drift": 0.08271598815917969
+  },
+  {
+   "origin": 1173,
+   "months_after_break": 13.0,
+   "hit": 0.19047619047619047,
+   "active": [
+    "gold@21",
+    "copper@1"
+   ],
+   "gold5": false,
+   "copper1": true,
+   "tau": 5,
+   "rate": 0.133,
+   "shift": 0.08160680836666581,
+   "drift": 0.04799938201904297
+  },
+  {
+   "origin": 1194,
+   "months_after_break": 14.0,
+   "hit": 0.5238095238095238,
+   "active": [
+    "copper@1"
+   ],
+   "gold5": false,
+   "copper1": true,
+   "tau": 6,
+   "rate": 0.1,
+   "shift": 0.02151316793503907,
+   "drift": -0.02574443817138672
+  },
+  {
+   "origin": 1215,
+   "months_after_break": 15.0,
+   "hit": 0.5714285714285714,
+   "active": [
+    "copper@1"
+   ],
+   "gold5": false,
+   "copper1": true,
+   "tau": 7,
+   "rate": 0.1,
+   "shift": 0.014772993786084184,
+   "drift": -0.02877497673034668
+  }
+ ],
+ "static_gnn": [
+  {
+   "origin": 816,
+   "months_after_break": -4.0,
+   "hit": 0.9523809523809523
+  },
+  {
+   "origin": 837,
+   "months_after_break": -3.0,
+   "hit": 0.9523809523809523
+  },
+  {
+   "origin": 858,
+   "months_after_break": -2.0,
+   "hit": 0.9523809523809523
+  },
+  {
+   "origin": 879,
+   "months_after_break": -1.0,
+   "hit": 0.9523809523809523
+  },
+  {
+   "origin": 900,
+   "months_after_break": 0.0,
+   "hit": 0.5714285714285714
+  },
+  {
+   "origin": 921,
+   "months_after_break": 1.0,
+   "hit": 0.5714285714285714
+  },
+  {
+   "origin": 942,
+   "months_after_break": 2.0,
+   "hit": 0.6190476190476191
+  },
+  {
+   "origin": 963,
+   "months_after_break": 3.0,
+   "hit": 0.3333333333333333
+  },
+  {
+   "origin": 984,
+   "months_after_break": 4.0,
+   "hit": 0.5714285714285714
+  },
+  {
+   "origin": 1005,
+   "months_after_break": 5.0,
+   "hit": 0.6190476190476191
+  },
+  {
+   "origin": 1026,
+   "months_after_break": 6.0,
+   "hit": 0.47619047619047616
+  },
+  {
+   "origin": 1047,
+   "months_after_break": 7.0,
+   "hit": 0.38095238095238093
+  },
+  {
+   "origin": 1068,
+   "months_after_break": 8.0,
+   "hit": 0.47619047619047616
+  },
+  {
+   "origin": 1089,
+   "months_after_break": 9.0,
+   "hit": 0.47619047619047616
+  },
+  {
+   "origin": 1110,
+   "months_after_break": 10.0,
+   "hit": 0.5238095238095238
+  },
+  {
+   "origin": 1131,
+   "months_after_break": 11.0,
+   "hit": 0.42857142857142855
+  },
+  {
+   "origin": 1152,
+   "months_after_break": 12.0,
+   "hit": 0.47619047619047616
+  },
+  {
+   "origin": 1173,
+   "months_after_break": 13.0,
+   "hit": 0.5238095238095238
+  },
+  {
+   "origin": 1194,
+   "months_after_break": 14.0,
+   "hit": 0.5714285714285714
+  },
+  {
+   "origin": 1215,
+   "months_after_break": 15.0,
+   "hit": 0.5714285714285714
+  }
+ ],
+ "criteria": {
+  "gold5_before": true,
+  "clock_fires": true,
+  "settles": false
+ }
+}

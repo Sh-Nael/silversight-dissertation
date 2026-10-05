@@ -1,0 +1,1056 @@
+[
+ {
+  "tuning_point": 0,
+  "fold": 0,
+  "refit": 0,
+  "origin": "2010-01-04",
+  "train_end": "2009-12-24",
+  "seconds": 24.17,
+  "results": {
+   "direction_h1": {
+    "params": {
+     "learning_rate": 0.005406918999195065,
+     "max_iter": 12,
+     "max_leaf_nodes": 27,
+     "min_samples_leaf": 173,
+     "l2_regularization": 0.2445455355875066,
+     "max_features": 0.3607699907745224
+    },
+    "cv_loss": 0.6960171716462916,
+    "n_trials": 40,
+    "seconds": 3.3
+   },
+   "volatility_h1": {
+    "params": {
+     "learning_rate": 0.018353384053478996,
+     "max_iter": 53,
+     "max_leaf_nodes": 55,
+     "min_samples_leaf": 48,
+     "l2_regularization": 9.836062066628225,
+     "max_features": 0.7234711202463036
+    },
+    "cv_loss": -6.161994300542809,
+    "n_trials": 40,
+    "seconds": 9.1
+   },
+   "direction_h5": {
+    "params": {
+     "learning_rate": 0.012445820132311335,
+     "max_iter": 15,
+     "max_leaf_nodes": 21,
+     "min_samples_leaf": 60,
+     "l2_regularization": 0.0020145239319308886,
+     "max_features": 0.6399959716241264
+    },
+    "cv_loss": 0.704316700053615,
+    "n_trials": 40,
+    "seconds": 5.79
+   },
+   "volatility_h5": {
+    "params": {
+     "learning_rate": 0.06527582406271695,
+     "max_iter": 26,
+     "max_leaf_nodes": 3,
+     "min_samples_leaf": 200,
+     "l2_regularization": 0.005863547454446865,
+     "max_features": 0.8948017329062151
+    },
+    "cv_loss": -4.523645986474732,
+    "n_trials": 40,
+    "seconds": 5.98
+   }
+  }
+ },
+ {
+  "tuning_point": 1,
+  "fold": 0,
+  "refit": 12,
+  "origin": "2011-01-03",
+  "train_end": "2010-12-27",
+  "seconds": 28.41,
+  "results": {
+   "direction_h1": {
+    "params": {
+     "learning_rate": 0.01002402856348697,
+     "max_iter": 14,
+     "max_leaf_nodes": 12,
+     "min_samples_leaf": 38,
+     "l2_regularization": 0.0287470189382857,
+     "max_features": 0.37165915908872077
+    },
+    "cv_loss": 0.6831542219932965,
+    "n_trials": 40,
+    "seconds": 6.29
+   },
+   "volatility_h1": {
+    "params": {
+     "learning_rate": 0.1707199264198289,
+     "max_iter": 21,
+     "max_leaf_nodes": 3,
+     "min_samples_leaf": 220,
+     "l2_regularization": 0.0045202922769160495,
+     "max_features": 0.7639803300640435
+    },
+    "cv_loss": -6.6914794100693795,
+    "n_trials": 40,
+    "seconds": 5.15
+   },
+   "direction_h5": {
+    "params": {
+     "learning_rate": 0.007120129691756601,
+     "max_iter": 43,
+     "max_leaf_nodes": 20,
+     "min_samples_leaf": 241,
+     "l2_regularization": 0.004319945924926613,
+     "max_features": 0.9657488402125821
+    },
+    "cv_loss": 0.6727926164122828,
+    "n_trials": 40,
+    "seconds": 5.84
+   },
+   "volatility_h5": {
+    "params": {
+     "learning_rate": 0.10145731254659021,
+     "max_iter": 44,
+     "max_leaf_nodes": 17,
+     "min_samples_leaf": 124,
+     "l2_regularization": 0.17049227895584826,
+     "max_features": 0.3022295031676574
+    },
+    "cv_loss": -5.056550145004264,
+    "n_trials": 40,
+    "seconds": 11.12
+   }
+  }
+ },
+ {
+  "tuning_point": 2,
+  "fold": 0,
+  "refit": 24,
+  "origin": "2012-01-03",
+  "train_end": "2011-12-23",
+  "seconds": 35.82,
+  "results": {
+   "direction_h1": {
+    "params": {
+     "learning_rate": 0.05719526988374575,
+     "max_iter": 212,
+     "max_leaf_nodes": 16,
+     "min_samples_leaf": 481,
+     "l2_regularization": 1.162506528871519,
+     "max_features": 0.23559399394628258
+    },
+    "cv_loss": 0.6772989111358407,
+    "n_trials": 40,
+    "seconds": 9.62
+   },
+   "volatility_h1": {
+    "params": {
+     "learning_rate": 0.16727519316608597,
+     "max_iter": 22,
+     "max_leaf_nodes": 3,
+     "min_samples_leaf": 261,
+     "l2_regularization": 0.0008778325778721795,
+     "max_features": 0.9304389289479682
+    },
+    "cv_loss": -6.570662067267249,
+    "n_trials": 40,
+    "seconds": 6.43
+   },
+   "direction_h5": {
+    "params": {
+     "learning_rate": 0.07852352901352795,
+     "max_iter": 178,
+     "max_leaf_nodes": 7,
+     "min_samples_leaf": 443,
+     "l2_regularization": 0.03150950055170144,
+     "max_features": 0.44763357554314176
+    },
+    "cv_loss": 0.6688639919655366,
+    "n_trials": 40,
+    "seconds": 5.89
+   },
+   "volatility_h5": {
+    "params": {
+     "learning_rate": 0.03267328611485587,
+     "max_iter": 165,
+     "max_leaf_nodes": 3,
+     "min_samples_leaf": 41,
+     "l2_regularization": 0.9289645988306908,
+     "max_features": 0.25874046345443935
+    },
+    "cv_loss": -4.895051074950819,
+    "n_trials": 40,
+    "seconds": 13.87
+   }
+  }
+ },
+ {
+  "tuning_point": 3,
+  "fold": 1,
+  "refit": 12,
+  "origin": "2013-01-25",
+  "train_end": "2013-01-17",
+  "seconds": 30.41,
+  "results": {
+   "direction_h1": {
+    "params": {
+     "learning_rate": 0.1451963144793324,
+     "max_iter": 63,
+     "max_leaf_nodes": 5,
+     "min_samples_leaf": 490,
+     "l2_regularization": 0.5902641177740803,
+     "max_features": 0.5521705351831577
+    },
+    "cv_loss": 0.6852395484971621,
+    "n_trials": 40,
+    "seconds": 5.82
+   },
+   "volatility_h1": {
+    "params": {
+     "learning_rate": 0.1599359279888201,
+     "max_iter": 10,
+     "max_leaf_nodes": 31,
+     "min_samples_leaf": 192,
+     "l2_regularization": 0.012816845014595814,
+     "max_features": 0.2632590824689285
+    },
+    "cv_loss": -6.618620332686423,
+    "n_trials": 40,
+    "seconds": 6.08
+   },
+   "direction_h5": {
+    "params": {
+     "learning_rate": 0.016941458714675138,
+     "max_iter": 25,
+     "max_leaf_nodes": 4,
+     "min_samples_leaf": 372,
+     "l2_regularization": 0.021191175641007854,
+     "max_features": 0.4078132067905733
+    },
+    "cv_loss": 0.6855519767155253,
+    "n_trials": 40,
+    "seconds": 9.1
+   },
+   "volatility_h5": {
+    "params": {
+     "learning_rate": 0.08580912903114234,
+     "max_iter": 56,
+     "max_leaf_nodes": 30,
+     "min_samples_leaf": 229,
+     "l2_regularization": 0.580241210985974,
+     "max_features": 0.7689776094437833
+    },
+    "cv_loss": -4.982819914067539,
+    "n_trials": 40,
+    "seconds": 9.41
+   }
+  }
+ },
+ {
+  "tuning_point": 4,
+  "fold": 1,
+  "refit": 24,
+  "origin": "2014-01-27",
+  "train_end": "2014-01-17",
+  "seconds": 62.21,
+  "results": {
+   "direction_h1": {
+    "params": {
+     "learning_rate": 0.03053954614795317,
+     "max_iter": 57,
+     "max_leaf_nodes": 22,
+     "min_samples_leaf": 90,
+     "l2_regularization": 0.005686912021507647,
+     "max_features": 0.4190187519846415
+    },
+    "cv_loss": 0.6868688045483579,
+    "n_trials": 40,
+    "seconds": 10.66
+   },
+   "volatility_h1": {
+    "params": {
+     "learning_rate": 0.009374202052617747,
+     "max_iter": 218,
+     "max_leaf_nodes": 5,
+     "min_samples_leaf": 73,
+     "l2_regularization": 0.001063332297715468,
+     "max_features": 0.8354714353214922
+    },
+    "cv_loss": -6.558188516778799,
+    "n_trials": 40,
+    "seconds": 16.6
+   },
+   "direction_h5": {
+    "params": {
+     "learning_rate": 0.008451302295010985,
+     "max_iter": 24,
+     "max_leaf_nodes": 23,
+     "min_samples_leaf": 259,
+     "l2_regularization": 0.0001654581510137506,
+     "max_features": 0.3822517497126232
+    },
+    "cv_loss": 0.7054191288338373,
+    "n_trials": 40,
+    "seconds": 7.8
+   },
+   "volatility_h5": {
+    "params": {
+     "learning_rate": 0.02913535536587411,
+     "max_iter": 261,
+     "max_leaf_nodes": 20,
+     "min_samples_leaf": 144,
+     "l2_regularization": 0.5779846164151249,
+     "max_features": 0.3127510913152933
+    },
+    "cv_loss": -4.91474063569509,
+    "n_trials": 40,
+    "seconds": 27.15
+   }
+  }
+ },
+ {
+  "tuning_point": 5,
+  "fold": 2,
+  "refit": 12,
+  "origin": "2015-02-17",
+  "train_end": "2015-02-09",
+  "seconds": 37.02,
+  "results": {
+   "direction_h1": {
+    "params": {
+     "learning_rate": 0.015443967830719697,
+     "max_iter": 176,
+     "max_leaf_nodes": 4,
+     "min_samples_leaf": 226,
+     "l2_regularization": 0.00012821740164078898,
+     "max_features": 0.30822082319811517
+    },
+    "cv_loss": 0.6933213460106527,
+    "n_trials": 40,
+    "seconds": 12.16
+   },
+   "volatility_h1": {
+    "params": {
+     "learning_rate": 0.07011558278794568,
+     "max_iter": 15,
+     "max_leaf_nodes": 6,
+     "min_samples_leaf": 39,
+     "l2_regularization": 0.00014282438137293342,
+     "max_features": 0.39796614358959703
+    },
+    "cv_loss": -7.004961965415774,
+    "n_trials": 40,
+    "seconds": 6.6
+   },
+   "direction_h5": {
+    "params": {
+     "learning_rate": 0.010940055212169867,
+     "max_iter": 12,
+     "max_leaf_nodes": 5,
+     "min_samples_leaf": 189,
+     "l2_regularization": 0.1294172185505581,
+     "max_features": 0.2668053635554458
+    },
+    "cv_loss": 0.7153343243736259,
+    "n_trials": 40,
+    "seconds": 8.06
+   },
+   "volatility_h5": {
+    "params": {
+     "learning_rate": 0.025542079075976262,
+     "max_iter": 80,
+     "max_leaf_nodes": 53,
+     "min_samples_leaf": 225,
+     "l2_regularization": 0.7183795920551952,
+     "max_features": 0.8918697711336201
+    },
+    "cv_loss": -5.350222739024858,
+    "n_trials": 40,
+    "seconds": 10.19
+   }
+  }
+ },
+ {
+  "tuning_point": 6,
+  "fold": 2,
+  "refit": 24,
+  "origin": "2016-02-17",
+  "train_end": "2016-02-09",
+  "seconds": 50.07,
+  "results": {
+   "direction_h1": {
+    "params": {
+     "learning_rate": 0.030811647075411914,
+     "max_iter": 83,
+     "max_leaf_nodes": 16,
+     "min_samples_leaf": 310,
+     "l2_regularization": 0.7320982186218258,
+     "max_features": 0.6378074356161199
+    },
+    "cv_loss": 0.6920476305472225,
+    "n_trials": 40,
+    "seconds": 11.7
+   },
+   "volatility_h1": {
+    "params": {
+     "learning_rate": 0.007402059245484523,
+     "max_iter": 257,
+     "max_leaf_nodes": 4,
+     "min_samples_leaf": 25,
+     "l2_regularization": 0.05303830003669165,
+     "max_features": 0.5875223230337632
+    },
+    "cv_loss": -7.087620261390546,
+    "n_trials": 40,
+    "seconds": 23.72
+   },
+   "direction_h5": {
+    "params": {
+     "learning_rate": 0.016787389181722435,
+     "max_iter": 15,
+     "max_leaf_nodes": 6,
+     "min_samples_leaf": 168,
+     "l2_regularization": 0.0016353740483557064,
+     "max_features": 0.22757860895492946
+    },
+    "cv_loss": 0.7077514975394725,
+    "n_trials": 40,
+    "seconds": 7.1
+   },
+   "volatility_h5": {
+    "params": {
+     "learning_rate": 0.14198431910903175,
+     "max_iter": 16,
+     "max_leaf_nodes": 14,
+     "min_samples_leaf": 163,
+     "l2_regularization": 2.3938592563903747,
+     "max_features": 0.9239319363635643
+    },
+    "cv_loss": -5.438172048750903,
+    "n_trials": 40,
+    "seconds": 7.53
+   }
+  }
+ },
+ {
+  "tuning_point": 7,
+  "fold": 3,
+  "refit": 12,
+  "origin": "2017-03-10",
+  "train_end": "2017-03-03",
+  "seconds": 81.34,
+  "results": {
+   "direction_h1": {
+    "params": {
+     "learning_rate": 0.006760383082630031,
+     "max_iter": 264,
+     "max_leaf_nodes": 52,
+     "min_samples_leaf": 264,
+     "l2_regularization": 0.3024709064955835,
+     "max_features": 0.6607761029871098
+    },
+    "cv_loss": 0.6861082331054621,
+    "n_trials": 40,
+    "seconds": 28.71
+   },
+   "volatility_h1": {
+    "params": {
+     "learning_rate": 0.018677441776090507,
+     "max_iter": 385,
+     "max_leaf_nodes": 4,
+     "min_samples_leaf": 58,
+     "l2_regularization": 0.00010932367987126397,
+     "max_features": 0.23777015431665197
+    },
+    "cv_loss": -7.2552072444346996,
+    "n_trials": 40,
+    "seconds": 25.7
+   },
+   "direction_h5": {
+    "params": {
+     "learning_rate": 0.06730660359598169,
+     "max_iter": 14,
+     "max_leaf_nodes": 58,
+     "min_samples_leaf": 262,
+     "l2_regularization": 0.009182877587501118,
+     "max_features": 0.2592312892592697
+    },
+    "cv_loss": 0.6936348450345052,
+    "n_trials": 40,
+    "seconds": 9.88
+   },
+   "volatility_h5": {
+    "params": {
+     "learning_rate": 0.007392948236374672,
+     "max_iter": 194,
+     "max_leaf_nodes": 6,
+     "min_samples_leaf": 35,
+     "l2_regularization": 0.31846912332595884,
+     "max_features": 0.4520997484275909
+    },
+    "cv_loss": -5.624865026218756,
+    "n_trials": 40,
+    "seconds": 17.05
+   }
+  }
+ },
+ {
+  "tuning_point": 8,
+  "fold": 3,
+  "refit": 24,
+  "origin": "2018-03-13",
+  "train_end": "2018-03-06",
+  "seconds": 55.97,
+  "results": {
+   "direction_h1": {
+    "params": {
+     "learning_rate": 0.030993325857630375,
+     "max_iter": 14,
+     "max_leaf_nodes": 10,
+     "min_samples_leaf": 89,
+     "l2_regularization": 5.573343308983275,
+     "max_features": 0.5482792790910246
+    },
+    "cv_loss": 0.6918492883031875,
+    "n_trials": 40,
+    "seconds": 10.91
+   },
+   "volatility_h1": {
+    "params": {
+     "learning_rate": 0.010376044349308172,
+     "max_iter": 469,
+     "max_leaf_nodes": 4,
+     "min_samples_leaf": 43,
+     "l2_regularization": 0.0034905622166738165,
+     "max_features": 0.20346719046425293
+    },
+    "cv_loss": -7.445049150784774,
+    "n_trials": 40,
+    "seconds": 21.82
+   },
+   "direction_h5": {
+    "params": {
+     "learning_rate": 0.01482907462819056,
+     "max_iter": 23,
+     "max_leaf_nodes": 10,
+     "min_samples_leaf": 127,
+     "l2_regularization": 0.8164731803752026,
+     "max_features": 0.5195588760138675
+    },
+    "cv_loss": 0.6932890540060822,
+    "n_trials": 40,
+    "seconds": 10.64
+   },
+   "volatility_h5": {
+    "params": {
+     "learning_rate": 0.024538881681328038,
+     "max_iter": 93,
+     "max_leaf_nodes": 6,
+     "min_samples_leaf": 49,
+     "l2_regularization": 0.8351939908761044,
+     "max_features": 0.2631961604184478
+    },
+    "cv_loss": -5.828319160382941,
+    "n_trials": 40,
+    "seconds": 12.58
+   }
+  }
+ },
+ {
+  "tuning_point": 9,
+  "fold": 4,
+  "refit": 12,
+  "origin": "2019-04-03",
+  "train_end": "2019-03-27",
+  "seconds": 89.94,
+  "results": {
+   "direction_h1": {
+    "params": {
+     "learning_rate": 0.0375484955552204,
+     "max_iter": 25,
+     "max_leaf_nodes": 10,
+     "min_samples_leaf": 31,
+     "l2_regularization": 0.06290898813295692,
+     "max_features": 0.5218936024323344
+    },
+    "cv_loss": 0.6898200274279931,
+    "n_trials": 40,
+    "seconds": 17.31
+   },
+   "volatility_h1": {
+    "params": {
+     "learning_rate": 0.0080557953818481,
+     "max_iter": 437,
+     "max_leaf_nodes": 24,
+     "min_samples_leaf": 260,
+     "l2_regularization": 3.1415439688483677,
+     "max_features": 0.23032336412066035
+    },
+    "cv_loss": -7.710573657436044,
+    "n_trials": 40,
+    "seconds": 34.21
+   },
+   "direction_h5": {
+    "params": {
+     "learning_rate": 0.005627274905959486,
+     "max_iter": 461,
+     "max_leaf_nodes": 5,
+     "min_samples_leaf": 499,
+     "l2_regularization": 0.0340685403990798,
+     "max_features": 0.7966036294971645
+    },
+    "cv_loss": 0.6832147860080732,
+    "n_trials": 40,
+    "seconds": 22.28
+   },
+   "volatility_h5": {
+    "params": {
+     "learning_rate": 0.014398084920113005,
+     "max_iter": 183,
+     "max_leaf_nodes": 4,
+     "min_samples_leaf": 28,
+     "l2_regularization": 0.001036070691423175,
+     "max_features": 0.6969602281688239
+    },
+    "cv_loss": -6.10594214732324,
+    "n_trials": 40,
+    "seconds": 16.13
+   }
+  }
+ },
+ {
+  "tuning_point": 10,
+  "fold": 4,
+  "refit": 24,
+  "origin": "2020-04-02",
+  "train_end": "2020-03-26",
+  "seconds": 69.32,
+  "results": {
+   "direction_h1": {
+    "params": {
+     "learning_rate": 0.06025669056989083,
+     "max_iter": 18,
+     "max_leaf_nodes": 11,
+     "min_samples_leaf": 47,
+     "l2_regularization": 6.595938611841877,
+     "max_features": 0.21048044260093565
+    },
+    "cv_loss": 0.6917475911776183,
+    "n_trials": 40,
+    "seconds": 10.67
+   },
+   "volatility_h1": {
+    "params": {
+     "learning_rate": 0.023655282567938116,
+     "max_iter": 178,
+     "max_leaf_nodes": 7,
+     "min_samples_leaf": 38,
+     "l2_regularization": 0.00011235626588881547,
+     "max_features": 0.7974225908716093
+    },
+    "cv_loss": -7.7723673754479865,
+    "n_trials": 40,
+    "seconds": 23.96
+   },
+   "direction_h5": {
+    "params": {
+     "learning_rate": 0.01364630740281705,
+     "max_iter": 218,
+     "max_leaf_nodes": 59,
+     "min_samples_leaf": 475,
+     "l2_regularization": 0.17866087584849183,
+     "max_features": 0.673081289543026
+    },
+    "cv_loss": 0.6890470055917642,
+    "n_trials": 40,
+    "seconds": 21.65
+   },
+   "volatility_h5": {
+    "params": {
+     "learning_rate": 0.1148307591564033,
+     "max_iter": 35,
+     "max_leaf_nodes": 3,
+     "min_samples_leaf": 69,
+     "l2_regularization": 0.008676648312865758,
+     "max_features": 0.8188649585912758
+    },
+    "cv_loss": -6.118298452767249,
+    "n_trials": 40,
+    "seconds": 13.03
+   }
+  }
+ },
+ {
+  "tuning_point": 11,
+  "fold": 5,
+  "refit": 12,
+  "origin": "2021-04-23",
+  "train_end": "2021-04-16",
+  "seconds": 96.71,
+  "results": {
+   "direction_h1": {
+    "params": {
+     "learning_rate": 0.09341659307142357,
+     "max_iter": 10,
+     "max_leaf_nodes": 52,
+     "min_samples_leaf": 33,
+     "l2_regularization": 0.16168389346633197,
+     "max_features": 0.9562469325006315
+    },
+    "cv_loss": 0.6841421028545832,
+    "n_trials": 40,
+    "seconds": 14.19
+   },
+   "volatility_h1": {
+    "params": {
+     "learning_rate": 0.010968233903965662,
+     "max_iter": 76,
+     "max_leaf_nodes": 24,
+     "min_samples_leaf": 36,
+     "l2_regularization": 0.16795982304717516,
+     "max_features": 0.8759302085650991
+    },
+    "cv_loss": -7.163835449620593,
+    "n_trials": 40,
+    "seconds": 60.2
+   },
+   "direction_h5": {
+    "params": {
+     "learning_rate": 0.03461672982387531,
+     "max_iter": 16,
+     "max_leaf_nodes": 50,
+     "min_samples_leaf": 60,
+     "l2_regularization": 0.003823209063997361,
+     "max_features": 0.24597275104214897
+    },
+    "cv_loss": 0.6874701312708353,
+    "n_trials": 40,
+    "seconds": 11.8
+   },
+   "volatility_h5": {
+    "params": {
+     "learning_rate": 0.044462613920303734,
+     "max_iter": 74,
+     "max_leaf_nodes": 8,
+     "min_samples_leaf": 54,
+     "l2_regularization": 0.0011478681640865601,
+     "max_features": 0.31924550463082485
+    },
+    "cv_loss": -5.506558819259154,
+    "n_trials": 40,
+    "seconds": 10.51
+   }
+  }
+ },
+ {
+  "tuning_point": 12,
+  "fold": 5,
+  "refit": 24,
+  "origin": "2022-04-22",
+  "train_end": "2022-04-14",
+  "seconds": 113.76,
+  "results": {
+   "direction_h1": {
+    "params": {
+     "learning_rate": 0.06931824041480637,
+     "max_iter": 23,
+     "max_leaf_nodes": 6,
+     "min_samples_leaf": 420,
+     "l2_regularization": 0.00047829392267451245,
+     "max_features": 0.9364397098038856
+    },
+    "cv_loss": 0.6848795702642572,
+    "n_trials": 40,
+    "seconds": 14.38
+   },
+   "volatility_h1": {
+    "params": {
+     "learning_rate": 0.03584265031290471,
+     "max_iter": 124,
+     "max_leaf_nodes": 21,
+     "min_samples_leaf": 41,
+     "l2_regularization": 0.30377495028431034,
+     "max_features": 0.8113850229205972
+    },
+    "cv_loss": -6.909079205200784,
+    "n_trials": 40,
+    "seconds": 40.7
+   },
+   "direction_h5": {
+    "params": {
+     "learning_rate": 0.007705450711781874,
+     "max_iter": 17,
+     "max_leaf_nodes": 5,
+     "min_samples_leaf": 53,
+     "l2_regularization": 0.0003786907890787503,
+     "max_features": 0.6108979832657478
+    },
+    "cv_loss": 0.6884782073519653,
+    "n_trials": 40,
+    "seconds": 11.17
+   },
+   "volatility_h5": {
+    "params": {
+     "learning_rate": 0.015437662484226292,
+     "max_iter": 157,
+     "max_leaf_nodes": 9,
+     "min_samples_leaf": 115,
+     "l2_regularization": 0.0009794581578064458,
+     "max_features": 0.8031215936960987
+    },
+    "cv_loss": -5.212812967659057,
+    "n_trials": 40,
+    "seconds": 47.51
+   }
+  }
+ },
+ {
+  "tuning_point": 13,
+  "fold": 6,
+  "refit": 12,
+  "origin": "2023-05-12",
+  "train_end": "2023-05-05",
+  "seconds": 89.86,
+  "results": {
+   "direction_h1": {
+    "params": {
+     "learning_rate": 0.08153309388519414,
+     "max_iter": 64,
+     "max_leaf_nodes": 5,
+     "min_samples_leaf": 435,
+     "l2_regularization": 0.023665101462568772,
+     "max_features": 0.5660054513712284
+    },
+    "cv_loss": 0.6866993417282657,
+    "n_trials": 40,
+    "seconds": 23.28
+   },
+   "volatility_h1": {
+    "params": {
+     "learning_rate": 0.05443911097652798,
+     "max_iter": 147,
+     "max_leaf_nodes": 7,
+     "min_samples_leaf": 31,
+     "l2_regularization": 0.05973076620937149,
+     "max_features": 0.5582618532894056
+    },
+    "cv_loss": -6.791904544292693,
+    "n_trials": 40,
+    "seconds": 22.83
+   },
+   "direction_h5": {
+    "params": {
+     "learning_rate": 0.01112209572255234,
+     "max_iter": 22,
+     "max_leaf_nodes": 22,
+     "min_samples_leaf": 164,
+     "l2_regularization": 0.05142382711856825,
+     "max_features": 0.6852483623740122
+    },
+    "cv_loss": 0.6892870341454524,
+    "n_trials": 40,
+    "seconds": 14.22
+   },
+   "volatility_h5": {
+    "params": {
+     "learning_rate": 0.06059024772219493,
+     "max_iter": 397,
+     "max_leaf_nodes": 3,
+     "min_samples_leaf": 70,
+     "l2_regularization": 7.233893757092728,
+     "max_features": 0.36505976221564956
+    },
+    "cv_loss": -5.1353953159691965,
+    "n_trials": 40,
+    "seconds": 29.53
+   }
+  }
+ },
+ {
+  "tuning_point": 14,
+  "fold": 6,
+  "refit": 24,
+  "origin": "2024-05-14",
+  "train_end": "2024-05-07",
+  "seconds": 73.49,
+  "results": {
+   "direction_h1": {
+    "params": {
+     "learning_rate": 0.011070418559313903,
+     "max_iter": 78,
+     "max_leaf_nodes": 37,
+     "min_samples_leaf": 36,
+     "l2_regularization": 4.902329206333859,
+     "max_features": 0.2460473472404409
+    },
+    "cv_loss": 0.6904432910915673,
+    "n_trials": 40,
+    "seconds": 30.15
+   },
+   "volatility_h1": {
+    "params": {
+     "learning_rate": 0.19248820847910172,
+     "max_iter": 21,
+     "max_leaf_nodes": 8,
+     "min_samples_leaf": 22,
+     "l2_regularization": 0.003266335434145897,
+     "max_features": 0.4188280957362063
+    },
+    "cv_loss": -7.09739953186715,
+    "n_trials": 40,
+    "seconds": 13.09
+   },
+   "direction_h5": {
+    "params": {
+     "learning_rate": 0.01208145113119193,
+     "max_iter": 18,
+     "max_leaf_nodes": 3,
+     "min_samples_leaf": 38,
+     "l2_regularization": 0.0003838694774593317,
+     "max_features": 0.40746333707059185
+    },
+    "cv_loss": 0.6926736609204284,
+    "n_trials": 40,
+    "seconds": 16.7
+   },
+   "volatility_h5": {
+    "params": {
+     "learning_rate": 0.1597903301885855,
+     "max_iter": 42,
+     "max_leaf_nodes": 5,
+     "min_samples_leaf": 53,
+     "l2_regularization": 0.0632582122170168,
+     "max_features": 0.7178043043061565
+    },
+    "cv_loss": -5.470258813235022,
+    "n_trials": 40,
+    "seconds": 13.54
+   }
+  }
+ },
+ {
+  "tuning_point": 15,
+  "fold": 7,
+  "refit": 12,
+  "origin": "2025-06-04",
+  "train_end": "2025-05-28",
+  "seconds": 83.17,
+  "results": {
+   "direction_h1": {
+    "params": {
+     "learning_rate": 0.011716201501337368,
+     "max_iter": 96,
+     "max_leaf_nodes": 5,
+     "min_samples_leaf": 115,
+     "l2_regularization": 0.8458614453578871,
+     "max_features": 0.7277334103129486
+    },
+    "cv_loss": 0.6889970640619608,
+    "n_trials": 40,
+    "seconds": 24.72
+   },
+   "volatility_h1": {
+    "params": {
+     "learning_rate": 0.03132124372538697,
+     "max_iter": 218,
+     "max_leaf_nodes": 4,
+     "min_samples_leaf": 41,
+     "l2_regularization": 0.4233955594244946,
+     "max_features": 0.7693016120636397
+    },
+    "cv_loss": -6.956073363664362,
+    "n_trials": 40,
+    "seconds": 22.96
+   },
+   "direction_h5": {
+    "params": {
+     "learning_rate": 0.006809142023130957,
+     "max_iter": 60,
+     "max_leaf_nodes": 10,
+     "min_samples_leaf": 217,
+     "l2_regularization": 0.0019362469170303978,
+     "max_features": 0.9609364106483234
+    },
+    "cv_loss": 0.6896836715648388,
+    "n_trials": 40,
+    "seconds": 19.65
+   },
+   "volatility_h5": {
+    "params": {
+     "learning_rate": 0.11286519143434483,
+     "max_iter": 52,
+     "max_leaf_nodes": 8,
+     "min_samples_leaf": 124,
+     "l2_regularization": 0.017748632981358353,
+     "max_features": 0.680281010621373
+    },
+    "cv_loss": -5.334378102118327,
+    "n_trials": 40,
+    "seconds": 15.84
+   }
+  }
+ },
+ {
+  "tuning_point": 16,
+  "fold": 7,
+  "refit": 24,
+  "origin": "2026-06-04",
+  "train_end": "2026-05-28",
+  "seconds": 101.98,
+  "results": {
+   "direction_h1": {
+    "params": {
+     "learning_rate": 0.0927490021797135,
+     "max_iter": 14,
+     "max_leaf_nodes": 5,
+     "min_samples_leaf": 157,
+     "l2_regularization": 0.00014471599277635512,
+     "max_features": 0.4095541456450398
+    },
+    "cv_loss": 0.6865977364852498,
+    "n_trials": 40,
+    "seconds": 15.89
+   },
+   "volatility_h1": {
+    "params": {
+     "learning_rate": 0.013368582676139378,
+     "max_iter": 274,
+     "max_leaf_nodes": 9,
+     "min_samples_leaf": 23,
+     "l2_regularization": 0.13981845700948797,
+     "max_features": 0.2054625346751635
+    },
+    "cv_loss": -6.617760356844825,
+    "n_trials": 40,
+    "seconds": 40.62
+   },
+   "direction_h5": {
+    "params": {
+     "learning_rate": 0.02308424832848783,
+     "max_iter": 86,
+     "max_leaf_nodes": 3,
+     "min_samples_leaf": 21,
+     "l2_regularization": 3.453375242614991,
+     "max_features": 0.7536662120781069
+    },
+    "cv_loss": 0.6827097328827525,
+    "n_trials": 40,
+    "seconds": 15.0
+   },
+   "volatility_h5": {
+    "params": {
+     "learning_rate": 0.06029210865465792,
+     "max_iter": 59,
+     "max_leaf_nodes": 9,
+     "min_samples_leaf": 25,
+     "l2_regularization": 0.5165811577416348,
+     "max_features": 0.9996614606275899
+    },
+    "cv_loss": -5.005652729584081,
+    "n_trials": 40,
+    "seconds": 30.46
+   }
+  }
+ }
+]

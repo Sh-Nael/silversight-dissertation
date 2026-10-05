@@ -1,0 +1,16 @@
+edge,cluster,share_active,switches,mean_spell_months
+gold@1,monetary,0.23,42,2.1904761904761907
+gold@5,monetary,0.175,43,1.5909090909090908
+gold@21,monetary,0.16,30,2.1333333333333333
+copper@1,industrial,0.235,34,2.764705882352941
+copper@5,industrial,0.135,28,1.9285714285714286
+copper@21,industrial,0.2,47,1.6666666666666667
+dxy@1,monetary,0.22,39,2.2
+dxy@5,monetary,0.145,36,1.6111111111111112
+dxy@21,monetary,0.14,34,1.6470588235294117
+real_yield_10y@1,monetary,0.15,32,1.875
+real_yield_10y@5,monetary,0.135,36,1.5
+real_yield_10y@21,monetary,0.19,39,1.9
+vix@1,risk,0.525,25,8.076923076923077
+vix@5,risk,0.225,40,2.25
+vix@21,risk,0.115,24,1.9166666666666667

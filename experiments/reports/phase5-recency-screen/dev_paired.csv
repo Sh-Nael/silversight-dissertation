@@ -1,0 +1,16 @@
+task,model,mean_diff,won,points
+direction_h1,aimdg,-0.0007796378516466189,11,17
+direction_h1,aimdg_rw,-0.0005239505916577958,3,5
+direction_h1,static_gnn_rw,0.002725525792907835,2,5
+direction_h5,aimdg,-0.003256419504142271,14,17
+direction_h5,aimdg_rw,0.0005970873692016987,2,5
+direction_h5,static_gnn_rw,0.0018773269880239863,2,5
+joint,aimdg,0.0010087131370259178,7,17
+joint,aimdg_rw,0.01607145865606956,2,5
+joint,static_gnn_rw,0.0138726258835975,2,5
+volatility_h1,aimdg,0.007128832155774103,6,17
+volatility_h1,aimdg_rw,0.01405947139813044,2,5
+volatility_h1,static_gnn_rw,0.0061437481529452494,3,5
+volatility_h5,aimdg,0.0029607088298553687,6,17
+volatility_h5,aimdg_rw,0.017937172358920783,1,5
+volatility_h5,static_gnn_rw,0.012395798052385842,1,5

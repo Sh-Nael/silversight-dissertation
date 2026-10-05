@@ -1,0 +1,16 @@
+**T05. Brier: every model against climatology**
+
+| Model | Diff 1d | DM p 1d | Wilcoxon p 1d | Perm. p 1d | Folds 1d | Diff 5d | DM p 5d | Wilcoxon p 5d | Perm. p 5d | Folds 5d |
+|---|---|---|---|---|---|---|---|---|---|---|
+| ewma | +0.00000 | – | 1.000 | 1.000 | 0/8 | +0.00000 | – | 1.000 | 1.000 | 0/8 |
+| ar_garch | -0.00012 | 0.702 | 0.844 | 0.699 | 5/8 | +0.00161 | 0.003* | 0.312 | 0.016* | 3/8 |
+| linear | +0.00024 | 0.725 | 1.000 | 0.749 | 4/8 | +0.00127 | 0.295 | 0.195 | 0.375 | 1/8 |
+| gbm | -0.00021 | 0.795 | 0.641 | 0.741 | 5/8 | +0.00150 | 0.244 | 0.250 | 0.325 | 2/8 |
+| lstm | +0.00015 | 0.731 | 0.461 | 0.750 | 3/8 | +0.00035 | 0.787 | 0.641 | 0.847 | 3/8 |
+| gru | +0.00058 | 0.175 | 0.312 | 0.200 | 3/8 | +0.00139 | 0.281 | 0.312 | 0.384 | 2/8 |
+| static_gnn | +0.00055 | 0.202 | 0.195 | 0.274 | 2/8 | +0.00128 | 0.337 | 0.383 | 0.460 | 2/8 |
+| aimdg | +0.00071 | 0.139 | 0.148 | 0.204 | 1/8 | +0.00096 | 0.496 | 0.312 | 0.592 | 3/8 |
+
+*Difference: mean loss of the model minus the reference's; negative means the model is better. DM: Diebold–Mariano on the 4,141 daily losses; Wilcoxon: signed-rank over the 8 fold means; Perm.: block permutation (21-day blocks). * p < 0.05. Folds: folds in which the model beat the reference.*
+
+Source: `phase4-aimdg/significance.csv`

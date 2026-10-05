@@ -1,0 +1,59 @@
+<svg width="800" height="476" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" baseProfile="full" viewBox="0 0 800 476">
+<rect width="800" height="476" x="0" y="0" fill="#ffffff"></rect>
+<path d="M81 448.5L788 448.5" fill="none" stroke="#14191f14" class="zr2-cls-0"></path>
+<path d="M81 396.5L788 396.5" fill="none" stroke="#14191f14" class="zr2-cls-0"></path>
+<path d="M81 343.5L788 343.5" fill="none" stroke="#14191f14" class="zr2-cls-0"></path>
+<path d="M81 291.5L788 291.5" fill="none" stroke="#14191f14" class="zr2-cls-0"></path>
+<path d="M81 239.5L788 239.5" fill="none" stroke="#14191f14" class="zr2-cls-0"></path>
+<path d="M81 187.5L788 187.5" fill="none" stroke="#14191f14" class="zr2-cls-0"></path>
+<path d="M81 134.5L788 134.5" fill="none" stroke="#14191f14" class="zr2-cls-0"></path>
+<path d="M81 82.5L788 82.5" fill="none" stroke="#14191f14" class="zr2-cls-0"></path>
+<path d="M81 30.5L788 30.5" fill="none" stroke="#14191f14" class="zr2-cls-0"></path>
+<text dominant-baseline="central" text-anchor="middle" style="font-size:11px;font-family:IBM Plex Sans, system-ui, sans-serif;" xml:space="preserve" y="-5.5" transform="matrix(0,-1,1,0,19,239)" fill="#56616c">mean QLIKE − static_gnn (below 0: better)</text>
+<path d="M81 291.5L788 291.5" fill="none" stroke="#d5dbe1" stroke-linecap="round" class="zr2-cls-0"></path>
+<text dominant-baseline="central" text-anchor="end" style="font-size:11px;font-family:IBM Plex Mono, ui-monospace, monospace;" transform="translate(73 448)" fill="#56616c">-0.03</text>
+<text dominant-baseline="central" text-anchor="end" style="font-size:11px;font-family:IBM Plex Mono, ui-monospace, monospace;" transform="translate(73 395.75)" fill="#56616c">-0.02</text>
+<text dominant-baseline="central" text-anchor="end" style="font-size:11px;font-family:IBM Plex Mono, ui-monospace, monospace;" transform="translate(73 343.5)" fill="#56616c">-0.01</text>
+<text dominant-baseline="central" text-anchor="end" style="font-size:11px;font-family:IBM Plex Mono, ui-monospace, monospace;" transform="translate(73 291.25)" fill="#56616c">0</text>
+<text dominant-baseline="central" text-anchor="end" style="font-size:11px;font-family:IBM Plex Mono, ui-monospace, monospace;" transform="translate(73 239)" fill="#56616c">0.01</text>
+<text dominant-baseline="central" text-anchor="end" style="font-size:11px;font-family:IBM Plex Mono, ui-monospace, monospace;" transform="translate(73 186.75)" fill="#56616c">0.02</text>
+<text dominant-baseline="central" text-anchor="end" style="font-size:11px;font-family:IBM Plex Mono, ui-monospace, monospace;" transform="translate(73 134.5)" fill="#56616c">0.03</text>
+<text dominant-baseline="central" text-anchor="end" style="font-size:11px;font-family:IBM Plex Mono, ui-monospace, monospace;" transform="translate(73 82.25)" fill="#56616c">0.04</text>
+<text dominant-baseline="central" text-anchor="end" style="font-size:11px;font-family:IBM Plex Mono, ui-monospace, monospace;" transform="translate(73 30)" fill="#56616c">0.05</text>
+<text dominant-baseline="central" text-anchor="middle" style="font-size:11px;font-family:IBM Plex Mono, ui-monospace, monospace;" y="5.5" transform="translate(125.1875 456)" fill="#56616c">F0</text>
+<text dominant-baseline="central" text-anchor="middle" style="font-size:11px;font-family:IBM Plex Mono, ui-monospace, monospace;" y="5.5" transform="translate(213.5625 456)" fill="#56616c">F1</text>
+<text dominant-baseline="central" text-anchor="middle" style="font-size:11px;font-family:IBM Plex Mono, ui-monospace, monospace;" y="5.5" transform="translate(301.9375 456)" fill="#56616c">F2</text>
+<text dominant-baseline="central" text-anchor="middle" style="font-size:11px;font-family:IBM Plex Mono, ui-monospace, monospace;" y="5.5" transform="translate(390.3125 456)" fill="#56616c">F3</text>
+<text dominant-baseline="central" text-anchor="middle" style="font-size:11px;font-family:IBM Plex Mono, ui-monospace, monospace;" y="5.5" transform="translate(478.6875 456)" fill="#56616c">F4</text>
+<text dominant-baseline="central" text-anchor="middle" style="font-size:11px;font-family:IBM Plex Mono, ui-monospace, monospace;" y="5.5" transform="translate(567.0625 456)" fill="#56616c">F5</text>
+<text dominant-baseline="central" text-anchor="middle" style="font-size:11px;font-family:IBM Plex Mono, ui-monospace, monospace;" y="5.5" transform="translate(655.4375 456)" fill="#56616c">F6</text>
+<text dominant-baseline="central" text-anchor="middle" style="font-size:11px;font-family:IBM Plex Mono, ui-monospace, monospace;" y="5.5" transform="translate(743.8125 456)" fill="#56616c">F7</text>
+<path d="M96.6981 97.7122L153.6769 97.7122A2 2 0 0 1 155.6769 99.7122L155.6769 291.25L94.6981 291.25L94.6981 99.7122A2 2 0 0 1 96.6981 97.7122Z" fill="#A8860F" class="zr2-cls-1"></path>
+<path d="M185.0731 89.0501L242.0519 89.0501A2 2 0 0 1 244.0519 91.0501L244.0519 291.25L183.0731 291.25L183.0731 91.0501A2 2 0 0 1 185.0731 89.0501Z" fill="#A8860F" class="zr2-cls-1"></path>
+<path d="M273.4481 65.2883L330.4269 65.2883A2 2 0 0 1 332.4269 67.2883L332.4269 291.25L271.4481 291.25L271.4481 67.2883A2 2 0 0 1 273.4481 65.2883Z" fill="#A8860F" class="zr2-cls-1"></path>
+<path d="M361.8231 239.4963L418.8019 239.4963A2 2 0 0 1 420.8019 241.4963L420.8019 291.25L359.8231 291.25L359.8231 241.4963A2 2 0 0 1 361.8231 239.4963Z" fill="#A8860F" class="zr2-cls-1"></path>
+<path d="M450.1981 291.25L507.1769 291.25A2 2 0 0 1 509.1769 293.25L509.1769 398.9768L448.1981 398.9768L448.1981 293.25A2 2 0 0 1 450.1981 291.25Z" fill="#A8860F" class="zr2-cls-1"></path>
+<path d="M538.5731 129.1068L595.5519 129.1068A2 2 0 0 1 597.5519 131.1068L597.5519 291.25L536.5731 291.25L536.5731 131.1068A2 2 0 0 1 538.5731 129.1068Z" fill="#A8860F" class="zr2-cls-1"></path>
+<path d="M626.9481 227.9343L683.9269 227.9343A2 2 0 0 1 685.9269 229.9343L685.9269 291.25L624.9481 291.25L624.9481 229.9343A2 2 0 0 1 626.9481 227.9343Z" fill="#A8860F" class="zr2-cls-1"></path>
+<path d="M715.3231 206.2287L772.3019 206.2287A2 2 0 0 1 774.3019 208.2287L774.3019 291.25L713.3231 291.25L713.3231 208.2287A2 2 0 0 1 715.3231 206.2287Z" fill="#A8860F" class="zr2-cls-1"></path>
+<path d="M-5 -5l58 0l0 21l-58 0Z" transform="translate(747 5)" fill="rgb(0,0,0)" fill-opacity="0" stroke="#b7b9be" stroke-width="0" class="zr2-cls-0"></path>
+<path d="M2 0L10 0A2 2 0 0 1 12 2L12 6A2 2 0 0 1 10 8L2 8A2 2 0 0 1 0 6L0 2A2 2 0 0 1 2 0Z" transform="translate(747 6.5)" fill="#A8860F" class="zr2-cls-0"></path>
+<text dominant-baseline="central" text-anchor="start" style="font-size:11px;font-family:IBM Plex Sans, system-ui, sans-serif;" x="17" y="4" transform="translate(747 6.5)" fill="#56616c">aimdg</text>
+<path d="M0 -1.5l48 0l0 11l-48 0Z" transform="translate(747 6.5)" fill="none" class="zr2-cls-2"></path>
+<style ><![CDATA[
+.zr2-cls-0:hover {
+pointer-events:none;
+}
+.zr2-cls-1:hover {
+cursor:pointer;
+fill:rgba(184,147,16,1);
+}
+.zr2-cls-2:hover {
+cursor:pointer;
+fill:rgba(0,0,0,0);
+}
+
+]]>
+
+</style>
+</svg>

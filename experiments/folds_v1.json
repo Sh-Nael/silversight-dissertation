@@ -1,0 +1,75 @@
+{
+  "train_start": "2007-01-03",
+  "purge": 5,
+  "embargo": 21,
+  "embargo_note": "inactive: forward-only walk-forward, no training row follows a test block",
+  "refit_every": 21,
+  "val_size": 252,
+  "index_fingerprint": "66e8186fa7846b46",
+  "folds": [
+    {
+      "k": 0,
+      "test_start": "2010-01-04",
+      "test_end": "2012-01-23",
+      "n_test": 518,
+      "n_refits": 25,
+      "first_train_end": "2009-12-24"
+    },
+    {
+      "k": 1,
+      "test_start": "2012-01-24",
+      "test_end": "2014-02-13",
+      "n_test": 518,
+      "n_refits": 25,
+      "first_train_end": "2012-01-17"
+    },
+    {
+      "k": 2,
+      "test_start": "2014-02-14",
+      "test_end": "2016-03-07",
+      "n_test": 518,
+      "n_refits": 25,
+      "first_train_end": "2014-02-07"
+    },
+    {
+      "k": 3,
+      "test_start": "2016-03-08",
+      "test_end": "2018-04-02",
+      "n_test": 518,
+      "n_refits": 25,
+      "first_train_end": "2016-03-01"
+    },
+    {
+      "k": 4,
+      "test_start": "2018-04-03",
+      "test_end": "2020-04-22",
+      "n_test": 518,
+      "n_refits": 25,
+      "first_train_end": "2018-03-26"
+    },
+    {
+      "k": 5,
+      "test_start": "2020-04-23",
+      "test_end": "2022-05-10",
+      "n_test": 517,
+      "n_refits": 25,
+      "first_train_end": "2020-04-16"
+    },
+    {
+      "k": 6,
+      "test_start": "2022-05-11",
+      "test_end": "2024-05-31",
+      "n_test": 517,
+      "n_refits": 25,
+      "first_train_end": "2022-05-04"
+    },
+    {
+      "k": 7,
+      "test_start": "2024-06-03",
+      "test_end": "2026-06-23",
+      "n_test": 517,
+      "n_refits": 25,
+      "first_train_end": "2024-05-24"
+    }
+  ]
+}

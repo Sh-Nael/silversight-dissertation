@@ -1,0 +1,3796 @@
+[
+ {
+  "selection": {
+   "origin": "2010-01-04",
+   "fold": 0,
+   "refit": 0,
+   "active": [
+    "gold@5",
+    "real_yield_10y@1"
+   ],
+   "n_edges": 2,
+   "rate": 0.3,
+   "tau": 0,
+   "shift": null,
+   "warm_start": false,
+   "fitness": -0.045291240268401894,
+   "evaluations": 4532
+  }
+ },
+ {
+  "selection": {
+   "origin": "2010-02-03",
+   "fold": 0,
+   "refit": 1,
+   "active": [
+    "gold@21",
+    "dxy@21",
+    "real_yield_10y@21"
+   ],
+   "n_edges": 3,
+   "rate": 0.26666666666666666,
+   "tau": 1,
+   "shift": 0.036855766440118946,
+   "warm_start": true,
+   "fitness": -0.03382446436647053,
+   "evaluations": 4458
+  }
+ },
+ {
+  "selection": {
+   "origin": "2010-03-05",
+   "fold": 0,
+   "refit": 2,
+   "active": [
+    "copper@5",
+    "dxy@21",
+    "real_yield_10y@21"
+   ],
+   "n_edges": 3,
+   "rate": 0.23333333333333334,
+   "tau": 2,
+   "shift": 0.043907493518208815,
+   "warm_start": true,
+   "fitness": -0.0299585441771758,
+   "evaluations": 4320
+  }
+ },
+ {
+  "selection": {
+   "origin": "2010-04-06",
+   "fold": 0,
+   "refit": 3,
+   "active": [
+    "copper@5",
+    "real_yield_10y@21"
+   ],
+   "n_edges": 2,
+   "rate": 0.2,
+   "tau": 3,
+   "shift": 0.03475012091293116,
+   "warm_start": true,
+   "fitness": -0.024272722815020648,
+   "evaluations": 4088
+  }
+ },
+ {
+  "selection": {
+   "origin": "2010-05-05",
+   "fold": 0,
+   "refit": 4,
+   "active": [
+    "gold@5",
+    "real_yield_10y@21",
+    "vix@21"
+   ],
+   "n_edges": 3,
+   "rate": 0.16666666666666669,
+   "tau": 4,
+   "shift": 0.033677454665025246,
+   "warm_start": true,
+   "fitness": -0.02950720544999084,
+   "evaluations": 3517
+  }
+ },
+ {
+  "selection": {
+   "origin": "2010-06-04",
+   "fold": 0,
+   "refit": 5,
+   "active": [
+    "gold@1",
+    "dxy@21",
+    "real_yield_10y@21",
+    "vix@21"
+   ],
+   "n_edges": 4,
+   "rate": 0.13333333333333333,
+   "tau": 5,
+   "shift": 0.02790871137649383,
+   "warm_start": true,
+   "fitness": -0.023145271529931535,
+   "evaluations": 2926
+  }
+ },
+ {
+  "selection": {
+   "origin": "2010-07-06",
+   "fold": 0,
+   "refit": 6,
+   "active": [
+    "gold@1",
+    "copper@1",
+    "real_yield_10y@21",
+    "vix@1",
+    "vix@21"
+   ],
+   "n_edges": 5,
+   "rate": 0.1,
+   "tau": 6,
+   "shift": 0.026627288664730065,
+   "warm_start": true,
+   "fitness": -0.02417574407349527,
+   "evaluations": 1823
+  }
+ },
+ {
+  "selection": {
+   "origin": "2010-08-04",
+   "fold": 0,
+   "refit": 7,
+   "active": [
+    "dxy@1",
+    "real_yield_10y@21",
+    "vix@1",
+    "vix@21"
+   ],
+   "n_edges": 4,
+   "rate": 0.1,
+   "tau": 7,
+   "shift": 0.03691763377124523,
+   "warm_start": true,
+   "fitness": -0.03148396133400868,
+   "evaluations": 2026
+  }
+ },
+ {
+  "selection": {
+   "origin": "2010-09-02",
+   "fold": 0,
+   "refit": 8,
+   "active": [
+    "real_yield_10y@5",
+    "real_yield_10y@21",
+    "vix@1",
+    "vix@21"
+   ],
+   "n_edges": 4,
+   "rate": 0.1,
+   "tau": 8,
+   "shift": 0.054640942954760824,
+   "warm_start": true,
+   "fitness": -0.01567706031509989,
+   "evaluations": 2052
+  }
+ },
+ {
+  "selection": {
+   "origin": "2010-10-04",
+   "fold": 0,
+   "refit": 9,
+   "active": [
+    "gold@1",
+    "dxy@1",
+    "dxy@5",
+    "real_yield_10y@21",
+    "vix@1"
+   ],
+   "n_edges": 5,
+   "rate": 0.1,
+   "tau": 9,
+   "shift": 0.051795412492865546,
+   "warm_start": true,
+   "fitness": -0.02206523809739684,
+   "evaluations": 1959
+  }
+ },
+ {
+  "selection": {
+   "origin": "2010-11-02",
+   "fold": 0,
+   "refit": 10,
+   "active": [
+    "gold@1",
+    "dxy@5",
+    "real_yield_10y@5",
+    "vix@1"
+   ],
+   "n_edges": 4,
+   "rate": 0.1,
+   "tau": 10,
+   "shift": 0.031943085823229946,
+   "warm_start": true,
+   "fitness": -0.028606249084252824,
+   "evaluations": 1880
+  }
+ },
+ {
+  "selection": {
+   "origin": "2010-12-02",
+   "fold": 0,
+   "refit": 11,
+   "active": [
+    "dxy@21",
+    "vix@1"
+   ],
+   "n_edges": 2,
+   "rate": 0.1,
+   "tau": 11,
+   "shift": 0.03459923111462102,
+   "warm_start": true,
+   "fitness": -0.022720342375653277,
+   "evaluations": 2227
+  }
+ },
+ {
+  "selection": {
+   "origin": "2011-01-03",
+   "fold": 0,
+   "refit": 12,
+   "active": [
+    "copper@21",
+    "vix@1",
+    "vix@5"
+   ],
+   "n_edges": 3,
+   "rate": 0.1,
+   "tau": 12,
+   "shift": 0.044791852222313654,
+   "warm_start": true,
+   "fitness": -0.022844112955435227,
+   "evaluations": 1959
+  }
+ },
+ {
+  "selection": {
+   "origin": "2011-02-02",
+   "fold": 0,
+   "refit": 13,
+   "active": [
+    "gold@5",
+    "gold@21",
+    "copper@1",
+    "vix@1"
+   ],
+   "n_edges": 4,
+   "rate": 0.1,
+   "tau": 13,
+   "shift": 0.03077251283081821,
+   "warm_start": true,
+   "fitness": -0.015937127887517513,
+   "evaluations": 1982
+  }
+ },
+ {
+  "selection": {
+   "origin": "2011-03-04",
+   "fold": 0,
+   "refit": 14,
+   "active": [
+    "gold@21",
+    "copper@1",
+    "vix@1"
+   ],
+   "n_edges": 3,
+   "rate": 0.1,
+   "tau": 14,
+   "shift": 0.049405767548946315,
+   "warm_start": true,
+   "fitness": -0.019735554243486265,
+   "evaluations": 2167
+  }
+ },
+ {
+  "selection": {
+   "origin": "2011-04-04",
+   "fold": 0,
+   "refit": 15,
+   "active": [
+    "gold@21",
+    "copper@1",
+    "real_yield_10y@1",
+    "real_yield_10y@21",
+    "vix@5",
+    "vix@21"
+   ],
+   "n_edges": 6,
+   "rate": 0.1,
+   "tau": 15,
+   "shift": 0.0573499561521102,
+   "warm_start": true,
+   "fitness": -0.01633779730105076,
+   "evaluations": 2156
+  }
+ },
+ {
+  "selection": {
+   "origin": "2011-05-04",
+   "fold": 0,
+   "refit": 16,
+   "active": [
+    "gold@5",
+    "gold@21",
+    "copper@1",
+    "vix@5"
+   ],
+   "n_edges": 4,
+   "rate": 0.1,
+   "tau": 16,
+   "shift": 0.03599202554199098,
+   "warm_start": true,
+   "fitness": -0.01758540609532477,
+   "evaluations": 2227
+  }
+ },
+ {
+  "selection": {
+   "origin": "2011-06-03",
+   "fold": 0,
+   "refit": 17,
+   "active": [
+    "gold@1",
+    "gold@5",
+    "dxy@1",
+    "real_yield_10y@1"
+   ],
+   "n_edges": 4,
+   "rate": 0.1,
+   "tau": 17,
+   "shift": 0.05504780478771643,
+   "warm_start": true,
+   "fitness": -0.016942210046531545,
+   "evaluations": 2152
+  }
+ },
+ {
+  "selection": {
+   "origin": "2011-07-05",
+   "fold": 0,
+   "refit": 18,
+   "active": [
+    "gold@5",
+    "gold@21",
+    "copper@1",
+    "dxy@21",
+    "real_yield_10y@21",
+    "vix@1",
+    "vix@21"
+   ],
+   "n_edges": 7,
+   "rate": 0.1,
+   "tau": 18,
+   "shift": 0.04587098685500998,
+   "warm_start": true,
+   "fitness": -0.007710441043958959,
+   "evaluations": 2163
+  }
+ },
+ {
+  "selection": {
+   "origin": "2011-08-03",
+   "fold": 0,
+   "refit": 19,
+   "active": [
+    "gold@21",
+    "copper@1",
+    "real_yield_10y@1",
+    "real_yield_10y@5",
+    "real_yield_10y@21",
+    "vix@5"
+   ],
+   "n_edges": 6,
+   "rate": 0.1,
+   "tau": 19,
+   "shift": 0.032857216665776186,
+   "warm_start": true,
+   "fitness": -0.013805849268614955,
+   "evaluations": 2190
+  }
+ },
+ {
+  "selection": {
+   "origin": "2011-09-01",
+   "fold": 0,
+   "refit": 20,
+   "active": [
+    "gold@21",
+    "copper@1",
+    "real_yield_10y@21"
+   ],
+   "n_edges": 3,
+   "rate": 0.1,
+   "tau": 20,
+   "shift": 0.032287275665340794,
+   "warm_start": true,
+   "fitness": -0.019628561579092454,
+   "evaluations": 1981
+  }
+ },
+ {
+  "selection": {
+   "origin": "2011-10-03",
+   "fold": 0,
+   "refit": 21,
+   "active": [
+    "gold@1",
+    "copper@5",
+    "dxy@1",
+    "real_yield_10y@5"
+   ],
+   "n_edges": 4,
+   "rate": 0.1,
+   "tau": 21,
+   "shift": 0.03717728666257695,
+   "warm_start": true,
+   "fitness": -0.024388170119974288,
+   "evaluations": 2013
+  }
+ },
+ {
+  "selection": {
+   "origin": "2011-11-01",
+   "fold": 0,
+   "refit": 22,
+   "active": [
+    "gold@1",
+    "dxy@1",
+    "real_yield_10y@5"
+   ],
+   "n_edges": 3,
+   "rate": 0.1,
+   "tau": 22,
+   "shift": 0.04136721606419238,
+   "warm_start": true,
+   "fitness": -0.013537148024003843,
+   "evaluations": 2187
+  }
+ },
+ {
+  "selection": {
+   "origin": "2011-12-01",
+   "fold": 0,
+   "refit": 23,
+   "active": [
+    "gold@1",
+    "copper@21",
+    "real_yield_10y@5"
+   ],
+   "n_edges": 3,
+   "rate": 0.1,
+   "tau": 23,
+   "shift": 0.044435554976723066,
+   "warm_start": true,
+   "fitness": -0.026538499409092094,
+   "evaluations": 2040
+  }
+ },
+ {
+  "selection": {
+   "origin": "2012-01-03",
+   "fold": 0,
+   "refit": 24,
+   "active": [
+    "copper@5",
+    "dxy@21"
+   ],
+   "n_edges": 2,
+   "rate": 0.1,
+   "tau": 24,
+   "shift": 0.040381405193255795,
+   "warm_start": true,
+   "fitness": -0.019145615750300903,
+   "evaluations": 1990
+  }
+ },
+ {
+  "selection": {
+   "origin": "2012-01-24",
+   "fold": 1,
+   "refit": 0,
+   "active": [
+    "copper@5"
+   ],
+   "n_edges": 1,
+   "rate": 0.1,
+   "tau": 25,
+   "shift": 0.02787641899737162,
+   "warm_start": true,
+   "fitness": -0.014798450612125204,
+   "evaluations": 2412
+  }
+ },
+ {
+  "selection": {
+   "origin": "2012-02-23",
+   "fold": 1,
+   "refit": 1,
+   "active": [
+    "copper@5"
+   ],
+   "n_edges": 1,
+   "rate": 0.1,
+   "tau": 26,
+   "shift": 0.031170411503980748,
+   "warm_start": true,
+   "fitness": -0.015170532088060847,
+   "evaluations": 2062
+  }
+ },
+ {
+  "selection": {
+   "origin": "2012-03-23",
+   "fold": 1,
+   "refit": 2,
+   "active": [
+    "copper@5",
+    "dxy@21"
+   ],
+   "n_edges": 2,
+   "rate": 0.1,
+   "tau": 27,
+   "shift": 0.025230003837279472,
+   "warm_start": true,
+   "fitness": -0.014758354190664565,
+   "evaluations": 1942
+  }
+ },
+ {
+  "selection": {
+   "origin": "2012-04-24",
+   "fold": 1,
+   "refit": 3,
+   "active": [
+    "copper@5",
+    "vix@1"
+   ],
+   "n_edges": 2,
+   "rate": 0.1,
+   "tau": 28,
+   "shift": 0.03991171533049216,
+   "warm_start": true,
+   "fitness": -0.010301924036140055,
+   "evaluations": 2124
+  }
+ },
+ {
+  "selection": {
+   "origin": "2012-05-23",
+   "fold": 1,
+   "refit": 4,
+   "active": [
+    "gold@21",
+    "copper@5",
+    "dxy@5"
+   ],
+   "n_edges": 3,
+   "rate": 0.1,
+   "tau": 29,
+   "shift": 0.04842418415275302,
+   "warm_start": true,
+   "fitness": -0.02036657376020374,
+   "evaluations": 2238
+  }
+ },
+ {
+  "selection": {
+   "origin": "2012-06-22",
+   "fold": 1,
+   "refit": 5,
+   "active": [
+    "copper@5"
+   ],
+   "n_edges": 1,
+   "rate": 0.1,
+   "tau": 30,
+   "shift": 0.034638150752191475,
+   "warm_start": true,
+   "fitness": -0.0183230823930255,
+   "evaluations": 2224
+  }
+ },
+ {
+  "selection": {
+   "origin": "2012-07-24",
+   "fold": 1,
+   "refit": 6,
+   "active": [
+    "copper@5"
+   ],
+   "n_edges": 1,
+   "rate": 0.1,
+   "tau": 31,
+   "shift": 0.051087424802711535,
+   "warm_start": true,
+   "fitness": -0.014342742781420222,
+   "evaluations": 2299
+  }
+ },
+ {
+  "selection": {
+   "origin": "2012-08-22",
+   "fold": 1,
+   "refit": 7,
+   "active": [
+    "copper@5",
+    "vix@5"
+   ],
+   "n_edges": 2,
+   "rate": 0.1,
+   "tau": 32,
+   "shift": 0.05277444960498052,
+   "warm_start": true,
+   "fitness": -0.016064172748403827,
+   "evaluations": 2125
+  }
+ },
+ {
+  "selection": {
+   "origin": "2012-09-21",
+   "fold": 1,
+   "refit": 8,
+   "active": [
+    "copper@5",
+    "vix@5"
+   ],
+   "n_edges": 2,
+   "rate": 0.1,
+   "tau": 33,
+   "shift": 0.0450730688127387,
+   "warm_start": true,
+   "fitness": -0.01288906260446642,
+   "evaluations": 1961
+  }
+ },
+ {
+  "selection": {
+   "origin": "2012-10-22",
+   "fold": 1,
+   "refit": 9,
+   "active": [
+    "gold@1",
+    "gold@5",
+    "vix@1"
+   ],
+   "n_edges": 3,
+   "rate": 0.1,
+   "tau": 34,
+   "shift": 0.04604753179672462,
+   "warm_start": true,
+   "fitness": -0.006510819469221123,
+   "evaluations": 2211
+  }
+ },
+ {
+  "selection": {
+   "origin": "2012-11-23",
+   "fold": 1,
+   "refit": 10,
+   "active": [],
+   "n_edges": 0,
+   "rate": 0.1,
+   "tau": 35,
+   "shift": 0.03871621794275508,
+   "warm_start": true,
+   "fitness": -0.005300076372974321,
+   "evaluations": 1893
+  }
+ },
+ {
+  "selection": {
+   "origin": "2012-12-24",
+   "fold": 1,
+   "refit": 11,
+   "active": [
+    "gold@1",
+    "gold@5",
+    "vix@1"
+   ],
+   "n_edges": 3,
+   "rate": 0.1,
+   "tau": 36,
+   "shift": 0.06820462544302304,
+   "warm_start": true,
+   "fitness": -0.017056608626536747,
+   "evaluations": 2063
+  }
+ },
+ {
+  "selection": {
+   "origin": "2013-01-25",
+   "fold": 1,
+   "refit": 12,
+   "active": [
+    "gold@1",
+    "gold@21",
+    "copper@21"
+   ],
+   "n_edges": 3,
+   "rate": 0.1,
+   "tau": 37,
+   "shift": 0.06937966756646234,
+   "warm_start": true,
+   "fitness": -0.022644626184338303,
+   "evaluations": 2171
+  }
+ },
+ {
+  "selection": {
+   "origin": "2013-02-26",
+   "fold": 1,
+   "refit": 13,
+   "active": [
+    "real_yield_10y@21"
+   ],
+   "n_edges": 1,
+   "rate": 0.1,
+   "tau": 38,
+   "shift": 0.026313427777558063,
+   "warm_start": true,
+   "fitness": -0.023216237551824153,
+   "evaluations": 2502
+  }
+ },
+ {
+  "selection": {
+   "origin": "2013-03-27",
+   "fold": 1,
+   "refit": 14,
+   "active": [
+    "gold@5"
+   ],
+   "n_edges": 1,
+   "rate": 0.1,
+   "tau": 39,
+   "shift": 0.04551716172903394,
+   "warm_start": true,
+   "fitness": -0.028339231265308924,
+   "evaluations": 2334
+  }
+ },
+ {
+  "selection": {
+   "origin": "2013-04-26",
+   "fold": 1,
+   "refit": 15,
+   "active": [
+    "gold@1"
+   ],
+   "n_edges": 1,
+   "rate": 0.1,
+   "tau": 40,
+   "shift": 0.04876935046968748,
+   "warm_start": true,
+   "fitness": -0.03876098419499643,
+   "evaluations": 2538
+  }
+ },
+ {
+  "selection": {
+   "origin": "2013-05-28",
+   "fold": 1,
+   "refit": 16,
+   "active": [
+    "gold@5",
+    "copper@21",
+    "real_yield_10y@5"
+   ],
+   "n_edges": 3,
+   "rate": 0.1,
+   "tau": 41,
+   "shift": 0.01923203795374813,
+   "warm_start": true,
+   "fitness": -0.030542718454235764,
+   "evaluations": 2393
+  }
+ },
+ {
+  "selection": {
+   "origin": "2013-06-26",
+   "fold": 1,
+   "refit": 17,
+   "active": [
+    "copper@5",
+    "vix@1"
+   ],
+   "n_edges": 2,
+   "rate": 0.1,
+   "tau": 42,
+   "shift": 0.023352109941504797,
+   "warm_start": true,
+   "fitness": -0.03395772113652195,
+   "evaluations": 2446
+  }
+ },
+ {
+  "selection": {
+   "origin": "2013-07-26",
+   "fold": 1,
+   "refit": 18,
+   "active": [
+    "copper@21",
+    "vix@21"
+   ],
+   "n_edges": 2,
+   "rate": 0.1,
+   "tau": 43,
+   "shift": 0.011124669993519276,
+   "warm_start": true,
+   "fitness": -0.03768270065927996,
+   "evaluations": 2140
+  }
+ },
+ {
+  "selection": {
+   "origin": "2013-08-26",
+   "fold": 1,
+   "refit": 19,
+   "active": [
+    "copper@5",
+    "real_yield_10y@21"
+   ],
+   "n_edges": 2,
+   "rate": 0.1,
+   "tau": 44,
+   "shift": 0.018752667744280017,
+   "warm_start": true,
+   "fitness": -0.041689563299660816,
+   "evaluations": 1966
+  }
+ },
+ {
+  "selection": {
+   "origin": "2013-09-25",
+   "fold": 1,
+   "refit": 20,
+   "active": [
+    "copper@1",
+    "copper@5",
+    "dxy@21",
+    "vix@5"
+   ],
+   "n_edges": 4,
+   "rate": 0.1,
+   "tau": 45,
+   "shift": 0.02439902296064746,
+   "warm_start": true,
+   "fitness": -0.05468468433879118,
+   "evaluations": 2000
+  }
+ },
+ {
+  "selection": {
+   "origin": "2013-10-24",
+   "fold": 1,
+   "refit": 21,
+   "active": [
+    "copper@1",
+    "copper@21",
+    "dxy@21"
+   ],
+   "n_edges": 3,
+   "rate": 0.1,
+   "tau": 46,
+   "shift": 0.011688639817374898,
+   "warm_start": true,
+   "fitness": -0.05101326529877112,
+   "evaluations": 2272
+  }
+ },
+ {
+  "selection": {
+   "origin": "2013-11-22",
+   "fold": 1,
+   "refit": 22,
+   "active": [
+    "copper@1",
+    "copper@21",
+    "dxy@1",
+    "dxy@21"
+   ],
+   "n_edges": 4,
+   "rate": 0.1,
+   "tau": 47,
+   "shift": 0.009360356643268215,
+   "warm_start": true,
+   "fitness": -0.0470131110662449,
+   "evaluations": 1997
+  }
+ },
+ {
+  "selection": {
+   "origin": "2013-12-24",
+   "fold": 1,
+   "refit": 23,
+   "active": [
+    "copper@1",
+    "dxy@1"
+   ],
+   "n_edges": 2,
+   "rate": 0.1,
+   "tau": 48,
+   "shift": 0.009264825406418768,
+   "warm_start": true,
+   "fitness": -0.04824449899922957,
+   "evaluations": 2011
+  }
+ },
+ {
+  "selection": {
+   "origin": "2014-01-27",
+   "fold": 1,
+   "refit": 24,
+   "active": [
+    "copper@1",
+    "copper@5"
+   ],
+   "n_edges": 2,
+   "rate": 0.1,
+   "tau": 49,
+   "shift": 0.02272803276417272,
+   "warm_start": true,
+   "fitness": -0.029456081958264546,
+   "evaluations": 2025
+  }
+ },
+ {
+  "selection": {
+   "origin": "2014-02-14",
+   "fold": 2,
+   "refit": 0,
+   "active": [
+    "copper@1",
+    "dxy@21",
+    "vix@5"
+   ],
+   "n_edges": 3,
+   "rate": 0.1,
+   "tau": 50,
+   "shift": 0.027517654341495563,
+   "warm_start": true,
+   "fitness": -0.02507570828743344,
+   "evaluations": 2047
+  }
+ },
+ {
+  "selection": {
+   "origin": "2014-03-18",
+   "fold": 2,
+   "refit": 1,
+   "active": [
+    "copper@1",
+    "vix@5"
+   ],
+   "n_edges": 2,
+   "rate": 0.1,
+   "tau": 51,
+   "shift": 0.023028019210108195,
+   "warm_start": true,
+   "fitness": -0.036749902671590284,
+   "evaluations": 1812
+  }
+ },
+ {
+  "selection": {
+   "origin": "2014-04-16",
+   "fold": 2,
+   "refit": 2,
+   "active": [
+    "real_yield_10y@1",
+    "vix@5"
+   ],
+   "n_edges": 2,
+   "rate": 0.1,
+   "tau": 52,
+   "shift": 0.03970611984257276,
+   "warm_start": true,
+   "fitness": -0.026680651278943257,
+   "evaluations": 2114
+  }
+ },
+ {
+  "selection": {
+   "origin": "2014-05-16",
+   "fold": 2,
+   "refit": 3,
+   "active": [
+    "copper@5",
+    "dxy@5"
+   ],
+   "n_edges": 2,
+   "rate": 0.1,
+   "tau": 53,
+   "shift": 0.04457203018651333,
+   "warm_start": true,
+   "fitness": -0.018559636973263464,
+   "evaluations": 2263
+  }
+ },
+ {
+  "selection": {
+   "origin": "2014-06-17",
+   "fold": 2,
+   "refit": 4,
+   "active": [
+    "real_yield_10y@1",
+    "vix@1"
+   ],
+   "n_edges": 2,
+   "rate": 0.1,
+   "tau": 54,
+   "shift": 0.04481389445981007,
+   "warm_start": true,
+   "fitness": -0.017780485056759558,
+   "evaluations": 1978
+  }
+ },
+ {
+  "selection": {
+   "origin": "2014-07-17",
+   "fold": 2,
+   "refit": 5,
+   "active": [
+    "gold@21",
+    "dxy@5",
+    "real_yield_10y@1"
+   ],
+   "n_edges": 3,
+   "rate": 0.1,
+   "tau": 55,
+   "shift": 0.03676461017576657,
+   "warm_start": true,
+   "fitness": -0.010206018346027189,
+   "evaluations": 2468
+  }
+ },
+ {
+  "selection": {
+   "origin": "2014-08-15",
+   "fold": 2,
+   "refit": 6,
+   "active": [
+    "dxy@5"
+   ],
+   "n_edges": 1,
+   "rate": 0.1,
+   "tau": 56,
+   "shift": 0.03561407307425936,
+   "warm_start": true,
+   "fitness": -0.01815840716308437,
+   "evaluations": 2313
+  }
+ },
+ {
+  "selection": {
+   "origin": "2014-09-16",
+   "fold": 2,
+   "refit": 7,
+   "active": [
+    "gold@1",
+    "gold@5",
+    "vix@5"
+   ],
+   "n_edges": 3,
+   "rate": 0.1,
+   "tau": 57,
+   "shift": 0.05080105635816889,
+   "warm_start": true,
+   "fitness": -0.022226486725719034,
+   "evaluations": 1942
+  }
+ },
+ {
+  "selection": {
+   "origin": "2014-10-15",
+   "fold": 2,
+   "refit": 8,
+   "active": [
+    "gold@1"
+   ],
+   "n_edges": 1,
+   "rate": 0.1,
+   "tau": 58,
+   "shift": 0.0437995896695051,
+   "warm_start": true,
+   "fitness": -0.028428049039305073,
+   "evaluations": 2341
+  }
+ },
+ {
+  "selection": {
+   "origin": "2014-11-13",
+   "fold": 2,
+   "refit": 9,
+   "active": [
+    "dxy@5"
+   ],
+   "n_edges": 1,
+   "rate": 0.1,
+   "tau": 59,
+   "shift": 0.043308440559867,
+   "warm_start": true,
+   "fitness": -0.037266702603758195,
+   "evaluations": 2149
+  }
+ },
+ {
+  "selection": {
+   "origin": "2014-12-15",
+   "fold": 2,
+   "refit": 10,
+   "active": [
+    "gold@5",
+    "copper@21",
+    "vix@5"
+   ],
+   "n_edges": 3,
+   "rate": 0.1,
+   "tau": 60,
+   "shift": 0.037261298286925135,
+   "warm_start": true,
+   "fitness": -0.015684996170909463,
+   "evaluations": 2262
+  }
+ },
+ {
+  "selection": {
+   "origin": "2015-01-15",
+   "fold": 2,
+   "refit": 11,
+   "active": [
+    "gold@21",
+    "vix@1",
+    "vix@5"
+   ],
+   "n_edges": 3,
+   "rate": 0.1,
+   "tau": 61,
+   "shift": 0.03227395540054086,
+   "warm_start": true,
+   "fitness": -0.015532885117442665,
+   "evaluations": 2217
+  }
+ },
+ {
+  "selection": {
+   "origin": "2015-02-17",
+   "fold": 2,
+   "refit": 12,
+   "active": [
+    "gold@21",
+    "real_yield_10y@1",
+    "vix@5"
+   ],
+   "n_edges": 3,
+   "rate": 0.1,
+   "tau": 62,
+   "shift": 0.022989581752878182,
+   "warm_start": true,
+   "fitness": -0.007638578133443418,
+   "evaluations": 1988
+  }
+ },
+ {
+  "selection": {
+   "origin": "2015-03-18",
+   "fold": 2,
+   "refit": 13,
+   "active": [
+    "dxy@5"
+   ],
+   "n_edges": 1,
+   "rate": 0.1,
+   "tau": 63,
+   "shift": 0.03421448343806259,
+   "warm_start": true,
+   "fitness": -0.013476787845175217,
+   "evaluations": 2303
+  }
+ },
+ {
+  "selection": {
+   "origin": "2015-04-17",
+   "fold": 2,
+   "refit": 14,
+   "active": [
+    "gold@5",
+    "real_yield_10y@21"
+   ],
+   "n_edges": 2,
+   "rate": 0.1,
+   "tau": 64,
+   "shift": 0.038592132226488274,
+   "warm_start": true,
+   "fitness": -0.01398340034313012,
+   "evaluations": 2205
+  }
+ },
+ {
+  "selection": {
+   "origin": "2015-05-18",
+   "fold": 2,
+   "refit": 15,
+   "active": [
+    "dxy@5"
+   ],
+   "n_edges": 1,
+   "rate": 0.1,
+   "tau": 65,
+   "shift": 0.03560585811758705,
+   "warm_start": true,
+   "fitness": -0.0073564943071032255,
+   "evaluations": 2358
+  }
+ },
+ {
+  "selection": {
+   "origin": "2015-06-17",
+   "fold": 2,
+   "refit": 16,
+   "active": [
+    "gold@21",
+    "real_yield_10y@1"
+   ],
+   "n_edges": 2,
+   "rate": 0.1,
+   "tau": 66,
+   "shift": 0.041771375070640375,
+   "warm_start": true,
+   "fitness": -0.012975605009267815,
+   "evaluations": 2063
+  }
+ },
+ {
+  "selection": {
+   "origin": "2015-07-17",
+   "fold": 2,
+   "refit": 17,
+   "active": [
+    "dxy@5"
+   ],
+   "n_edges": 1,
+   "rate": 0.1,
+   "tau": 67,
+   "shift": 0.0445923752700679,
+   "warm_start": true,
+   "fitness": -0.01785191857773311,
+   "evaluations": 2204
+  }
+ },
+ {
+  "selection": {
+   "origin": "2015-08-17",
+   "fold": 2,
+   "refit": 18,
+   "active": [
+    "real_yield_10y@1",
+    "vix@21"
+   ],
+   "n_edges": 2,
+   "rate": 0.1,
+   "tau": 68,
+   "shift": 0.05339425197534894,
+   "warm_start": true,
+   "fitness": -0.012599142072866448,
+   "evaluations": 2001
+  }
+ },
+ {
+  "selection": {
+   "origin": "2015-09-16",
+   "fold": 2,
+   "refit": 19,
+   "active": [
+    "dxy@5"
+   ],
+   "n_edges": 1,
+   "rate": 0.1,
+   "tau": 69,
+   "shift": 0.02533981756712343,
+   "warm_start": true,
+   "fitness": -0.00915178620773799,
+   "evaluations": 2355
+  }
+ },
+ {
+  "selection": {
+   "origin": "2015-10-15",
+   "fold": 2,
+   "refit": 20,
+   "active": [
+    "gold@5",
+    "vix@21"
+   ],
+   "n_edges": 2,
+   "rate": 0.1,
+   "tau": 70,
+   "shift": 0.04017843221894865,
+   "warm_start": true,
+   "fitness": -0.010310800550649651,
+   "evaluations": 2241
+  }
+ },
+ {
+  "selection": {
+   "origin": "2015-11-13",
+   "fold": 2,
+   "refit": 21,
+   "active": [
+    "gold@5",
+    "dxy@5",
+    "real_yield_10y@21"
+   ],
+   "n_edges": 3,
+   "rate": 0.1,
+   "tau": 71,
+   "shift": 0.03481972345412231,
+   "warm_start": true,
+   "fitness": -0.00849578153784842,
+   "evaluations": 1957
+  }
+ },
+ {
+  "selection": {
+   "origin": "2015-12-15",
+   "fold": 2,
+   "refit": 22,
+   "active": [
+    "copper@21",
+    "real_yield_10y@1"
+   ],
+   "n_edges": 2,
+   "rate": 0.1,
+   "tau": 72,
+   "shift": 0.03988039793091117,
+   "warm_start": true,
+   "fitness": -0.01045021422591473,
+   "evaluations": 2274
+  }
+ },
+ {
+  "selection": {
+   "origin": "2016-01-15",
+   "fold": 2,
+   "refit": 23,
+   "active": [
+    "dxy@5"
+   ],
+   "n_edges": 1,
+   "rate": 0.1,
+   "tau": 73,
+   "shift": 0.05882882519359416,
+   "warm_start": true,
+   "fitness": -0.012403577208104201,
+   "evaluations": 2290
+  }
+ },
+ {
+  "selection": {
+   "origin": "2016-02-17",
+   "fold": 2,
+   "refit": 24,
+   "active": [
+    "copper@1",
+    "copper@21",
+    "vix@5",
+    "vix@21"
+   ],
+   "n_edges": 4,
+   "rate": 0.1,
+   "tau": 74,
+   "shift": 0.035186580636215756,
+   "warm_start": true,
+   "fitness": -0.01182032919839694,
+   "evaluations": 2026
+  }
+ },
+ {
+  "selection": {
+   "origin": "2016-03-08",
+   "fold": 3,
+   "refit": 0,
+   "active": [
+    "copper@1",
+    "copper@21",
+    "vix@5",
+    "vix@21"
+   ],
+   "n_edges": 4,
+   "rate": 0.1,
+   "tau": 75,
+   "shift": 0.011841097555706432,
+   "warm_start": true,
+   "fitness": -0.014262881427101606,
+   "evaluations": 1831
+  }
+ },
+ {
+  "selection": {
+   "origin": "2016-04-07",
+   "fold": 3,
+   "refit": 1,
+   "active": [
+    "copper@1",
+    "copper@21",
+    "vix@5",
+    "vix@21"
+   ],
+   "n_edges": 4,
+   "rate": 0.1,
+   "tau": 76,
+   "shift": 0.029256229048370632,
+   "warm_start": true,
+   "fitness": -0.013492789416603559,
+   "evaluations": 1797
+  }
+ },
+ {
+  "selection": {
+   "origin": "2016-05-06",
+   "fold": 3,
+   "refit": 2,
+   "active": [
+    "real_yield_10y@5",
+    "vix@5"
+   ],
+   "n_edges": 2,
+   "rate": 0.1,
+   "tau": 77,
+   "shift": 0.01689589751985342,
+   "warm_start": true,
+   "fitness": -0.009972592602767246,
+   "evaluations": 2254
+  }
+ },
+ {
+  "selection": {
+   "origin": "2016-06-07",
+   "fold": 3,
+   "refit": 3,
+   "active": [
+    "gold@1",
+    "vix@5"
+   ],
+   "n_edges": 2,
+   "rate": 0.1,
+   "tau": 78,
+   "shift": 0.01368600305539009,
+   "warm_start": true,
+   "fitness": -0.015400411528917081,
+   "evaluations": 2143
+  }
+ },
+ {
+  "selection": {
+   "origin": "2016-07-07",
+   "fold": 3,
+   "refit": 4,
+   "active": [
+    "vix@5"
+   ],
+   "n_edges": 1,
+   "rate": 0.1,
+   "tau": 79,
+   "shift": 0.010981657128673184,
+   "warm_start": true,
+   "fitness": -0.020713449439690473,
+   "evaluations": 2133
+  }
+ },
+ {
+  "selection": {
+   "origin": "2016-08-05",
+   "fold": 3,
+   "refit": 5,
+   "active": [
+    "gold@1",
+    "dxy@21",
+    "vix@1",
+    "vix@5"
+   ],
+   "n_edges": 4,
+   "rate": 0.1,
+   "tau": 80,
+   "shift": 0.012779366308866898,
+   "warm_start": true,
+   "fitness": -0.01634263436111904,
+   "evaluations": 1872
+  }
+ },
+ {
+  "selection": {
+   "origin": "2016-09-06",
+   "fold": 3,
+   "refit": 6,
+   "active": [
+    "vix@5"
+   ],
+   "n_edges": 1,
+   "rate": 0.1,
+   "tau": 81,
+   "shift": 0.014843581926741766,
+   "warm_start": true,
+   "fitness": -0.01529659776817931,
+   "evaluations": 2114
+  }
+ },
+ {
+  "selection": {
+   "origin": "2016-10-05",
+   "fold": 3,
+   "refit": 7,
+   "active": [
+    "vix@5"
+   ],
+   "n_edges": 1,
+   "rate": 0.1,
+   "tau": 82,
+   "shift": 0.011340230131051924,
+   "warm_start": true,
+   "fitness": -0.017730585373712658,
+   "evaluations": 2164
+  }
+ },
+ {
+  "selection": {
+   "origin": "2016-11-04",
+   "fold": 3,
+   "refit": 8,
+   "active": [
+    "vix@5"
+   ],
+   "n_edges": 1,
+   "rate": 0.1,
+   "tau": 83,
+   "shift": 0.010790238502125375,
+   "warm_start": true,
+   "fitness": -0.020556083954645275,
+   "evaluations": 2176
+  }
+ },
+ {
+  "selection": {
+   "origin": "2016-12-07",
+   "fold": 3,
+   "refit": 9,
+   "active": [
+    "vix@5"
+   ],
+   "n_edges": 1,
+   "rate": 0.1,
+   "tau": 84,
+   "shift": 0.019107807449909413,
+   "warm_start": true,
+   "fitness": -0.02021371487505543,
+   "evaluations": 2220
+  }
+ },
+ {
+  "selection": {
+   "origin": "2017-01-09",
+   "fold": 3,
+   "refit": 10,
+   "active": [
+    "vix@5"
+   ],
+   "n_edges": 1,
+   "rate": 0.1,
+   "tau": 85,
+   "shift": 0.018746950655292558,
+   "warm_start": true,
+   "fitness": -0.015520683564020275,
+   "evaluations": 2085
+  }
+ },
+ {
+  "selection": {
+   "origin": "2017-02-08",
+   "fold": 3,
+   "refit": 11,
+   "active": [
+    "vix@5"
+   ],
+   "n_edges": 1,
+   "rate": 0.1,
+   "tau": 86,
+   "shift": 0.01093242326924133,
+   "warm_start": true,
+   "fitness": -0.015632025040460705,
+   "evaluations": 2039
+  }
+ },
+ {
+  "selection": {
+   "origin": "2017-03-10",
+   "fold": 3,
+   "refit": 12,
+   "active": [
+    "copper@21",
+    "real_yield_10y@5"
+   ],
+   "n_edges": 2,
+   "rate": 0.1,
+   "tau": 87,
+   "shift": 0.02312105532517129,
+   "warm_start": true,
+   "fitness": -0.007206587762817825,
+   "evaluations": 2252
+  }
+ },
+ {
+  "selection": {
+   "origin": "2017-04-10",
+   "fold": 3,
+   "refit": 13,
+   "active": [
+    "dxy@1",
+    "real_yield_10y@21",
+    "vix@1",
+    "vix@5"
+   ],
+   "n_edges": 4,
+   "rate": 0.1,
+   "tau": 88,
+   "shift": 0.01349179991672097,
+   "warm_start": true,
+   "fitness": -0.005305824222535065,
+   "evaluations": 2219
+  }
+ },
+ {
+  "selection": {
+   "origin": "2017-05-10",
+   "fold": 3,
+   "refit": 14,
+   "active": [
+    "vix@1",
+    "vix@5"
+   ],
+   "n_edges": 2,
+   "rate": 0.1,
+   "tau": 89,
+   "shift": 0.01745721628995849,
+   "warm_start": true,
+   "fitness": -0.008315101560519537,
+   "evaluations": 1978
+  }
+ },
+ {
+  "selection": {
+   "origin": "2017-06-09",
+   "fold": 3,
+   "refit": 15,
+   "active": [
+    "real_yield_10y@21",
+    "vix@1"
+   ],
+   "n_edges": 2,
+   "rate": 0.1,
+   "tau": 90,
+   "shift": 0.013904773097170952,
+   "warm_start": true,
+   "fitness": -0.009722724851535162,
+   "evaluations": 1947
+  }
+ },
+ {
+  "selection": {
+   "origin": "2017-07-11",
+   "fold": 3,
+   "refit": 16,
+   "active": [
+    "copper@5",
+    "dxy@1",
+    "real_yield_10y@21",
+    "vix@5"
+   ],
+   "n_edges": 4,
+   "rate": 0.1,
+   "tau": 91,
+   "shift": 0.01754478356621897,
+   "warm_start": true,
+   "fitness": -0.004455596797796888,
+   "evaluations": 2109
+  }
+ },
+ {
+  "selection": {
+   "origin": "2017-08-09",
+   "fold": 3,
+   "refit": 17,
+   "active": [
+    "vix@1",
+    "vix@5"
+   ],
+   "n_edges": 2,
+   "rate": 0.1,
+   "tau": 92,
+   "shift": 0.014983979962421607,
+   "warm_start": true,
+   "fitness": -0.008755487447782128,
+   "evaluations": 1927
+  }
+ },
+ {
+  "selection": {
+   "origin": "2017-09-08",
+   "fold": 3,
+   "refit": 18,
+   "active": [
+    "vix@1",
+    "vix@5"
+   ],
+   "n_edges": 2,
+   "rate": 0.1,
+   "tau": 93,
+   "shift": 0.010984306816031427,
+   "warm_start": true,
+   "fitness": -0.008666503774453235,
+   "evaluations": 1975
+  }
+ },
+ {
+  "selection": {
+   "origin": "2017-10-09",
+   "fold": 3,
+   "refit": 19,
+   "active": [
+    "vix@1"
+   ],
+   "n_edges": 1,
+   "rate": 0.1,
+   "tau": 94,
+   "shift": 0.011541260945061764,
+   "warm_start": true,
+   "fitness": -0.00960493847557227,
+   "evaluations": 2003
+  }
+ },
+ {
+  "selection": {
+   "origin": "2017-11-07",
+   "fold": 3,
+   "refit": 20,
+   "active": [
+    "dxy@21",
+    "vix@1",
+    "vix@5"
+   ],
+   "n_edges": 3,
+   "rate": 0.1,
+   "tau": 95,
+   "shift": 0.01396395714942682,
+   "warm_start": true,
+   "fitness": -0.0068243836067427375,
+   "evaluations": 1839
+  }
+ },
+ {
+  "selection": {
+   "origin": "2017-12-07",
+   "fold": 3,
+   "refit": 21,
+   "active": [
+    "dxy@21",
+    "vix@1"
+   ],
+   "n_edges": 2,
+   "rate": 0.1,
+   "tau": 96,
+   "shift": 0.016827489897118866,
+   "warm_start": true,
+   "fitness": -0.007852198503362851,
+   "evaluations": 1898
+  }
+ },
+ {
+  "selection": {
+   "origin": "2018-01-09",
+   "fold": 3,
+   "refit": 22,
+   "active": [
+    "vix@1",
+    "vix@5"
+   ],
+   "n_edges": 2,
+   "rate": 0.1,
+   "tau": 97,
+   "shift": 0.02000606320343478,
+   "warm_start": true,
+   "fitness": -0.008160367902682623,
+   "evaluations": 2008
+  }
+ },
+ {
+  "selection": {
+   "origin": "2018-02-09",
+   "fold": 3,
+   "refit": 23,
+   "active": [
+    "vix@1"
+   ],
+   "n_edges": 1,
+   "rate": 0.1,
+   "tau": 98,
+   "shift": 0.017353426104854502,
+   "warm_start": true,
+   "fitness": -0.007298238722764651,
+   "evaluations": 2012
+  }
+ },
+ {
+  "selection": {
+   "origin": "2018-03-13",
+   "fold": 3,
+   "refit": 24,
+   "active": [
+    "copper@5",
+    "real_yield_10y@5"
+   ],
+   "n_edges": 2,
+   "rate": 0.1,
+   "tau": 99,
+   "shift": 0.02551298023412547,
+   "warm_start": true,
+   "fitness": -0.0111047120282861,
+   "evaluations": 2133
+  }
+ },
+ {
+  "selection": {
+   "origin": "2018-04-03",
+   "fold": 4,
+   "refit": 0,
+   "active": [
+    "real_yield_10y@21"
+   ],
+   "n_edges": 1,
+   "rate": 0.1,
+   "tau": 100,
+   "shift": 0.027008160063897148,
+   "warm_start": true,
+   "fitness": -0.02080778357979343,
+   "evaluations": 2022
+  }
+ },
+ {
+  "selection": {
+   "origin": "2018-05-02",
+   "fold": 4,
+   "refit": 1,
+   "active": [
+    "real_yield_10y@21",
+    "vix@5"
+   ],
+   "n_edges": 2,
+   "rate": 0.1,
+   "tau": 101,
+   "shift": 0.02596785176797385,
+   "warm_start": true,
+   "fitness": -0.0077374784784313005,
+   "evaluations": 1943
+  }
+ },
+ {
+  "selection": {
+   "origin": "2018-06-01",
+   "fold": 4,
+   "refit": 2,
+   "active": [
+    "copper@5"
+   ],
+   "n_edges": 1,
+   "rate": 0.1,
+   "tau": 102,
+   "shift": 0.022879091262940267,
+   "warm_start": true,
+   "fitness": -0.012431900477376434,
+   "evaluations": 2353
+  }
+ },
+ {
+  "selection": {
+   "origin": "2018-07-02",
+   "fold": 4,
+   "refit": 3,
+   "active": [
+    "copper@21",
+    "real_yield_10y@21",
+    "vix@5"
+   ],
+   "n_edges": 3,
+   "rate": 0.1,
+   "tau": 103,
+   "shift": 0.023232818127862046,
+   "warm_start": true,
+   "fitness": -0.02090585394665246,
+   "evaluations": 1867
+  }
+ },
+ {
+  "selection": {
+   "origin": "2018-08-01",
+   "fold": 4,
+   "refit": 4,
+   "active": [
+    "dxy@1",
+    "vix@5"
+   ],
+   "n_edges": 2,
+   "rate": 0.1,
+   "tau": 104,
+   "shift": 0.030852656848437635,
+   "warm_start": true,
+   "fitness": -0.020777115363857387,
+   "evaluations": 2038
+  }
+ },
+ {
+  "selection": {
+   "origin": "2018-08-30",
+   "fold": 4,
+   "refit": 5,
+   "active": [
+    "dxy@1",
+    "real_yield_10y@5"
+   ],
+   "n_edges": 2,
+   "rate": 0.1,
+   "tau": 105,
+   "shift": 0.03488961372979966,
+   "warm_start": true,
+   "fitness": -0.020680174232850887,
+   "evaluations": 1865
+  }
+ },
+ {
+  "selection": {
+   "origin": "2018-10-01",
+   "fold": 4,
+   "refit": 6,
+   "active": [
+    "copper@21",
+    "real_yield_10y@21"
+   ],
+   "n_edges": 2,
+   "rate": 0.1,
+   "tau": 106,
+   "shift": 0.044169726284622145,
+   "warm_start": true,
+   "fitness": -0.02549317804637756,
+   "evaluations": 1880
+  }
+ },
+ {
+  "selection": {
+   "origin": "2018-10-30",
+   "fold": 4,
+   "refit": 7,
+   "active": [
+    "dxy@1"
+   ],
+   "n_edges": 1,
+   "rate": 0.1,
+   "tau": 107,
+   "shift": 0.062098852451949425,
+   "warm_start": true,
+   "fitness": -0.02253202674385593,
+   "evaluations": 2164
+  }
+ },
+ {
+  "selection": {
+   "origin": "2018-11-29",
+   "fold": 4,
+   "refit": 8,
+   "active": [
+    "dxy@1",
+    "vix@5"
+   ],
+   "n_edges": 2,
+   "rate": 0.1,
+   "tau": 108,
+   "shift": 0.055926379713411196,
+   "warm_start": true,
+   "fitness": -0.016684850914954735,
+   "evaluations": 1938
+  }
+ },
+ {
+  "selection": {
+   "origin": "2019-01-02",
+   "fold": 4,
+   "refit": 9,
+   "active": [
+    "real_yield_10y@21"
+   ],
+   "n_edges": 1,
+   "rate": 0.1,
+   "tau": 109,
+   "shift": 0.04065541760287637,
+   "warm_start": true,
+   "fitness": -0.03031424758431003,
+   "evaluations": 1861
+  }
+ },
+ {
+  "selection": {
+   "origin": "2019-02-01",
+   "fold": 4,
+   "refit": 10,
+   "active": [
+    "real_yield_10y@5",
+    "vix@5"
+   ],
+   "n_edges": 2,
+   "rate": 0.1,
+   "tau": 110,
+   "shift": 0.047630968393558536,
+   "warm_start": true,
+   "fitness": -0.021629938621303677,
+   "evaluations": 1943
+  }
+ },
+ {
+  "selection": {
+   "origin": "2019-03-05",
+   "fold": 4,
+   "refit": 11,
+   "active": [
+    "gold@1",
+    "copper@21",
+    "real_yield_10y@5"
+   ],
+   "n_edges": 3,
+   "rate": 0.1,
+   "tau": 111,
+   "shift": 0.04905380754275878,
+   "warm_start": true,
+   "fitness": -0.015377737583712366,
+   "evaluations": 1889
+  }
+ },
+ {
+  "selection": {
+   "origin": "2019-04-03",
+   "fold": 4,
+   "refit": 12,
+   "active": [
+    "dxy@1",
+    "vix@21"
+   ],
+   "n_edges": 2,
+   "rate": 0.1,
+   "tau": 112,
+   "shift": 0.03761000119527107,
+   "warm_start": true,
+   "fitness": -0.025238191261298955,
+   "evaluations": 2264
+  }
+ },
+ {
+  "selection": {
+   "origin": "2019-05-03",
+   "fold": 4,
+   "refit": 13,
+   "active": [
+    "gold@5"
+   ],
+   "n_edges": 1,
+   "rate": 0.1,
+   "tau": 113,
+   "shift": 0.020906358642020794,
+   "warm_start": true,
+   "fitness": -0.020498842763275807,
+   "evaluations": 2250
+  }
+ },
+ {
+  "selection": {
+   "origin": "2019-06-04",
+   "fold": 4,
+   "refit": 14,
+   "active": [
+    "dxy@1",
+    "dxy@21",
+    "real_yield_10y@21"
+   ],
+   "n_edges": 3,
+   "rate": 0.1,
+   "tau": 114,
+   "shift": 0.02355499489036228,
+   "warm_start": true,
+   "fitness": -0.0360559428735983,
+   "evaluations": 1963
+  }
+ },
+ {
+  "selection": {
+   "origin": "2019-07-03",
+   "fold": 4,
+   "refit": 15,
+   "active": [
+    "dxy@1",
+    "real_yield_10y@21"
+   ],
+   "n_edges": 2,
+   "rate": 0.1,
+   "tau": 115,
+   "shift": 0.025780761521384473,
+   "warm_start": true,
+   "fitness": -0.03160839252975608,
+   "evaluations": 2041
+  }
+ },
+ {
+  "selection": {
+   "origin": "2019-08-02",
+   "fold": 4,
+   "refit": 16,
+   "active": [
+    "gold@5",
+    "dxy@1",
+    "real_yield_10y@21"
+   ],
+   "n_edges": 3,
+   "rate": 0.1,
+   "tau": 116,
+   "shift": 0.023361106204011696,
+   "warm_start": true,
+   "fitness": -0.03338819883211277,
+   "evaluations": 1872
+  }
+ },
+ {
+  "selection": {
+   "origin": "2019-09-03",
+   "fold": 4,
+   "refit": 17,
+   "active": [
+    "gold@5",
+    "dxy@1",
+    "real_yield_10y@21"
+   ],
+   "n_edges": 3,
+   "rate": 0.1,
+   "tau": 117,
+   "shift": 0.018391432218183578,
+   "warm_start": true,
+   "fitness": -0.033076082725429445,
+   "evaluations": 1874
+  }
+ },
+ {
+  "selection": {
+   "origin": "2019-10-02",
+   "fold": 4,
+   "refit": 18,
+   "active": [
+    "gold@5",
+    "gold@21",
+    "vix@1"
+   ],
+   "n_edges": 3,
+   "rate": 0.1,
+   "tau": 118,
+   "shift": 0.03736064422563047,
+   "warm_start": true,
+   "fitness": -0.02415671000921841,
+   "evaluations": 2093
+  }
+ },
+ {
+  "selection": {
+   "origin": "2019-10-31",
+   "fold": 4,
+   "refit": 19,
+   "active": [
+    "gold@5",
+    "dxy@1"
+   ],
+   "n_edges": 2,
+   "rate": 0.1,
+   "tau": 119,
+   "shift": 0.02091247391407135,
+   "warm_start": true,
+   "fitness": -0.031419855806965505,
+   "evaluations": 1911
+  }
+ },
+ {
+  "selection": {
+   "origin": "2019-12-02",
+   "fold": 4,
+   "refit": 20,
+   "active": [
+    "gold@1",
+    "gold@5",
+    "dxy@1"
+   ],
+   "n_edges": 3,
+   "rate": 0.1,
+   "tau": 120,
+   "shift": 0.01928289074489674,
+   "warm_start": true,
+   "fitness": -0.025619329432088354,
+   "evaluations": 1985
+  }
+ },
+ {
+  "selection": {
+   "origin": "2020-01-02",
+   "fold": 4,
+   "refit": 21,
+   "active": [
+    "gold@1",
+    "dxy@1"
+   ],
+   "n_edges": 2,
+   "rate": 0.1,
+   "tau": 121,
+   "shift": 0.023574274743749943,
+   "warm_start": true,
+   "fitness": -0.020787050061494363,
+   "evaluations": 2126
+  }
+ },
+ {
+  "selection": {
+   "origin": "2020-02-03",
+   "fold": 4,
+   "refit": 22,
+   "active": [
+    "gold@1",
+    "gold@5",
+    "copper@1",
+    "dxy@1",
+    "dxy@21",
+    "real_yield_10y@5"
+   ],
+   "n_edges": 6,
+   "rate": 0.1,
+   "tau": 122,
+   "shift": 0.01696534656252996,
+   "warm_start": true,
+   "fitness": -0.02154057776882754,
+   "evaluations": 2022
+  }
+ },
+ {
+  "selection": {
+   "origin": "2020-03-04",
+   "fold": 4,
+   "refit": 23,
+   "active": [
+    "gold@1",
+    "gold@5",
+    "dxy@1",
+    "dxy@21",
+    "vix@1"
+   ],
+   "n_edges": 5,
+   "rate": 0.1,
+   "tau": 123,
+   "shift": 0.021443649281372077,
+   "warm_start": true,
+   "fitness": -0.029327529184860767,
+   "evaluations": 1869
+  }
+ },
+ {
+  "selection": {
+   "origin": "2020-04-02",
+   "fold": 4,
+   "refit": 24,
+   "active": [
+    "gold@1",
+    "gold@5",
+    "copper@1",
+    "dxy@21",
+    "vix@1"
+   ],
+   "n_edges": 5,
+   "rate": 0.1,
+   "tau": 124,
+   "shift": 0.02185210969286262,
+   "warm_start": true,
+   "fitness": -0.042467847581750234,
+   "evaluations": 1855
+  }
+ },
+ {
+  "selection": {
+   "origin": "2020-04-23",
+   "fold": 5,
+   "refit": 0,
+   "active": [
+    "gold@1",
+    "vix@1"
+   ],
+   "n_edges": 2,
+   "rate": 0.1,
+   "tau": 125,
+   "shift": 0.005904081646021338,
+   "warm_start": true,
+   "fitness": -0.036699847163138295,
+   "evaluations": 2078
+  }
+ },
+ {
+  "selection": {
+   "origin": "2020-05-22",
+   "fold": 5,
+   "refit": 1,
+   "active": [
+    "gold@1",
+    "vix@1"
+   ],
+   "n_edges": 2,
+   "rate": 0.1,
+   "tau": 126,
+   "shift": 0.005604719265296358,
+   "warm_start": true,
+   "fitness": -0.03115090705867667,
+   "evaluations": 2055
+  }
+ },
+ {
+  "selection": {
+   "origin": "2020-06-23",
+   "fold": 5,
+   "refit": 2,
+   "active": [
+    "copper@1",
+    "dxy@1",
+    "vix@1"
+   ],
+   "n_edges": 3,
+   "rate": 0.1,
+   "tau": 127,
+   "shift": 0.007231491273087923,
+   "warm_start": true,
+   "fitness": -0.03613138265506208,
+   "evaluations": 1974
+  }
+ },
+ {
+  "selection": {
+   "origin": "2020-07-23",
+   "fold": 5,
+   "refit": 3,
+   "active": [
+    "gold@1",
+    "copper@1",
+    "vix@1"
+   ],
+   "n_edges": 3,
+   "rate": 0.1,
+   "tau": 128,
+   "shift": 0.007092881948701387,
+   "warm_start": true,
+   "fitness": -0.03812973234741438,
+   "evaluations": 1901
+  }
+ },
+ {
+  "selection": {
+   "origin": "2020-08-21",
+   "fold": 5,
+   "refit": 4,
+   "active": [
+    "gold@1",
+    "copper@1",
+    "vix@1"
+   ],
+   "n_edges": 3,
+   "rate": 0.1,
+   "tau": 129,
+   "shift": 0.007250755719859503,
+   "warm_start": true,
+   "fitness": -0.027709260253847522,
+   "evaluations": 1761
+  }
+ },
+ {
+  "selection": {
+   "origin": "2020-09-22",
+   "fold": 5,
+   "refit": 5,
+   "active": [
+    "gold@1",
+    "vix@1"
+   ],
+   "n_edges": 2,
+   "rate": 0.1,
+   "tau": 130,
+   "shift": 0.006229818117097345,
+   "warm_start": true,
+   "fitness": -0.025365993493033343,
+   "evaluations": 1970
+  }
+ },
+ {
+  "selection": {
+   "origin": "2020-10-21",
+   "fold": 5,
+   "refit": 6,
+   "active": [
+    "gold@5",
+    "copper@1",
+    "dxy@1",
+    "vix@1"
+   ],
+   "n_edges": 4,
+   "rate": 0.1,
+   "tau": 131,
+   "shift": 0.007350951061291777,
+   "warm_start": true,
+   "fitness": -0.019195319110761482,
+   "evaluations": 2026
+  }
+ },
+ {
+  "selection": {
+   "origin": "2020-11-19",
+   "fold": 5,
+   "refit": 7,
+   "active": [
+    "gold@1",
+    "vix@1"
+   ],
+   "n_edges": 2,
+   "rate": 0.1,
+   "tau": 132,
+   "shift": 0.005516938180852153,
+   "warm_start": true,
+   "fitness": -0.020596892749716652,
+   "evaluations": 1897
+  }
+ },
+ {
+  "selection": {
+   "origin": "2020-12-21",
+   "fold": 5,
+   "refit": 8,
+   "active": [
+    "gold@1",
+    "gold@5",
+    "vix@1",
+    "vix@5"
+   ],
+   "n_edges": 4,
+   "rate": 0.1,
+   "tau": 133,
+   "shift": 0.01218656551639662,
+   "warm_start": true,
+   "fitness": -0.01949629210081278,
+   "evaluations": 1884
+  }
+ },
+ {
+  "selection": {
+   "origin": "2021-01-22",
+   "fold": 5,
+   "refit": 9,
+   "active": [
+    "gold@1",
+    "copper@1",
+    "vix@1"
+   ],
+   "n_edges": 3,
+   "rate": 0.1,
+   "tau": 134,
+   "shift": 0.008368604055219239,
+   "warm_start": true,
+   "fitness": -0.01701855726138532,
+   "evaluations": 2005
+  }
+ },
+ {
+  "selection": {
+   "origin": "2021-02-23",
+   "fold": 5,
+   "refit": 10,
+   "active": [
+    "gold@1",
+    "copper@1",
+    "vix@1"
+   ],
+   "n_edges": 3,
+   "rate": 0.1,
+   "tau": 135,
+   "shift": 0.014058974475327632,
+   "warm_start": true,
+   "fitness": -0.028163447647036,
+   "evaluations": 1774
+  }
+ },
+ {
+  "selection": {
+   "origin": "2021-03-24",
+   "fold": 5,
+   "refit": 11,
+   "active": [
+    "gold@1",
+    "copper@21",
+    "vix@1"
+   ],
+   "n_edges": 3,
+   "rate": 0.1,
+   "tau": 136,
+   "shift": 0.011389891793071705,
+   "warm_start": true,
+   "fitness": -0.025468990541384115,
+   "evaluations": 1861
+  }
+ },
+ {
+  "selection": {
+   "origin": "2021-04-23",
+   "fold": 5,
+   "refit": 12,
+   "active": [
+    "copper@1",
+    "vix@1"
+   ],
+   "n_edges": 2,
+   "rate": 0.1,
+   "tau": 137,
+   "shift": 0.013894390362717035,
+   "warm_start": true,
+   "fitness": -0.044660970986181575,
+   "evaluations": 1798
+  }
+ },
+ {
+  "selection": {
+   "origin": "2021-05-24",
+   "fold": 5,
+   "refit": 13,
+   "active": [
+    "gold@1",
+    "copper@1",
+    "vix@1"
+   ],
+   "n_edges": 3,
+   "rate": 0.1,
+   "tau": 138,
+   "shift": 0.009303427761080158,
+   "warm_start": true,
+   "fitness": -0.045229340555443344,
+   "evaluations": 1700
+  }
+ },
+ {
+  "selection": {
+   "origin": "2021-06-23",
+   "fold": 5,
+   "refit": 14,
+   "active": [
+    "gold@1",
+    "copper@1",
+    "vix@1"
+   ],
+   "n_edges": 3,
+   "rate": 0.1,
+   "tau": 139,
+   "shift": 0.008407731095505166,
+   "warm_start": true,
+   "fitness": -0.03216574424770383,
+   "evaluations": 1768
+  }
+ },
+ {
+  "selection": {
+   "origin": "2021-07-23",
+   "fold": 5,
+   "refit": 15,
+   "active": [
+    "gold@1",
+    "vix@1"
+   ],
+   "n_edges": 2,
+   "rate": 0.1,
+   "tau": 140,
+   "shift": 0.006228808695187238,
+   "warm_start": true,
+   "fitness": -0.0444365264786127,
+   "evaluations": 1780
+  }
+ },
+ {
+  "selection": {
+   "origin": "2021-08-23",
+   "fold": 5,
+   "refit": 16,
+   "active": [
+    "gold@1",
+    "copper@1",
+    "vix@1"
+   ],
+   "n_edges": 3,
+   "rate": 0.1,
+   "tau": 141,
+   "shift": 0.008169763963356676,
+   "warm_start": true,
+   "fitness": -0.05198350048281151,
+   "evaluations": 1773
+  }
+ },
+ {
+  "selection": {
+   "origin": "2021-09-22",
+   "fold": 5,
+   "refit": 17,
+   "active": [
+    "copper@1",
+    "vix@1"
+   ],
+   "n_edges": 2,
+   "rate": 0.1,
+   "tau": 142,
+   "shift": 0.009436876174824674,
+   "warm_start": true,
+   "fitness": -0.041879725636327546,
+   "evaluations": 1793
+  }
+ },
+ {
+  "selection": {
+   "origin": "2021-10-21",
+   "fold": 5,
+   "refit": 18,
+   "active": [
+    "copper@1",
+    "vix@1"
+   ],
+   "n_edges": 2,
+   "rate": 0.1,
+   "tau": 143,
+   "shift": 0.011529722265978377,
+   "warm_start": true,
+   "fitness": -0.038432504298070456,
+   "evaluations": 1735
+  }
+ },
+ {
+  "selection": {
+   "origin": "2021-11-19",
+   "fold": 5,
+   "refit": 19,
+   "active": [
+    "copper@1",
+    "vix@1"
+   ],
+   "n_edges": 2,
+   "rate": 0.1,
+   "tau": 144,
+   "shift": 0.011850685337981566,
+   "warm_start": true,
+   "fitness": -0.038551236750463035,
+   "evaluations": 1750
+  }
+ },
+ {
+  "selection": {
+   "origin": "2021-12-21",
+   "fold": 5,
+   "refit": 20,
+   "active": [
+    "gold@1",
+    "copper@1",
+    "vix@1"
+   ],
+   "n_edges": 3,
+   "rate": 0.1,
+   "tau": 145,
+   "shift": 0.007621701303141067,
+   "warm_start": true,
+   "fitness": -0.03441491222597557,
+   "evaluations": 1724
+  }
+ },
+ {
+  "selection": {
+   "origin": "2022-01-21",
+   "fold": 5,
+   "refit": 21,
+   "active": [
+    "gold@5",
+    "copper@1",
+    "vix@1"
+   ],
+   "n_edges": 3,
+   "rate": 0.1,
+   "tau": 146,
+   "shift": 0.01074747447980449,
+   "warm_start": true,
+   "fitness": -0.029247831882714112,
+   "evaluations": 1828
+  }
+ },
+ {
+  "selection": {
+   "origin": "2022-02-22",
+   "fold": 5,
+   "refit": 22,
+   "active": [
+    "gold@1",
+    "vix@1"
+   ],
+   "n_edges": 2,
+   "rate": 0.1,
+   "tau": 147,
+   "shift": 0.007981461832257182,
+   "warm_start": true,
+   "fitness": -0.02872912627487787,
+   "evaluations": 1775
+  }
+ },
+ {
+  "selection": {
+   "origin": "2022-03-23",
+   "fold": 5,
+   "refit": 23,
+   "active": [
+    "gold@1",
+    "copper@1",
+    "vix@1"
+   ],
+   "n_edges": 3,
+   "rate": 0.1,
+   "tau": 148,
+   "shift": 0.009736689741017402,
+   "warm_start": true,
+   "fitness": -0.03311171627260643,
+   "evaluations": 1755
+  }
+ },
+ {
+  "selection": {
+   "origin": "2022-04-22",
+   "fold": 5,
+   "refit": 24,
+   "active": [
+    "copper@1",
+    "vix@1"
+   ],
+   "n_edges": 2,
+   "rate": 0.1,
+   "tau": 149,
+   "shift": 0.010522737401071592,
+   "warm_start": true,
+   "fitness": -0.026101310491261902,
+   "evaluations": 1872
+  }
+ },
+ {
+  "selection": {
+   "origin": "2022-05-11",
+   "fold": 6,
+   "refit": 0,
+   "active": [
+    "gold@5",
+    "copper@1",
+    "vix@1",
+    "vix@5"
+   ],
+   "n_edges": 4,
+   "rate": 0.1,
+   "tau": 150,
+   "shift": 0.009582936309513552,
+   "warm_start": true,
+   "fitness": -0.030132928370829464,
+   "evaluations": 1943
+  }
+ },
+ {
+  "selection": {
+   "origin": "2022-06-10",
+   "fold": 6,
+   "refit": 1,
+   "active": [
+    "gold@1",
+    "vix@1"
+   ],
+   "n_edges": 2,
+   "rate": 0.1,
+   "tau": 151,
+   "shift": 0.011392305640348429,
+   "warm_start": true,
+   "fitness": -0.02904785363374317,
+   "evaluations": 2063
+  }
+ },
+ {
+  "selection": {
+   "origin": "2022-07-13",
+   "fold": 6,
+   "refit": 2,
+   "active": [
+    "gold@21",
+    "copper@1",
+    "copper@21",
+    "vix@1"
+   ],
+   "n_edges": 4,
+   "rate": 0.1,
+   "tau": 152,
+   "shift": 0.01520027515586782,
+   "warm_start": true,
+   "fitness": -0.01520612886506828,
+   "evaluations": 1987
+  }
+ },
+ {
+  "selection": {
+   "origin": "2022-08-11",
+   "fold": 6,
+   "refit": 3,
+   "active": [
+    "copper@1",
+    "dxy@5",
+    "real_yield_10y@21",
+    "vix@1"
+   ],
+   "n_edges": 4,
+   "rate": 0.1,
+   "tau": 153,
+   "shift": 0.013341446168733277,
+   "warm_start": true,
+   "fitness": -0.006263524800126874,
+   "evaluations": 1947
+  }
+ },
+ {
+  "selection": {
+   "origin": "2022-09-12",
+   "fold": 6,
+   "refit": 4,
+   "active": [
+    "gold@5",
+    "copper@1",
+    "dxy@1",
+    "dxy@5",
+    "real_yield_10y@21",
+    "vix@1"
+   ],
+   "n_edges": 6,
+   "rate": 0.1,
+   "tau": 154,
+   "shift": 0.021505721731242558,
+   "warm_start": true,
+   "fitness": -0.00962096701463016,
+   "evaluations": 1964
+  }
+ },
+ {
+  "selection": {
+   "origin": "2022-10-11",
+   "fold": 6,
+   "refit": 5,
+   "active": [
+    "gold@1",
+    "copper@1",
+    "dxy@5",
+    "real_yield_10y@21",
+    "vix@1"
+   ],
+   "n_edges": 5,
+   "rate": 0.1,
+   "tau": 155,
+   "shift": 0.022499060968502356,
+   "warm_start": true,
+   "fitness": -0.012401150173735939,
+   "evaluations": 1838
+  }
+ },
+ {
+  "selection": {
+   "origin": "2022-11-09",
+   "fold": 6,
+   "refit": 6,
+   "active": [
+    "gold@1",
+    "gold@21",
+    "dxy@5",
+    "vix@1"
+   ],
+   "n_edges": 4,
+   "rate": 0.1,
+   "tau": 156,
+   "shift": 0.011144638206472506,
+   "warm_start": true,
+   "fitness": -0.013102744712919575,
+   "evaluations": 2038
+  }
+ },
+ {
+  "selection": {
+   "origin": "2022-12-09",
+   "fold": 6,
+   "refit": 7,
+   "active": [
+    "gold@21",
+    "dxy@1",
+    "real_yield_10y@5",
+    "vix@1"
+   ],
+   "n_edges": 4,
+   "rate": 0.1,
+   "tau": 157,
+   "shift": 0.0119052363395081,
+   "warm_start": true,
+   "fitness": -0.011826307087724532,
+   "evaluations": 2101
+  }
+ },
+ {
+  "selection": {
+   "origin": "2023-01-11",
+   "fold": 6,
+   "refit": 8,
+   "active": [
+    "copper@5",
+    "dxy@1",
+    "dxy@5",
+    "real_yield_10y@1",
+    "vix@1"
+   ],
+   "n_edges": 5,
+   "rate": 0.1,
+   "tau": 158,
+   "shift": 0.012791473502025762,
+   "warm_start": true,
+   "fitness": -0.013450064397833153,
+   "evaluations": 2065
+  }
+ },
+ {
+  "selection": {
+   "origin": "2023-02-10",
+   "fold": 6,
+   "refit": 9,
+   "active": [
+    "copper@1",
+    "dxy@1",
+    "dxy@5",
+    "real_yield_10y@1",
+    "vix@1"
+   ],
+   "n_edges": 5,
+   "rate": 0.1,
+   "tau": 159,
+   "shift": 0.007609598992040992,
+   "warm_start": true,
+   "fitness": -0.010636797241069654,
+   "evaluations": 2043
+  }
+ },
+ {
+  "selection": {
+   "origin": "2023-03-14",
+   "fold": 6,
+   "refit": 10,
+   "active": [
+    "copper@5",
+    "dxy@1",
+    "dxy@5",
+    "real_yield_10y@1",
+    "vix@1"
+   ],
+   "n_edges": 5,
+   "rate": 0.1,
+   "tau": 160,
+   "shift": 0.00896539140752899,
+   "warm_start": true,
+   "fitness": -0.012623777679302076,
+   "evaluations": 1854
+  }
+ },
+ {
+  "selection": {
+   "origin": "2023-04-13",
+   "fold": 6,
+   "refit": 11,
+   "active": [
+    "copper@5",
+    "dxy@1",
+    "real_yield_10y@5",
+    "vix@1"
+   ],
+   "n_edges": 4,
+   "rate": 0.1,
+   "tau": 161,
+   "shift": 0.0082770177877327,
+   "warm_start": true,
+   "fitness": -0.013268445625395161,
+   "evaluations": 1980
+  }
+ },
+ {
+  "selection": {
+   "origin": "2023-05-12",
+   "fold": 6,
+   "refit": 12,
+   "active": [
+    "copper@5",
+    "dxy@1",
+    "real_yield_10y@1",
+    "real_yield_10y@21",
+    "vix@1"
+   ],
+   "n_edges": 5,
+   "rate": 0.1,
+   "tau": 162,
+   "shift": 0.019683199344519956,
+   "warm_start": true,
+   "fitness": -0.010475236848791118,
+   "evaluations": 1974
+  }
+ },
+ {
+  "selection": {
+   "origin": "2023-06-13",
+   "fold": 6,
+   "refit": 13,
+   "active": [
+    "copper@21",
+    "dxy@5",
+    "real_yield_10y@5",
+    "vix@1"
+   ],
+   "n_edges": 4,
+   "rate": 0.1,
+   "tau": 163,
+   "shift": 0.010140600412031723,
+   "warm_start": true,
+   "fitness": -0.014500427429442114,
+   "evaluations": 2071
+  }
+ },
+ {
+  "selection": {
+   "origin": "2023-07-14",
+   "fold": 6,
+   "refit": 14,
+   "active": [
+    "copper@21",
+    "dxy@5",
+    "real_yield_10y@1",
+    "vix@1"
+   ],
+   "n_edges": 4,
+   "rate": 0.1,
+   "tau": 164,
+   "shift": 0.0127192437365017,
+   "warm_start": true,
+   "fitness": -0.009763294248773762,
+   "evaluations": 2024
+  }
+ },
+ {
+  "selection": {
+   "origin": "2023-08-14",
+   "fold": 6,
+   "refit": 15,
+   "active": [
+    "copper@1",
+    "copper@21",
+    "dxy@5",
+    "real_yield_10y@5",
+    "vix@1",
+    "vix@5"
+   ],
+   "n_edges": 6,
+   "rate": 0.1,
+   "tau": 165,
+   "shift": 0.009396719399310987,
+   "warm_start": true,
+   "fitness": -0.007711274984086794,
+   "evaluations": 1893
+  }
+ },
+ {
+  "selection": {
+   "origin": "2023-09-13",
+   "fold": 6,
+   "refit": 16,
+   "active": [
+    "gold@1",
+    "copper@1",
+    "dxy@21",
+    "real_yield_10y@1",
+    "vix@1",
+    "vix@5"
+   ],
+   "n_edges": 6,
+   "rate": 0.1,
+   "tau": 166,
+   "shift": 0.008644786919948622,
+   "warm_start": true,
+   "fitness": -0.006975799124274057,
+   "evaluations": 2099
+  }
+ },
+ {
+  "selection": {
+   "origin": "2023-10-12",
+   "fold": 6,
+   "refit": 17,
+   "active": [
+    "gold@1",
+    "copper@21",
+    "dxy@5",
+    "real_yield_10y@1",
+    "vix@1",
+    "vix@5"
+   ],
+   "n_edges": 6,
+   "rate": 0.1,
+   "tau": 167,
+   "shift": 0.006565075792039451,
+   "warm_start": true,
+   "fitness": -0.006135566594804567,
+   "evaluations": 2284
+  }
+ },
+ {
+  "selection": {
+   "origin": "2023-11-10",
+   "fold": 6,
+   "refit": 18,
+   "active": [
+    "copper@21",
+    "dxy@21",
+    "real_yield_10y@1",
+    "real_yield_10y@5",
+    "vix@1",
+    "vix@5"
+   ],
+   "n_edges": 6,
+   "rate": 0.1,
+   "tau": 168,
+   "shift": 0.009443092664822957,
+   "warm_start": true,
+   "fitness": -0.005810602071489137,
+   "evaluations": 1995
+  }
+ },
+ {
+  "selection": {
+   "origin": "2023-12-12",
+   "fold": 6,
+   "refit": 19,
+   "active": [
+    "copper@5",
+    "dxy@5",
+    "real_yield_10y@1",
+    "real_yield_10y@5",
+    "vix@1"
+   ],
+   "n_edges": 5,
+   "rate": 0.1,
+   "tau": 169,
+   "shift": 0.011621868296516938,
+   "warm_start": true,
+   "fitness": -0.005756978625086779,
+   "evaluations": 2057
+  }
+ },
+ {
+  "selection": {
+   "origin": "2024-01-12",
+   "fold": 6,
+   "refit": 20,
+   "active": [
+    "copper@21",
+    "real_yield_10y@1",
+    "real_yield_10y@5",
+    "vix@1"
+   ],
+   "n_edges": 4,
+   "rate": 0.1,
+   "tau": 170,
+   "shift": 0.011510779862371952,
+   "warm_start": true,
+   "fitness": -0.006008105146992394,
+   "evaluations": 2110
+  }
+ },
+ {
+  "selection": {
+   "origin": "2024-02-13",
+   "fold": 6,
+   "refit": 21,
+   "active": [
+    "copper@21",
+    "dxy@5",
+    "real_yield_10y@1",
+    "real_yield_10y@5",
+    "vix@1"
+   ],
+   "n_edges": 5,
+   "rate": 0.1,
+   "tau": 171,
+   "shift": 0.010636055586073223,
+   "warm_start": true,
+   "fitness": -0.007560047425400731,
+   "evaluations": 1897
+  }
+ },
+ {
+  "selection": {
+   "origin": "2024-03-14",
+   "fold": 6,
+   "refit": 22,
+   "active": [
+    "copper@1",
+    "copper@21",
+    "dxy@5",
+    "real_yield_10y@5",
+    "vix@1"
+   ],
+   "n_edges": 5,
+   "rate": 0.1,
+   "tau": 172,
+   "shift": 0.012336778713762894,
+   "warm_start": true,
+   "fitness": -0.004345353242442605,
+   "evaluations": 1986
+  }
+ },
+ {
+  "selection": {
+   "origin": "2024-04-15",
+   "fold": 6,
+   "refit": 23,
+   "active": [
+    "copper@1",
+    "copper@21",
+    "dxy@5",
+    "real_yield_10y@1",
+    "real_yield_10y@5",
+    "vix@1",
+    "vix@21"
+   ],
+   "n_edges": 7,
+   "rate": 0.1,
+   "tau": 173,
+   "shift": 0.012968360917402999,
+   "warm_start": true,
+   "fitness": -0.004740655235517593,
+   "evaluations": 2001
+  }
+ },
+ {
+  "selection": {
+   "origin": "2024-05-14",
+   "fold": 6,
+   "refit": 24,
+   "active": [
+    "copper@21",
+    "dxy@1",
+    "real_yield_10y@1",
+    "real_yield_10y@21",
+    "vix@1"
+   ],
+   "n_edges": 5,
+   "rate": 0.1,
+   "tau": 174,
+   "shift": 0.015552209027048033,
+   "warm_start": true,
+   "fitness": -0.00490241534650251,
+   "evaluations": 2123
+  }
+ },
+ {
+  "selection": {
+   "origin": "2024-06-03",
+   "fold": 7,
+   "refit": 0,
+   "active": [
+    "gold@5",
+    "dxy@1",
+    "dxy@21",
+    "real_yield_10y@1",
+    "vix@1"
+   ],
+   "n_edges": 5,
+   "rate": 0.1,
+   "tau": 175,
+   "shift": 0.01034203343740832,
+   "warm_start": true,
+   "fitness": -0.004084450446108419,
+   "evaluations": 2184
+  }
+ },
+ {
+  "selection": {
+   "origin": "2024-07-03",
+   "fold": 7,
+   "refit": 1,
+   "active": [
+    "copper@21",
+    "dxy@1",
+    "dxy@21",
+    "real_yield_10y@1",
+    "vix@1"
+   ],
+   "n_edges": 5,
+   "rate": 0.1,
+   "tau": 176,
+   "shift": 0.00837394074422356,
+   "warm_start": true,
+   "fitness": -0.0042990764118031955,
+   "evaluations": 2047
+  }
+ },
+ {
+  "selection": {
+   "origin": "2024-08-02",
+   "fold": 7,
+   "refit": 2,
+   "active": [
+    "copper@21",
+    "dxy@1",
+    "real_yield_10y@1",
+    "vix@1"
+   ],
+   "n_edges": 4,
+   "rate": 0.1,
+   "tau": 177,
+   "shift": 0.010942166801905746,
+   "warm_start": true,
+   "fitness": -0.005433194321677845,
+   "evaluations": 1999
+  }
+ },
+ {
+  "selection": {
+   "origin": "2024-09-03",
+   "fold": 7,
+   "refit": 3,
+   "active": [
+    "dxy@1",
+    "dxy@21",
+    "real_yield_10y@1",
+    "vix@1"
+   ],
+   "n_edges": 4,
+   "rate": 0.1,
+   "tau": 178,
+   "shift": 0.010386058880440089,
+   "warm_start": true,
+   "fitness": -0.0055615581042723515,
+   "evaluations": 1996
+  }
+ },
+ {
+  "selection": {
+   "origin": "2024-10-02",
+   "fold": 7,
+   "refit": 4,
+   "active": [
+    "dxy@1",
+    "dxy@21",
+    "real_yield_10y@1",
+    "vix@1",
+    "vix@21"
+   ],
+   "n_edges": 5,
+   "rate": 0.1,
+   "tau": 179,
+   "shift": 0.009449235302507004,
+   "warm_start": true,
+   "fitness": -0.004463252225766306,
+   "evaluations": 1936
+  }
+ },
+ {
+  "selection": {
+   "origin": "2024-10-31",
+   "fold": 7,
+   "refit": 5,
+   "active": [
+    "dxy@21",
+    "vix@1",
+    "vix@21"
+   ],
+   "n_edges": 3,
+   "rate": 0.1,
+   "tau": 180,
+   "shift": 0.013515163394739049,
+   "warm_start": true,
+   "fitness": -0.006752514223011038,
+   "evaluations": 1849
+  }
+ },
+ {
+  "selection": {
+   "origin": "2024-12-02",
+   "fold": 7,
+   "refit": 6,
+   "active": [
+    "gold@21",
+    "dxy@21",
+    "real_yield_10y@21",
+    "vix@1"
+   ],
+   "n_edges": 4,
+   "rate": 0.1,
+   "tau": 181,
+   "shift": 0.01183372373640759,
+   "warm_start": true,
+   "fitness": -0.005944076092189123,
+   "evaluations": 2056
+  }
+ },
+ {
+  "selection": {
+   "origin": "2025-01-02",
+   "fold": 7,
+   "refit": 7,
+   "active": [
+    "copper@21",
+    "dxy@21",
+    "real_yield_10y@21",
+    "vix@1"
+   ],
+   "n_edges": 4,
+   "rate": 0.1,
+   "tau": 182,
+   "shift": 0.011286619748759889,
+   "warm_start": true,
+   "fitness": -0.005328384733911023,
+   "evaluations": 1977
+  }
+ },
+ {
+  "selection": {
+   "origin": "2025-02-03",
+   "fold": 7,
+   "refit": 8,
+   "active": [
+    "gold@21",
+    "copper@21",
+    "dxy@1",
+    "real_yield_10y@21",
+    "vix@1"
+   ],
+   "n_edges": 5,
+   "rate": 0.1,
+   "tau": 183,
+   "shift": 0.008257637900410756,
+   "warm_start": true,
+   "fitness": -0.0037407946865852014,
+   "evaluations": 2052
+  }
+ },
+ {
+  "selection": {
+   "origin": "2025-03-05",
+   "fold": 7,
+   "refit": 9,
+   "active": [
+    "dxy@1",
+    "dxy@21",
+    "real_yield_10y@1",
+    "vix@1"
+   ],
+   "n_edges": 4,
+   "rate": 0.1,
+   "tau": 184,
+   "shift": 0.009218451548508318,
+   "warm_start": true,
+   "fitness": -0.009565843482817589,
+   "evaluations": 1964
+  }
+ },
+ {
+  "selection": {
+   "origin": "2025-04-03",
+   "fold": 7,
+   "refit": 10,
+   "active": [
+    "copper@21",
+    "dxy@1",
+    "vix@1"
+   ],
+   "n_edges": 3,
+   "rate": 0.1,
+   "tau": 185,
+   "shift": 0.01434762810031337,
+   "warm_start": true,
+   "fitness": -0.007303117309194411,
+   "evaluations": 2098
+  }
+ },
+ {
+  "selection": {
+   "origin": "2025-05-05",
+   "fold": 7,
+   "refit": 11,
+   "active": [
+    "gold@21",
+    "copper@21",
+    "dxy@1",
+    "real_yield_10y@1",
+    "vix@1"
+   ],
+   "n_edges": 5,
+   "rate": 0.1,
+   "tau": 186,
+   "shift": 0.012469328800915832,
+   "warm_start": true,
+   "fitness": -0.0050374587512807345,
+   "evaluations": 2204
+  }
+ },
+ {
+  "selection": {
+   "origin": "2025-06-04",
+   "fold": 7,
+   "refit": 12,
+   "active": [
+    "gold@21",
+    "real_yield_10y@21",
+    "vix@1"
+   ],
+   "n_edges": 3,
+   "rate": 0.1,
+   "tau": 187,
+   "shift": 0.008211079469101816,
+   "warm_start": true,
+   "fitness": -0.006180367613430393,
+   "evaluations": 2046
+  }
+ },
+ {
+  "selection": {
+   "origin": "2025-07-04",
+   "fold": 7,
+   "refit": 13,
+   "active": [
+    "gold@21",
+    "vix@1"
+   ],
+   "n_edges": 2,
+   "rate": 0.1,
+   "tau": 188,
+   "shift": 0.01108208672254397,
+   "warm_start": true,
+   "fitness": -0.009095599158632818,
+   "evaluations": 1903
+  }
+ },
+ {
+  "selection": {
+   "origin": "2025-08-04",
+   "fold": 7,
+   "refit": 14,
+   "active": [
+    "gold@21",
+    "copper@21",
+    "vix@1"
+   ],
+   "n_edges": 3,
+   "rate": 0.1,
+   "tau": 189,
+   "shift": 0.01709757346007739,
+   "warm_start": true,
+   "fitness": -0.007560922183922327,
+   "evaluations": 1942
+  }
+ },
+ {
+  "selection": {
+   "origin": "2025-09-03",
+   "fold": 7,
+   "refit": 15,
+   "active": [
+    "gold@5",
+    "copper@21",
+    "vix@1",
+    "vix@21"
+   ],
+   "n_edges": 4,
+   "rate": 0.1,
+   "tau": 190,
+   "shift": 0.017328143758247427,
+   "warm_start": true,
+   "fitness": -0.007278425061183686,
+   "evaluations": 2023
+  }
+ },
+ {
+  "selection": {
+   "origin": "2025-10-02",
+   "fold": 7,
+   "refit": 16,
+   "active": [
+    "gold@5",
+    "gold@21",
+    "real_yield_10y@5",
+    "vix@1"
+   ],
+   "n_edges": 4,
+   "rate": 0.1,
+   "tau": 191,
+   "shift": 0.013665552078301205,
+   "warm_start": true,
+   "fitness": -0.004326448161302912,
+   "evaluations": 2333
+  }
+ },
+ {
+  "selection": {
+   "origin": "2025-10-31",
+   "fold": 7,
+   "refit": 17,
+   "active": [
+    "gold@5",
+    "gold@21",
+    "dxy@5",
+    "vix@1"
+   ],
+   "n_edges": 4,
+   "rate": 0.1,
+   "tau": 192,
+   "shift": 0.012737553813870739,
+   "warm_start": true,
+   "fitness": -0.006165842024541024,
+   "evaluations": 2019
+  }
+ },
+ {
+  "selection": {
+   "origin": "2025-12-02",
+   "fold": 7,
+   "refit": 18,
+   "active": [
+    "gold@21",
+    "copper@21",
+    "vix@1"
+   ],
+   "n_edges": 3,
+   "rate": 0.1,
+   "tau": 193,
+   "shift": 0.013634231652158617,
+   "warm_start": true,
+   "fitness": -0.009545523910894176,
+   "evaluations": 2149
+  }
+ },
+ {
+  "selection": {
+   "origin": "2026-01-02",
+   "fold": 7,
+   "refit": 19,
+   "active": [
+    "gold@1",
+    "gold@21",
+    "copper@21",
+    "vix@1",
+    "vix@21"
+   ],
+   "n_edges": 5,
+   "rate": 0.1,
+   "tau": 194,
+   "shift": 0.015566132572967028,
+   "warm_start": true,
+   "fitness": -0.009855631373683074,
+   "evaluations": 1878
+  }
+ },
+ {
+  "selection": {
+   "origin": "2026-02-03",
+   "fold": 7,
+   "refit": 20,
+   "active": [
+    "gold@5",
+    "gold@21",
+    "vix@1",
+    "vix@21"
+   ],
+   "n_edges": 4,
+   "rate": 0.1,
+   "tau": 195,
+   "shift": 0.013218722357572162,
+   "warm_start": true,
+   "fitness": -0.008059961163478608,
+   "evaluations": 1846
+  }
+ },
+ {
+  "selection": {
+   "origin": "2026-03-05",
+   "fold": 7,
+   "refit": 21,
+   "active": [
+    "gold@21",
+    "vix@1",
+    "vix@21"
+   ],
+   "n_edges": 3,
+   "rate": 0.1,
+   "tau": 196,
+   "shift": 0.00855234377796859,
+   "warm_start": true,
+   "fitness": -0.009099914112022914,
+   "evaluations": 2101
+  }
+ },
+ {
+  "selection": {
+   "origin": "2026-04-06",
+   "fold": 7,
+   "refit": 22,
+   "active": [
+    "gold@1",
+    "gold@21",
+    "copper@5",
+    "vix@1",
+    "vix@21"
+   ],
+   "n_edges": 5,
+   "rate": 0.1,
+   "tau": 197,
+   "shift": 0.01170528879788677,
+   "warm_start": true,
+   "fitness": -0.007310036204615691,
+   "evaluations": 1846
+  }
+ },
+ {
+  "selection": {
+   "origin": "2026-05-05",
+   "fold": 7,
+   "refit": 23,
+   "active": [
+    "gold@1",
+    "gold@21",
+    "real_yield_10y@5",
+    "vix@1",
+    "vix@21"
+   ],
+   "n_edges": 5,
+   "rate": 0.1,
+   "tau": 198,
+   "shift": 0.015551516993823119,
+   "warm_start": true,
+   "fitness": -0.005626085780421355,
+   "evaluations": 1871
+  }
+ },
+ {
+  "selection": {
+   "origin": "2026-06-04",
+   "fold": 7,
+   "refit": 24,
+   "active": [
+    "copper@21",
+    "dxy@1",
+    "real_yield_10y@21",
+    "vix@1"
+   ],
+   "n_edges": 4,
+   "rate": 0.1,
+   "tau": 199,
+   "shift": 0.022382045718813713,
+   "warm_start": true,
+   "fitness": -0.0009022481785155141,
+   "evaluations": 2167
+  }
+ }
+]

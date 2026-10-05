@@ -1,0 +1,9 @@
+node,role,source,status,rows,start,end,years,bday_coverage,max_gap_days
+silver,target,yfinance:SI=F (primary),ok,5176.0,2006-01-03,2026-07-31,20.6,96.4,5.0
+gold,driver,yfinance:GC=F (primary),ok,5175.0,2006-01-03,2026-07-31,20.6,96.4,5.0
+dxy,driver,yfinance:DX-Y.NYB (primary),ok,5179.0,2006-01-03,2026-07-31,20.6,96.5,5.0
+real_yield_10y,driver,fred_api:DFII10 (primary),ok,5145.0,2006-01-03,2026-07-27,20.6,95.9,4.0
+nominal_10y,optional,fred_api:DGS10 (primary),ok,5145.0,2006-01-03,2026-07-27,20.6,95.9,4.0
+copper,driver,yfinance:HG=F (primary),ok,5178.0,2006-01-03,2026-07-31,20.6,96.4,5.0
+vix,driver,yfinance:^VIX (primary),ok,5177.0,2006-01-03,2026-07-31,20.6,96.4,5.0
+sentiment,optional,-,OPTIONAL - not built yet,,,,,,
