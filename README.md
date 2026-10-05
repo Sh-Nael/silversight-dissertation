@@ -85,7 +85,7 @@ xag report linear-20260926-100937 gbm-20260926-100959 static_gnn-20260927-183956
 
 `xag report` recomputes the scoreboard and the significance tests from the stored forecasts of any runs you name (seconds). `python scripts/spring2013_gap.py` reproduces Table 4.A.2.
 
-**Figures.** Every chart in the web app has an Export button. To regenerate all 33 figures of `experiments/figures/` at once you also need Node.js 20 or later:
+**Figures.** Every chart in the web app has an Export button. To regenerate all 33 figures of `experiments/figures/` at once you also need Node.js 22 or later:
 
 ```bash
 xag ui &                                   # the app must be running
