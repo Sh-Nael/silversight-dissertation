@@ -16,7 +16,7 @@ This repository holds everything needed to check the results: the code, the froz
 | Direction | Barely forecastable: 1-day hit rates of 50.4–53.8% against a 51.8% up-rate; no Brier score significantly better than climatology. | `T02`, `T03`, `T05` |
 | Adaptation (main hypothesis) | AIM-DG does not beat the static graph: significantly worse volatility forecasts (1 day p 0.006, 5 days p 0.018), level on direction. | `T07`, `T15` |
 | Why | The month-to-month usefulness of a link is mostly noise: optimising the selection harder is worse out of sample; ablations and settings change which links are chosen far more than accuracy. | `T13`, `T14`, `T22`, `T23` |
-| Practical value | At a 10% coverage target the best models are right 57–58% of the time; a fixed stop-and-target rule on those days is profitable for the linear model (profit factor 1.41, p 0.006), on both buy and sell trades. Trading every day loses. | `T16`–`T21` |
+| Practical value | At a 10% coverage target the best models are right 57–58% of the time; a fixed stop-and-target rule on those days is profitable for the linear model (profit factor 1.41, p 0.006), on both buy and sell trades. Without the confidence filter, trading both sides every day loses or at best breaks even. | `T16`–`T21` |
 | Edge dynamics | The selected links do not follow the four stress regimes (2011, 2013, 2020, 2022); only VIX at lag 1 persists. | `T24`–`T26` |
 
 All 27 tables are listed in [`experiments/tables/index.md`](experiments/tables/index.md) and all 33 figures in [`experiments/figures/index.md`](experiments/figures/index.md).
@@ -83,7 +83,15 @@ xag report linear-20260926-100937 gbm-20260926-100959 static_gnn-20260927-183956
            aimdg-20260928-120236 climatology-20260926-091404 --reference static_gnn
 ```
 
-`xag report` recomputes the scoreboard and the significance tests from the stored forecasts of any runs you name (seconds).
+`xag report` recomputes the scoreboard and the significance tests from the stored forecasts of any runs you name (seconds). `python scripts/spring2013_gap.py` reproduces Table 4.A.2.
+
+**Figures.** Every chart in the web app has an Export button. To regenerate all 33 figures of `experiments/figures/` at once you also need Node.js 20 or later:
+
+```bash
+xag ui &                                   # the app must be running
+cd web && npm ci && npx playwright install chromium
+npm run figures                            # writes experiments/figures/ and its index
+```
 
 ### 5. Re-run the experiments (optional)
 
@@ -107,7 +115,7 @@ Times are for a laptop with a 16-core CPU and an RTX 5070 Ti. `--tuning-from` re
 | `tests/` | Unit, leakage, integrity, statistical, model and API tests |
 | `data/snapshots/` | The frozen data: `dissertation_v1` (market and FRED series, 3 Jan 2006 to 30 Jun 2026) and `calendar_v1` (709 CPI, payroll and FOMC release dates), each with a checksum manifest |
 | `experiments/folds_v1.json` | The frozen walk-forward calendar |
-| `experiments/runs/` | One folder per test run: forecasts (`predictions.parquet`), manifest (`run.json`), tuning log, timings, diagnostics |
+| `experiments/runs/` | One folder per test run: forecasts (`predictions.parquet`), manifest (`run.json`), tuning log, timings, diagnostics. The code commit in each manifest refers to the development repository in which the runs were made; this repository is a clean copy of that code |
 | `experiments/dev/` | Development runs: the tuning stage only, used to choose designs |
 | `experiments/reports/` | Report files (CSV) behind every table |
 | `experiments/tables/`, `experiments/figures/` | The 27 result tables (CSV, Markdown, Word) and 33 figures (SVG, PNG), each with an index |
