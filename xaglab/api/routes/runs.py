@@ -112,7 +112,7 @@ def _bars():
 @router.get("/runs/{run_id}/signals")
 def run_signals(run_id: str, h: int = Query(1, ge=1, le=5), cost_bps: float = Query(10.0, ge=0, le=100),
                 base: Path = Depends(runs_dir)) -> list[dict[str, Any]]:
-    """Signal and risk layer per coverage level and side: trades, win rate, profit factor, mean
+    """Signal and risk layer per coverage level and side: number of trades, share of winners, gain/loss ratio, average
     net return, p (mean > 0), exit mix, and the one-position-at-a-time account's return and drawdown."""
     return records(evaluate(get_run(base, run_id).predictions, _bars(), h, rules=Rules(cost_bps=cost_bps)))
 

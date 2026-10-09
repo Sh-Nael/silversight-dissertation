@@ -1,4 +1,4 @@
-Model,Side,Trades,Win rate,Profit factor,Mean net (bps),p (mean > 0),Total return,Max drawdown
+Model,Side,Trades,Winning trades,Gain/loss ratio,Net per trade (bps),p (net > 0),Account return,Worst drawdown
 linear,both,774,53.4%,1.19,29.8,0.111,31.2%,-6.7%
 linear,buy,685,53.4%,1.17,27.5,0.148,21.1%,-7.4%
 linear,sell,89,52.8%,1.42,47.4,0.126,9.3%,-1.6%

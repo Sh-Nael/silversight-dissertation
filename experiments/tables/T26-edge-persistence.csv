@@ -1,4 +1,4 @@
-Edge,Cluster,Months active,Switches,Mean active spell (months)
+Edge,Group,Share of months on,On/off changes,Average run (months)
 gold@1,monetary,23.0%,42,2.2
 gold@5,monetary,17.5%,43,1.6
 gold@21,monetary,16.0%,30,2.1

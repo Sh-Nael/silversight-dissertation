@@ -1,4 +1,4 @@
-"""A synthetic market with a planted regime break, for AIM-DG's integration test (step 4.7).
+"""Synthetic prices whose driving market switches at a known date, for AIM-DG's integration test (step 4.7).
 
 Silver's next-day direction is driven by **gold four days earlier** (the gold lag-5 edge)
 until the break, and by **copper today** (the copper lag-1 edge) after it. The other drivers

@@ -70,7 +70,7 @@ export default function Signals() {
         </div>
       </div>
       {runs.error && <ErrorNote error={runs.error} />}
-      <Panel title={`Trades · ${h === 1 ? "1 day" : "5 days"} · signals on the ${pct(coverage)} most confident days`} sub="Per model and side: independent trades after costs. Profit factor = gross wins / gross losses; p = one-sided block-permutation test that the mean net return is positive. Account columns run one position at a time.">
+      <Panel title={`Trades · ${h === 1 ? "1 day" : "5 days"} · signals on the ${pct(coverage)} most confident days`} sub="Per model and side: independent trades after costs. Profit factor = gross wins / gross losses; p = one-sided block-permutation test of whether the average net result per trade is above zero. Account columns run one position at a time.">
         {table.error && <ErrorNote error={table.error} />}
         {!table.data && !table.error && <Loading what="signals" />}
         {table.data && (

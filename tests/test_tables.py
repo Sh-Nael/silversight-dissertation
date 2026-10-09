@@ -32,12 +32,12 @@ def _board():
 def test_boards_follow_the_ladder_and_mark_the_best():
     f, bold = T.volatility_board(_board())
     assert f["Model"].tolist() == ["climatology", "gbm", "static_gnn"]
-    assert (2, "QLIKE 1d") in bold and (0, "QLIKE 1d") not in bold  # lowest QLIKE is best
-    assert {(i, "RMSE 1d") for i in range(3)} <= bold  # ties are all marked
+    assert (2, "QLIKE (1-day)") in bold and (0, "QLIKE (1-day)") not in bold  # lowest QLIKE is best
+    assert {(i, "RMSE (1-day)") for i in range(3)} <= bold  # ties are all marked
     f, bold = T.direction_board(_board(), 1)
-    assert (1, "Brier") in bold and (1, "Hit rate") in bold
-    assert f.loc[0, "Down right"] == "–"
-    assert not any(c == "Up calls" for _, c in bold)  # a share, not a score
+    assert (1, "Brier score") in bold and (1, "Accuracy") in bold
+    assert f.loc[0, "Down calls correct"] == "–"
+    assert not any(c == "Share called up" for _, c in bold)  # a share, not a score
 
 
 def test_significance_table_puts_horizons_side_by_side():
@@ -46,14 +46,14 @@ def test_significance_table_puts_horizons_side_by_side():
                         for m in ("gbm", "linear") for h in (1, 5)])
     t = T.significance_table(sig, "qlike")
     assert t["Model"].tolist() == ["linear", "gbm"]
-    assert t.loc[0, "Diff 5d"] == "-1.500" and t.loc[0, "DM p 1d"] == "<0.001*" and t.loc[0, "Perm. p 5d"] == "0.200"
+    assert t.loc[0, "Mean diff. (5-day)"] == "-1.500" and t.loc[0, "p DM (1-day)"] == "<0.001*" and t.loc[0, "p permutation (5-day)"] == "0.200"
 
 
 def test_markdown_and_files(tmp_path):
     f, bold = T.volatility_board(_board())
     t = T.Table("T01-demo", "Demo", f, "A note.", ("x/y.csv",), bold=bold)
     md = T.to_markdown(t)
-    assert md.splitlines()[0].startswith("| Model | QLIKE 1d") and "**-6.000**" in md
+    assert md.splitlines()[0].startswith("| Model | QLIKE (1-day)") and "**-6.000**" in md
     written = T.write_pack([t], tmp_path)
     assert {p.name for p in written} == {"T01-demo.csv", "T01-demo.md", "index.md", "tables.docx"}
     assert pd.read_csv(tmp_path / "T01-demo.csv", dtype=str).equals(f.astype(str))
@@ -72,7 +72,7 @@ def test_pack_is_faithful_to_the_reports():
     t = pack["T01-volatility-scoreboard"].frame.set_index("Model")
     assert t.index.tolist() == list(T.LADDER)
     for m in T.LADDER:
-        assert t.loc[m, "QLIKE 5d"] == f"{raw.loc[(m, 5), 'vol_qlike']:.3f}"
+        assert t.loc[m, "QLIKE (5-day)"] == f"{raw.loc[(m, 5), 'vol_qlike']:.3f}"
     sig = pd.read_csv(REPORTS_DIR / "phase4-aimdg-vs-static_gnn" / "significance.csv")
     r = sig[(sig.model == "aimdg") & (sig.loss == "qlike") & (sig.h == 1)].iloc[0]
-    assert pack["T07-aimdg-vs-static-gnn"].frame.loc[0, "DM p"] == T.pval(r.dm_p)
+    assert pack["T07-aimdg-vs-static-gnn"].frame.loc[0, "p (DM)"] == T.pval(r.dm_p)

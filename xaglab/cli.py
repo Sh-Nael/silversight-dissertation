@@ -215,7 +215,7 @@ def signals(
     cols = ["model", "h", "coverage_target", "side", "n", "win_rate", "profit_factor", "mean_net_bps",
             "p_positive", "target_rate", "stop_rate", "total_return", "max_drawdown"]
     console.print(f"[bold]Signal and risk layer[/] (stop 1σ, target 1.5σ, {cost_bps:g} bps round trip, "
-                  "1% risk per trade, one position at a time; p_positive: mean net return > 0, one-sided)")
+                  "risking 1% of the account per trade with at most one open position; p_positive: one-sided test of a positive average net result)")
     for h in (1, 5):
         console.print(f"[bold]h={h}[/]")
         console.print(all_t[all_t.h == h][cols].round(4).to_string(index=False))

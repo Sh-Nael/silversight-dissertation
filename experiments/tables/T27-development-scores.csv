@@ -1,4 +1,4 @@
-Model,Joint,Log-loss 1d,Log-loss 5d,QLIKE 1d,QLIKE 5d
+Model,Joint score,Log loss (1-day),Log loss (5-day),QLIKE (1-day),QLIKE (5-day)
 linear,-4.7583,0.6903,0.6939,-6.9631,-5.3219
 gbm,-4.7655,0.6880,0.6911,-6.9655,-5.3237
 lstm,-4.7508,0.6925,0.6924,-6.9557,-5.3158

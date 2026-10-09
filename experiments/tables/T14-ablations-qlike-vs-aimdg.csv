@@ -1,4 +1,4 @@
-Model,Diff 1d,DM p 1d,Wilcoxon p 1d,Perm. p 1d,Folds 1d,Diff 5d,DM p 5d,Wilcoxon p 5d,Perm. p 5d,Folds 5d
+Model,Mean diff. (1-day),p DM (1-day),p Wilcoxon (1-day),p permutation (1-day),Folds won (1-day),Mean diff. (5-day),p DM (5-day),p Wilcoxon (5-day),p permutation (5-day),Folds won (5-day)
 static_gnn,-0.021,0.006*,0.055,0.007*,7/8,-0.015,0.018*,0.039*,0.010*,7/8
 aimdg_replay,+0.000,–,1.000,1.000,0/8,+0.000,–,1.000,1.000,0/8
 aimdg_A1,-0.007,0.309,0.641,0.438,5/8,-0.008,0.120,0.742,0.265,3/8

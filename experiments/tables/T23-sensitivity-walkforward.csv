@@ -1,4 +1,4 @@
-Setting,Cadence (days),Refits,Joint loss,Diff. vs default,Edges on,Edges changed per refit,Clock resets,Seconds
+Variant,Refit every (days),Refits,Joint score,Change vs default,Edges active,Edges switched per refit,Clock resets,Seconds
 default,21,12,-3.8740,+0.0000,2.33,2.55,0,114
 no_warm_start,21,12,-3.8665,+0.0074,2.25,2.91,11,163
 clock_k_1.5,21,12,-3.8740,+0.0000,2.33,2.55,0,114

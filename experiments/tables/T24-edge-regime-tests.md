@@ -1,6 +1,6 @@
-**T24. Edge clusters in stress months against the rest (primary tests)**
+**T24. Do the edge groups behave differently in stress months? The six planned tests**
 
-| Cluster | Measure | Hypothesis | Inside | Outside | Difference | p | Months inside |
+| Cluster | Quantity | Expected direction | Stress months | Other months | Gap | p | Stress months (n) |
 |---|---|---|---|---|---|---|---|
 | industrial | activity | less | 0.291 | 0.166 | +0.125 | 0.935 | 39 |
 | industrial | reliability | less | 0.378 | 0.383 | -0.005 | 0.450 | 39 |
@@ -9,6 +9,6 @@
 | risk | activity | greater | 0.265 | 0.294 | -0.029 | 0.680 | 39 |
 | risk | reliability | greater | 0.366 | 0.366 | +0.000 | 0.470 | 39 |
 
-*One-sided circular-shift permutation test; hypotheses and regimes fixed before the results by date were computed (D-40). Inside / outside: mean over months inside and outside the regime. * p < 0.05.*
+*p-values come from rotating the monthly edge record against the calendar (circular shifts, one-sided). The regimes and the expected directions were written down before any dated result (D-40). The two month columns are averages over stress months and over all other months. A star marks p below 0.05.*
 
 Source: `edges-6.3/regime_tests.csv`

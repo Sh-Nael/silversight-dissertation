@@ -1,6 +1,6 @@
-**T20. Signal and risk layer, 5-day trades at the 10% coverage target**
+**T20. Trading the forecasts with a stop and a target: 5-day holding, confident days only (10% target)**
 
-| Model | Side | Trades | Win rate | Profit factor | Mean net (bps) | p (mean > 0) | Total return | Max drawdown |
+| Model | Side | Trades | Winning trades | Gain/loss ratio | Net per trade (bps) | p (net > 0) | Account return | Worst drawdown |
 |---|---|---|---|---|---|---|---|---|
 | linear | both | 774 | 53.4% | 1.19 | 29.8 | 0.111 | 31.2% | -6.7% |
 | linear | buy | 685 | 53.4% | 1.17 | 27.5 | 0.148 | 21.1% | -7.4% |
@@ -24,6 +24,6 @@
 | ens_lin_gbm_sgnn | buy | 522 | 55.4% | 1.45 | 68.8 | 0.049* | 27.9% | -3.6% |
 | ens_lin_gbm_sgnn | sell | 132 | 48.5% | 1.14 | 14.9 | 0.295 | 5.4% | -3.6% |
 
-*Rules fixed beforehand: entry at the close on confident days, stop 1σ, target 1.5σ of the forecast move, a day hitting both counts as the stop, 10 bps round trip, 1% risk per trade, one position at a time. p: one-sided test that the mean net return is positive. * p < 0.05. Signals: the causal gate of D-31, strictly above the threshold; the 10% target gave signals on 12.4–18.7% of the 4,141 test days (Trades, side 'both').*
+*Trades open at the close of a confident day, exit at a stop one forecast standard deviation away or a target one and a half away, and a day that touches both is booked as a stop. Each trade costs 10 basis points in total and risks 1% of the account, with at most one position open. These rules were set before any result. The p-value tests, one-sided, whether the average net result per trade is above zero; a star marks p below 0.05. Signals come from the confidence gate of D-31; with the 10% target they fell on 12.4–18.7% of the 4,141 test days (Trades column, side 'both').*
 
 Source: `signals-6.2/signals.csv`, `signals-ensemble/signals.csv`

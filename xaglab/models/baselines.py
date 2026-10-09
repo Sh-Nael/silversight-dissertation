@@ -82,7 +82,7 @@ class EWMA(Climatology):
 # --------------------------------------------------------------------------- AR-GARCH
 
 class ARGarch(Forecaster):
-    """AR(1)-GARCH(1,1) with Student-t errors on silver's daily log returns (in %).
+    """GARCH(1,1) variance with Student-t innovations around an AR(1) mean, fitted to silver's daily log returns (in %).
 
     Parameters are estimated on training returns only; forecasts at each origin then
     filter the fixed-parameter model forward through returns up to that origin.

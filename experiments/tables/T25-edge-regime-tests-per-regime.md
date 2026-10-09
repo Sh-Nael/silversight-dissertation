@@ -1,6 +1,6 @@
-**T25. Edge clusters per regime (descriptive)**
+**T25. The same comparison for each stress regime on its own**
 
-| Cluster | Measure | Regime | Hypothesis | Inside | Outside | Difference | p | Months inside |
+| Cluster | Quantity | Regime | Expected direction | Stress months | Other months | Gap | p | Stress months (n) |
 |---|---|---|---|---|---|---|---|---|
 | industrial | activity | 2011 silver spike | less | 0.278 | 0.184 | +0.093 | 0.810 | 12 |
 | industrial | activity | 2013 taper tantrum | less | 0.444 | 0.178 | +0.266 | 0.985 | 9 |
@@ -27,6 +27,6 @@
 | risk | reliability | 2020 COVID | greater | 0.328 | 0.367 | -0.039 | 0.680 | 6 |
 | risk | reliability | 2022 rate shock | greater | 0.300 | 0.370 | -0.070 | 0.820 | 12 |
 
-*One-sided circular-shift permutation test; hypotheses and regimes fixed before the results by date were computed (D-40). Inside / outside: mean over months inside and outside the regime. Not corrected for the 24 comparisons: descriptive only.*
+*p-values come from rotating the monthly edge record against the calendar (circular shifts, one-sided). The regimes and the expected directions were written down before any dated result (D-40). The two month columns are averages over stress months and over all other months. These 24 rows are descriptive and not corrected for multiple testing.*
 
 Source: `edges-6.3/regime_tests.csv`

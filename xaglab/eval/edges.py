@@ -5,8 +5,8 @@ From a run whose diagnostics carry a monthly ``selection`` (AIM-DG and its repla
 
   timeline()          one row per monthly refit: each edge on/off, its reliability and
                       contribution, the number of active edges, the clock
-  cluster_activity()  per month and driver cluster (monetary: gold, dollar, real yield;
-                      industrial: copper; risk: VIX): the share of the cluster's candidate
+  cluster_activity()  per month and driver cluster (gold, dollar and real yield form the monetary
+                      group, copper the industrial group, the VIX the risk group): the share of the cluster's candidate
                       edges that is active, and the cluster's mean reliability
   regime_tests()      stress months (2011, 2013, 2020, 2022) against the rest, per cluster and
                       measure, with a one-sided circular-shift permutation test

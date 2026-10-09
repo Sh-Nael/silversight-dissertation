@@ -1,4 +1,4 @@
-Model,QLIKE 1d,QLIKE 5d,RMSE 1d,RMSE 5d,MZ R² 1d,MZ R² 5d
+Model,QLIKE (1-day),QLIKE (5-day),RMSE (1-day),RMSE (5-day),MZ R² (1-day),MZ R² (5-day)
 static_gnn,-6.974,-5.315,0.0163,0.0229,0.059,0.253
 aimdg,-6.953,-5.300,0.0165,0.0240,0.052,0.199
 aimdg_replay,-6.953,-5.300,0.0165,0.0240,0.052,0.199

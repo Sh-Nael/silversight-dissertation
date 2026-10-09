@@ -1,6 +1,6 @@
-**T23. Sensitivity of the sequential settings (development walk-forward)**
+**T23. Month-by-month settings tried over a single development year**
 
-| Setting | Cadence (days) | Refits | Joint loss | Diff. vs default | Edges on | Edges changed per refit | Clock resets | Seconds |
+| Variant | Refit every (days) | Refits | Joint score | Change vs default | Edges active | Edges switched per refit | Clock resets | Seconds |
 |---|---|---|---|---|---|---|---|---|
 | default | 21 | 12 | -3.8740 | +0.0000 | 2.33 | 2.55 | 0 | 114 |
 | no_warm_start | 21 | 12 | -3.8665 | +0.0074 | 2.25 | 2.91 | 11 | 163 |
@@ -14,6 +14,6 @@
 | cadence_42 | 42 | 6 | -3.8915 | -0.0176 | 3.17 | 4.80 | 0 | 75 |
 | cadence_63 | 63 | 4 | -3.8776 | -0.0037 | 2.50 | 4.00 | 0 | 52 |
 
-*One development year replayed with each setting (D-38). Seconds: selection time for the year.*
+*Each variant replays the same development year month by month (D-38); 'Seconds' is the selection time for the whole year. With so few refits these numbers are only indicative.*
 
 Source: `phase5-walkforward/walkforward.csv`

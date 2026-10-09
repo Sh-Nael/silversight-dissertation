@@ -1,6 +1,6 @@
-**T01. Volatility forecasts of the nine models**
+**T01. How well each of the nine models forecast silver's volatility**
 
-| Model | QLIKE 1d | QLIKE 5d | RMSE 1d | RMSE 5d | MZ R² 1d | MZ R² 5d |
+| Model | QLIKE (1-day) | QLIKE (5-day) | RMSE (1-day) | RMSE (5-day) | MZ R² (1-day) | MZ R² (5-day) |
 |---|---|---|---|---|---|---|
 | climatology | -6.653 | -5.046 | 0.0181 | 0.0292 | 0.000 | 0.000 |
 | ewma | -6.925 | -5.287 | 0.0165 | 0.0247 | 0.033 | 0.110 |
@@ -12,6 +12,6 @@
 | static_gnn | **-6.974** | **-5.315** | 0.0163 | **0.0229** | 0.059 | **0.253** |
 | aimdg | -6.953 | -5.300 | 0.0165 | 0.0240 | 0.052 | 0.199 |
 
-*Test period 4 Jan 2010 – 23 Jun 2026, 4,141 days, 8 folds, monthly refits. QLIKE and RMSE: lower is better; MZ R²: higher is better. Best value per column in bold.*
+*Scored over the 4,141 trading days from 4 Jan 2010 to 23 Jun 2026 (eight folds, refitted monthly). Smaller QLIKE and RMSE are better, a larger Mincer–Zarnowitz R² is better; bold marks the leader of each column, ties included.*
 
 Source: `phase4-aimdg/scoreboard.csv`

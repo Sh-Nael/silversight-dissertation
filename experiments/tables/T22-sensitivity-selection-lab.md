@@ -1,6 +1,6 @@
-**T22. Ablations and sensitivity of the selection settings (development data)**
+**T22. How the choice of edges and the score respond to each selection setting**
 
-| Setting | Joint loss | Diff. vs default | Points better | Wilcoxon p | Edges on | Edges moved |
+| Variant | Joint score | Change vs default | Points improved | p (Wilcoxon) | Edges active | Edges differing |
 |---|---|---|---|---|---|---|
 | default | -4.7471 | +0.0000 | 0/17 | – | 2.75 | 0.00 |
 | A1_no_evolution_top3 | -4.7431 | +0.0040 | 10/17 | 0.611 | 3.00 | 4.02 |
@@ -24,6 +24,6 @@
 | top5_by_reliability | -4.7443 | +0.0028 | 9/17 | 0.854 | 5.00 | 5.39 |
 | top8_by_reliability | -4.7480 | -0.0009 | 11/17 | 0.517 | 8.00 | 7.41 |
 
-*Selection lab on cached networks at the 17 yearly tuning points (D-38). Joint loss: logloss1 + logloss5 + ½(QLIKE1 + QLIKE5), out of fold. Edges moved: edges that differ from the default's selection, per point. Development scores, not test performance. * p < 0.05.*
+*Every variant reuses the same stored networks at the 17 yearly tuning points, so only the edge selection changes (D-38). The joint score adds the two log losses and half of the two QLIKE values, measured out of fold; lower is better. 'Edges differing' counts, per point, the edges that differ from the default choice. These are development scores, not test results; a star marks p below 0.05.*
 
 Source: `phase5-lab/lab_summary.csv`

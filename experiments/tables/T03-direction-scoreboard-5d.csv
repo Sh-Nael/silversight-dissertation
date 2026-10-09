@@ -1,4 +1,4 @@
-Model,Brier,Log-loss,AUC,Hit rate,Balanced,Up calls,Up right,Down right
+Model,Brier score,Log loss,AUC,Accuracy,Balanced accuracy,Share called up,Up calls correct,Down calls correct
 climatology,0.2505,0.6942,0.475,51.9%,50.0%,100.0%,51.9%,–
 ewma,0.2505,0.6942,0.475,51.9%,50.0%,100.0%,51.9%,–
 ar_garch,0.2521,0.6974,0.474,52.0%,50.1%,99.8%,51.9%,66.7%

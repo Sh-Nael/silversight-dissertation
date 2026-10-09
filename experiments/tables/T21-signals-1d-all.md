@@ -1,6 +1,6 @@
-**T21. Signal and risk layer, 1-day trades on every day**
+**T21. Trading the forecasts with a stop and a target: 1-day holding, a trade every day**
 
-| Model | Side | Trades | Win rate | Profit factor | Mean net (bps) | p (mean > 0) | Total return | Max drawdown |
+| Model | Side | Trades | Winning trades | Gain/loss ratio | Net per trade (bps) | p (net > 0) | Account return | Worst drawdown |
 |---|---|---|---|---|---|---|---|---|
 | linear | both | 4,141 | 48.4% | 1.03 | 2.0 | 0.205 | -28.9% | -62.9% |
 | linear | buy | 2,645 | 49.8% | 1.08 | 5.1 | 0.057 | -8.4% | -35.2% |
@@ -24,6 +24,6 @@
 | ens_lin_gbm_sgnn | buy | 2,776 | 50.0% | 1.06 | 4.0 | 0.094 | -9.6% | -41.3% |
 | ens_lin_gbm_sgnn | sell | 1,365 | 45.6% | 0.87 | -7.0 | 0.980 | -40.6% | -43.8% |
 
-*Rules fixed beforehand: entry at the close on confident days, stop 1σ, target 1.5σ of the forecast move, a day hitting both counts as the stop, 10 bps round trip, 1% risk per trade, one position at a time. p: one-sided test that the mean net return is positive. * p < 0.05.*
+*Trades open at the close of a confident day, exit at a stop one forecast standard deviation away or a target one and a half away, and a day that touches both is booked as a stop. Each trade costs 10 basis points in total and risks 1% of the account, with at most one position open. These rules were set before any result. The p-value tests, one-sided, whether the average net result per trade is above zero; a star marks p below 0.05.*
 
 Source: `signals-6.2/signals.csv`, `signals-ensemble/signals.csv`

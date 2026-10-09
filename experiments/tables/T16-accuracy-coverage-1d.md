@@ -1,4 +1,4 @@
-**T16. Hit rate on the most confident days, 1-day horizon**
+**T16. Accuracy when a model calls only its most confident days (1 day ahead)**
 
 | Model | Target 10% | Target 20% | Target 30% | Target 50% | All days |
 |---|---|---|---|---|---|
@@ -12,6 +12,6 @@
 | static_gnn | 53.4% (-1.7) | 53.2% (-0.6) | 53.9% (+0.1) | 53.5% (+0.7) | 50.4% (-1.4) |
 | aimdg | 53.0% (-0.5) | 52.6% (+0.5) | 52.6% (-0.5) | 51.3% (-1.7) | 50.8% (-1.0) |
 
-*Confident days: the forecast's distance from 50% is strictly above the matching quantile of the model's previous 252 forecasts (causal gate, D-31). Because forecast confidence drifts over time, a gate set on the past selects more days than its target: the 10% target selected 11.3–17.8% of days for the learned models, 20% 20.6–28.6%, 30% 30.1–36.9%, 50% 46.8–53.9%. Cells: hit rate (edge over always-up on the same days, in points); * one-sided block permutation p < 0.05 for a positive edge. Climatology and EWMA always call up.*
+*A day counts as confident when the forecast sits further from 50% than the chosen quantile of the 252 forecasts the model made before it (D-31; ties do not count). Confidence tends to rise over the years, so a threshold taken from the past lets through more days than the target. For the fitted models the share of days actually used was 11.3–17.8% for the 10% target, 20.6–28.6% for 20%, 30.1–36.9% for 30% and 46.8–53.9% for 50%. Each cell gives the accuracy and, in brackets, its margin in points over always calling a rise on the same days; a star means a one-sided block-permutation p below 0.05. Climatology and EWMA only ever call a rise.*
 
 Source: `phase4-aimdg/selective.csv`

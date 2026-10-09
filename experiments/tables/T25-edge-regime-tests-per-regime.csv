@@ -1,4 +1,4 @@
-Cluster,Measure,Regime,Hypothesis,Inside,Outside,Difference,p,Months inside
+Cluster,Quantity,Regime,Expected direction,Stress months,Other months,Gap,p,Stress months (n)
 industrial,activity,2011 silver spike,less,0.278,0.184,+0.093,0.810,12
 industrial,activity,2013 taper tantrum,less,0.444,0.178,+0.266,0.985,9
 industrial,activity,2020 COVID,less,0.167,0.191,-0.024,0.550,6

@@ -93,12 +93,13 @@ def volatility_board(board: pd.DataFrame, models=None) -> tuple[pd.DataFrame, se
     raw = pd.DataFrame({"model": wide.index}).reset_index(drop=True)
     shown = raw.copy()
     names = {"vol_qlike": ("QLIKE", 3), "vol_rmse_vol": ("RMSE", 4), "vol_mz_r2": ("MZ R²", 3)}
+    hz = {1: "1-day", 5: "5-day"}
     cols = {}
     for k, (label, digits) in names.items():
         for h in (1, 5):
             raw[f"{k}{h}"] = wide[(k, h)].to_numpy(float)
-            shown[f"{label} {h}d"] = [num(v, digits) for v in raw[f"{k}{h}"]]
-            cols[f"{k}{h}"] = f"{label} {h}d"
+            shown[f"{label} ({hz[h]})"] = [num(v, digits) for v in raw[f"{k}{h}"]]
+            cols[f"{k}{h}"] = f"{label} ({hz[h]})"
     lower = {c for c in cols if not c.startswith("vol_mz")}
     shown_digits = {c: names[c.rstrip("15")][1] for c in cols}
     return shown.rename(columns={"model": "Model"}), _best(raw, cols, lower, shown_digits)
@@ -107,10 +108,10 @@ def volatility_board(board: pd.DataFrame, models=None) -> tuple[pd.DataFrame, se
 def direction_board(board: pd.DataFrame, h: int, models=None) -> tuple[pd.DataFrame, set]:
     """One row per model at horizon h: probability scores, hit rate, and each side's calls."""
     raw = _ordered(board[board["h"] == h], models).reset_index(drop=True)
-    spec = [("brier", "Brier", lambda v: num(v, 4)), ("logloss", "Log-loss", lambda v: num(v, 4)),
-            ("auc", "AUC", num), ("accuracy", "Hit rate", pct), ("balanced_accuracy", "Balanced", pct),
-            ("up_calls", "Up calls", pct), ("up_precision", "Up right", pct),
-            ("down_precision", "Down right", pct)]
+    spec = [("brier", "Brier score", lambda v: num(v, 4)), ("logloss", "Log loss", lambda v: num(v, 4)),
+            ("auc", "AUC", num), ("accuracy", "Accuracy", pct), ("balanced_accuracy", "Balanced accuracy", pct),
+            ("up_calls", "Share called up", pct), ("up_precision", "Up calls correct", pct),
+            ("down_precision", "Down calls correct", pct)]
     shown = pd.DataFrame({"Model": raw["model"]})
     for k, label, f in spec:
         shown[label] = [f(v) for v in raw[k]]
@@ -128,11 +129,11 @@ def significance_table(sig: pd.DataFrame, loss: str, models=None) -> pd.DataFram
     digits = 3 if loss == "qlike" else 5
     for h in (1, 5):
         part = s[s["h"] == h].set_index("model").reindex(out["Model"])
-        out[f"Diff {h}d"] = [("–" if pd.isna(v) else f"{v:+.{digits}f}") for v in part["mean_diff"]]
-        out[f"DM p {h}d"] = [pval(v) for v in part["dm_p"]]
-        out[f"Wilcoxon p {h}d"] = [pval(v) for v in part["wilcoxon_p"]]
-        out[f"Perm. p {h}d"] = [pval(v) for v in part["perm_p"]]
-        out[f"Folds {h}d"] = part["folds_better"].fillna("–").to_numpy()
+        out[f"Mean diff. ({h}-day)"] = [("–" if pd.isna(v) else f"{v:+.{digits}f}") for v in part["mean_diff"]]
+        out[f"p DM ({h}-day)"] = [pval(v) for v in part["dm_p"]]
+        out[f"p Wilcoxon ({h}-day)"] = [pval(v) for v in part["wilcoxon_p"]]
+        out[f"p permutation ({h}-day)"] = [pval(v) for v in part["perm_p"]]
+        out[f"Folds won ({h}-day)"] = part["folds_better"].fillna("–").to_numpy()
     return out
 
 
@@ -146,11 +147,11 @@ def one_model_tests(sig: pd.DataFrame, model: str) -> pd.DataFrame:
             if r.empty:
                 continue
             r = r.iloc[0]
-            rows.append({"Loss": LOSS_LABEL[loss], "Horizon": f"{h} day" + ("s" if h > 1 else ""),
-                         "Difference": f"{r.mean_diff:+.{3 if loss == 'qlike' else 5}f}",
-                         "DM statistic": num(r.dm_stat, 2), "DM p": pval(r.dm_p),
-                         "Wilcoxon p": pval(r.wilcoxon_p), "Permutation p": pval(r.perm_p),
-                         "Folds better": r.folds_better})
+            rows.append({"Score": LOSS_LABEL[loss], "Days ahead": str(h),
+                         "Mean difference": f"{r.mean_diff:+.{3 if loss == 'qlike' else 5}f}",
+                         "DM stat": num(r.dm_stat, 2), "p (DM)": pval(r.dm_p),
+                         "p (Wilcoxon)": pval(r.wilcoxon_p), "p (permutation)": pval(r.perm_p),
+                         "Folds won": r.folds_better})
     return pd.DataFrame(rows)
 
 
@@ -180,10 +181,10 @@ def two_sided_table(sel: pd.DataFrame, coverage: float, models=None) -> pd.DataF
     rows = []
     for h in (1, 5):
         for _, r in _ordered(s[s["h"] == h], models).iterrows():
-            rows.append({"Model": r["model"], "Horizon": f"{h}d", "Days selected": pct(r.coverage),
-                         "Up calls": count(r.up_n), "Up right": pct(r.up_right), "Up p": pval(r.p_up),
-                         "Down calls": count(r.down_n), "Down right": pct(r.down_right),
-                         "Down p": pval(r.p_down)})
+            rows.append({"Model": r["model"], "Days ahead": str(h), "Share of days": pct(r.coverage),
+                         "Buy calls": count(r.up_n), "Buy calls correct": pct(r.up_right), "p (buy)": pval(r.p_up),
+                         "Sell calls": count(r.down_n), "Sell calls correct": pct(r.down_right),
+                         "p (sell)": pval(r.p_down)})
     return pd.DataFrame(rows)
 
 
@@ -194,42 +195,42 @@ def signals_table(sig: pd.DataFrame, h: int, coverage: float, models=None) -> pd
     s = _ordered(s.assign(_s=s["side"].map(side)).sort_values("_s", kind="stable"), models)
     return pd.DataFrame({
         "Model": s["model"].to_numpy(), "Side": s["side"].to_numpy(),
-        "Trades": [count(v) for v in s["n"]], "Win rate": [pct(v) for v in s["win_rate"]],
-        "Profit factor": [num(v, 2) for v in s["profit_factor"]],
-        "Mean net (bps)": [num(v, 1) for v in s["mean_net_bps"]],
-        "p (mean > 0)": [pval(v) for v in s["p_positive"]],
-        "Total return": [pct(v) for v in s["total_return"]],
-        "Max drawdown": [pct(v) for v in s["max_drawdown"]]})
+        "Trades": [count(v) for v in s["n"]], "Winning trades": [pct(v) for v in s["win_rate"]],
+        "Gain/loss ratio": [num(v, 2) for v in s["profit_factor"]],
+        "Net per trade (bps)": [num(v, 1) for v in s["mean_net_bps"]],
+        "p (net > 0)": [pval(v) for v in s["p_positive"]],
+        "Account return": [pct(v) for v in s["total_return"]],
+        "Worst drawdown": [pct(v) for v in s["max_drawdown"]]})
 
 
 def lab_table(lab: pd.DataFrame) -> pd.DataFrame:
     return pd.DataFrame({
-        "Setting": lab["setting"], "Joint loss": [num(v, 4) for v in lab["cv_loss"]],
-        "Diff. vs default": [f"{v:+.4f}" for v in lab["diff_vs_ref"]],
-        "Points better": [f"{int(a)}/{int(b)}" for a, b in zip(lab["points_better"], lab["points"], strict=True)],
-        "Wilcoxon p": [pval(v) if s != "default" else "–"
-                       for v, s in zip(lab["p_wilcoxon"], lab["setting"], strict=True)],
-        "Edges on": [num(v, 2) for v in lab["edges"]],
-        "Edges moved": [num(v, 2) for v in lab["edges_moved_vs_ref"]]})
+        "Variant": lab["setting"], "Joint score": [num(v, 4) for v in lab["cv_loss"]],
+        "Change vs default": [f"{v:+.4f}" for v in lab["diff_vs_ref"]],
+        "Points improved": [f"{int(a)}/{int(b)}" for a, b in zip(lab["points_better"], lab["points"], strict=True)],
+        "p (Wilcoxon)": [pval(v) if s != "default" else "–"
+                         for v, s in zip(lab["p_wilcoxon"], lab["setting"], strict=True)],
+        "Edges active": [num(v, 2) for v in lab["edges"]],
+        "Edges differing": [num(v, 2) for v in lab["edges_moved_vs_ref"]]})
 
 
 def walkforward_table(wf: pd.DataFrame) -> pd.DataFrame:
     return pd.DataFrame({
-        "Setting": wf["setting"], "Cadence (days)": wf["cadence"], "Refits": wf["refits"],
-        "Joint loss": [num(v, 4) for v in wf["joint_loss"]],
-        "Diff. vs default": [f"{v:+.4f}" for v in wf["diff_vs_default"]],
-        "Edges on": [num(v, 2) for v in wf["edges"]],
-        "Edges changed per refit": [num(v, 2) for v in wf["edges_changed_per_refit"]],
+        "Variant": wf["setting"], "Refit every (days)": wf["cadence"], "Refits": wf["refits"],
+        "Joint score": [num(v, 4) for v in wf["joint_loss"]],
+        "Change vs default": [f"{v:+.4f}" for v in wf["diff_vs_default"]],
+        "Edges active": [num(v, 2) for v in wf["edges"]],
+        "Edges switched per refit": [num(v, 2) for v in wf["edges_changed_per_refit"]],
         "Clock resets": wf["clock_resets"], "Seconds": [num(v, 0) for v in wf["seconds"]]})
 
 
 def regime_table(tests: pd.DataFrame, primary: bool) -> pd.DataFrame:
     t = tests[tests["primary"] == primary]
     out = pd.DataFrame({
-        "Cluster": t["cluster"], "Measure": t["measure"], "Hypothesis": t["hypothesis"],
-        "Inside": [num(v) for v in t["inside"]], "Outside": [num(v) for v in t["outside"]],
-        "Difference": [f"{v:+.3f}" for v in t["diff"]], "p": [pval(v) for v in t["p"]],
-        "Months inside": t["n_inside"]})
+        "Cluster": t["cluster"], "Quantity": t["measure"], "Expected direction": t["hypothesis"],
+        "Stress months": [num(v) for v in t["inside"]], "Other months": [num(v) for v in t["outside"]],
+        "Gap": [f"{v:+.3f}" for v in t["diff"]], "p": [pval(v) for v in t["p"]],
+        "Stress months (n)": t["n_inside"]})
     if not primary:
         out.insert(2, "Regime", t["regime"].to_numpy())
     return out.reset_index(drop=True)
@@ -237,16 +238,16 @@ def regime_table(tests: pd.DataFrame, primary: bool) -> pd.DataFrame:
 
 def persistence_table(per: pd.DataFrame) -> pd.DataFrame:
     return pd.DataFrame({
-        "Edge": per["edge"], "Cluster": per["cluster"],
-        "Months active": [pct(v) for v in per["share_active"]], "Switches": per["switches"],
-        "Mean active spell (months)": [num(v, 1) for v in per["mean_spell_months"]]})
+        "Edge": per["edge"], "Group": per["cluster"],
+        "Share of months on": [pct(v) for v in per["share_active"]], "On/off changes": per["switches"],
+        "Average run (months)": [num(v, 1) for v in per["mean_spell_months"]]})
 
 
 def dev_table(dev: pd.DataFrame) -> pd.DataFrame:
     wide = dev.pivot_table(index="model", columns="task", values="mean").reset_index()
     wide = _ordered(wide)
-    labels = {"joint": "Joint", "direction_h1": "Log-loss 1d", "direction_h5": "Log-loss 5d",
-              "volatility_h1": "QLIKE 1d", "volatility_h5": "QLIKE 5d"}
+    labels = {"joint": "Joint score", "direction_h1": "Log loss (1-day)", "direction_h5": "Log loss (5-day)",
+              "volatility_h1": "QLIKE (1-day)", "volatility_h5": "QLIKE (5-day)"}
     out = pd.DataFrame({"Model": wide["model"].to_numpy()})
     for k, label in labels.items():
         if k in wide:
@@ -256,11 +257,12 @@ def dev_table(dev: pd.DataFrame) -> pd.DataFrame:
 
 # ------------------------------------------------------------------ the pack
 
-_SIG_NOTE = ("Difference: mean loss of the model minus the reference's; negative means the model is "
-             "better. DM: Diebold–Mariano on the 4,141 daily losses; Wilcoxon: signed-rank over the 8 "
-             "fold means; Perm.: block permutation (21-day blocks). * p < 0.05. Folds: folds in which "
-             "the model beat the reference.")
-_TEST_NOTE = "Test period 4 Jan 2010 – 23 Jun 2026, 4,141 days, 8 folds, monthly refits."
+_SIG_NOTE = ("A negative mean difference says the model's average loss was lower than the reference's. "
+             "p DM comes from the Diebold–Mariano test on all 4,141 daily losses, p Wilcoxon from a "
+             "signed-rank test on the eight per-fold averages, and p permutation from flipping signs in "
+             "blocks of 21 days. A star marks p below 0.05. 'Folds won' says in how many of the eight "
+             "folds the model came out ahead.")
+_TEST_NOTE = "Scored over the 4,141 trading days from 4 Jan 2010 to 23 Jun 2026 (eight folds, refitted monthly)."
 
 
 def build(reports: Path) -> list[Table]:
@@ -292,52 +294,56 @@ def build(reports: Path) -> list[Table]:
         tables.append(Table(key, title, frame.reset_index(drop=True), note, tuple(sources), chapter, bold or set()))
 
     f, b = volatility_board(board, LADDER)
-    add("T01-volatility-scoreboard", "Volatility forecasts of the nine models", f,
-        f"{_TEST_NOTE} QLIKE and RMSE: lower is better; MZ R²: higher is better. Best value per column in bold.",
+    add("T01-volatility-scoreboard", "How well each of the nine models forecast silver's volatility", f,
+        f"{_TEST_NOTE} Smaller QLIKE and RMSE are better, a larger Mincer–Zarnowitz R² is better; bold marks "
+        "the leader of each column, ties included.",
         [f"{p4}/scoreboard.csv"], bold=b)
     for k, h in (("T02", 1), ("T03", 5)):
         f, b = direction_board(board, h, LADDER)
-        add(f"{k}-direction-scoreboard-{h}d", f"Direction forecasts of the nine models, {h}-day horizon", f,
-            f"{_TEST_NOTE} Up calls: share of days called up. Up right / Down right: share of each side's "
-            "calls that were correct. Best value per column in bold.", [f"{p4}/scoreboard.csv"], bold=b)
+        add(f"{k}-direction-scoreboard-{h}d", f"How well each model called the direction of silver {h} "
+            f"trading day{'s' if h > 1 else ''} ahead", f,
+            f"{_TEST_NOTE} 'Share called up' is how often the model predicted a rise; the two 'calls correct' "
+            "columns show how often each kind of call came true. Bold marks the leader of each column.",
+            [f"{p4}/scoreboard.csv"], bold=b)
     for k, loss in (("T04", "qlike"), ("T05", "brier"), ("T06", "logloss")):
-        add(f"{k}-significance-{loss}-vs-climatology", f"{LOSS_LABEL[loss]}: every model against climatology",
+        add(f"{k}-significance-{loss}-vs-climatology", f"Each model compared with climatology on {LOSS_LABEL[loss]}",
             significance_table(sig, loss, LADDER), _SIG_NOTE, [f"{p4}/significance.csv"],
             chapter="4" if loss != "logloss" else "Appendix")
-    add("T07-aimdg-vs-static-gnn", "AIM-DG against the static graph (the main hypothesis test)",
-        one_model_tests(sig_sg, "aimdg"), _SIG_NOTE.replace("the model", "AIM-DG").replace(
-            "the reference", "the static graph"), [f"{vs_sg}/significance.csv"])
-    add("T08-qlike-vs-static-gnn", "QLIKE: every model against the static graph",
+    add("T07-aimdg-vs-static-gnn", "Does AIM-DG beat the graph that keeps every edge? All scores, both horizons",
+        one_model_tests(sig_sg, "aimdg"), _SIG_NOTE.replace("the model's", "AIM-DG's").replace(
+            "the reference's", "the static graph's").replace("the model", "AIM-DG"), [f"{vs_sg}/significance.csv"])
+    add("T08-qlike-vs-static-gnn", "Each model compared with the static graph on QLIKE",
         significance_table(sig_sg, "qlike", LADDER), _SIG_NOTE, [f"{vs_sg}/significance.csv"])
-    add("T09-brier-vs-gbm", "Brier: every model against gradient boosting",
+    add("T09-brier-vs-gbm", "Each model compared with gradient boosting on the Brier score",
         significance_table(sig_gbm, "brier", LADDER), _SIG_NOTE, [f"{vs_gbm}/significance.csv"])
 
     f, b = volatility_board(ens_board, ens)
-    add("T10-ensembles-volatility", "Equal-weight ensembles and their members: volatility", f,
-        f"{_TEST_NOTE} Members were chosen on development scores. Best value per column in bold.",
+    add("T10-ensembles-volatility", "Volatility: two simple averages of models next to the models they average", f,
+        f"{_TEST_NOTE} Which models to average was decided on development scores. Bold marks the leader of each column.",
         ["ensemble-6.2/scoreboard.csv"], bold=b)
     f, b = direction_board(ens_board, 1, ens)
-    add("T11-ensembles-direction-1d", "Equal-weight ensembles and their members: 1-day direction", f,
-        "Best value per column in bold.", ["ensemble-6.2/scoreboard.csv"], bold=b)
-    add("T12-ensembles-qlike-vs-gbm", "QLIKE: ensembles and members against gradient boosting",
+    add("T11-ensembles-direction-1d", "Next-day direction: the two averages next to their members", f,
+        "Bold marks the leader of each column.", ["ensemble-6.2/scoreboard.csv"], bold=b)
+    add("T12-ensembles-qlike-vs-gbm", "The averages and their members compared with gradient boosting on QLIKE",
         significance_table(ens_sig, "qlike", ens), _SIG_NOTE, ["ensemble-6.2/significance.csv"])
 
     f, b = volatility_board(abl_board, abl)
-    add("T13-ablations-volatility", "Ablations on the test folds: volatility", f,
-        "aimdg_replay: the official run reproduced from cached networks. A1: no evolution (top 3 edges "
-        "by reliability). A2: no variance penalty in the reliability. Both variants were declared before "
-        "the replays. Best value per column in bold.", ["phase5-test-ablations/scoreboard.csv"], bold=b)
-    add("T14-ablations-qlike-vs-aimdg", "QLIKE: ablations against AIM-DG",
+    add("T13-ablations-volatility", "Volatility of AIM-DG with one mechanism removed, on the test folds", f,
+        "aimdg_replay rebuilds the official AIM-DG run from the stored networks. In aimdg_A1 the evolutionary "
+        "search is replaced by the three most reliable edges; in aimdg_A2 the reliability score ignores how much "
+        "an edge's usefulness varies. Both variants were fixed before they were replayed. Bold marks the leader "
+        "of each column.", ["phase5-test-ablations/scoreboard.csv"], bold=b)
+    add("T14-ablations-qlike-vs-aimdg", "The variants compared with AIM-DG itself on QLIKE",
         significance_table(abl_sig, "qlike", abl),
-        _SIG_NOTE + " Read A2 with care: its final selection differs from AIM-DG's in 3 of the 200 months and "
-        "its forecasts on 266 of the 4,141 days, so its p-values rest on few months.",
+        _SIG_NOTE + " Caution for aimdg_A2: it picked different edges from AIM-DG in only 3 of the 200 months "
+        "(266 of 4,141 forecast days differ), so its p-values depend on very few months.",
         ["phase5-test-ablations-vs-aimdg/significance.csv"])
-    add("T15-ablations-qlike-vs-static-gnn", "QLIKE: AIM-DG and its ablations against the static graph",
+    add("T15-ablations-qlike-vs-static-gnn", "AIM-DG and its variants compared with the static graph on QLIKE",
         significance_table(abl_sig_sg, "qlike", abl), _SIG_NOTE, ["phase5-test-ablations/significance.csv"])
 
-    gate = ("Confident days: the forecast's distance from 50% is strictly above the matching quantile of the "
-            "model's previous 252 forecasts (causal gate, D-31). Because forecast confidence drifts over time, "
-            "a gate set on the past selects more days than its target")
+    gate = ("A day counts as confident when the forecast sits further from 50% than the chosen quantile of "
+            "the 252 forecasts the model made before it (D-31; ties do not count). Confidence tends to rise "
+            "over the years, so a threshold taken from the past lets through more days than the target")
     causal = sel[sel["mode"] == "causal"]
     learned = causal[~causal["model"].isin(["climatology", "ewma"])]
 
@@ -345,53 +351,63 @@ def build(reports: Path) -> list[Table]:
         return realised(learned[(learned["h"] == h) & np.isclose(learned["coverage_target"], c)]["coverage"])
 
     for k, h in (("T16", 1), ("T17", 5)):
-        add(f"{k}-accuracy-coverage-{h}d", f"Hit rate on the most confident days, {h}-day horizon",
+        add(f"{k}-accuracy-coverage-{h}d", f"Accuracy when a model calls only its most confident days "
+            f"({h} day{'s' if h > 1 else ''} ahead)",
             coverage_table(sel, h, LADDER),
-            f"{gate}: the 10% target selected {share(h, 0.1)} of days for the learned models, 20% "
-            f"{share(h, 0.2)}, 30% {share(h, 0.3)}, 50% {share(h, 0.5)}. Cells: hit rate (edge over always-up on "
-            "the same days, in points); * one-sided block permutation p < 0.05 for a positive edge. Climatology "
-            "and EWMA always call up.",
+            f"{gate}. For the fitted models the share of days actually used was {share(h, 0.1)} for the 10% "
+            f"target, {share(h, 0.2)} for 20%, {share(h, 0.3)} for 30% and {share(h, 0.5)} for 50%. Each cell "
+            "gives the accuracy and, in brackets, its margin in points over always calling a rise on the same "
+            "days; a star means a one-sided block-permutation p below 0.05. Climatology and EWMA only ever "
+            "call a rise.",
             [f"{p4}/selective.csv"])
-    add("T18-two-sided-top10", "Two-sided scorecard at the 10% coverage target",
+    add("T18-two-sided-top10", "Buy calls and sell calls judged separately, 10% coverage target",
         two_sided_table(sel, 0.1, LADDER),
-        f"{gate} (Days selected). p: one-sided binomial test of the share right against the stricter of 50% and that side's "
-        "base rate on the selected days, with n/h effective trials. * p < 0.05.", [f"{p4}/selective.csv"])
-    rules = ("Rules fixed beforehand: entry at the close on confident days, stop 1σ, target 1.5σ of the "
-             "forecast move, a day hitting both counts as the stop, 10 bps round trip, 1% risk per trade, "
-             "one position at a time. p: one-sided test that the mean net return is positive. * p < 0.05.")
+        f"{gate} ('Share of days'). Each p-value is a one-sided binomial test of whether that kind of call was "
+        "right more often than both 50% and the share of selected days that actually moved that way, counting "
+        "n/h independent trials. A star marks p below 0.05.", [f"{p4}/selective.csv"])
+    rules = ("Trades open at the close of a confident day, exit at a stop one forecast standard deviation away "
+             "or a target one and a half away, and a day that touches both is booked as a stop. Each trade "
+             "costs 10 basis points in total and risks 1% of the account, with at most one position open. "
+             "These rules were set before any result. The p-value tests, one-sided, whether the average net "
+             "result per trade is above zero; a star marks p below 0.05.")
     for k, h, c in (("T19", 1, 0.1), ("T20", 5, 0.1), ("T21", 1, 1.0)):
-        label = "at the 10% coverage target" if c < 1 else "on every day"
+        label = "confident days only (10% target)" if c < 1 else "a trade every day"
         both = signals[(signals["h"] == h) & np.isclose(signals["coverage_target"], c) & (signals["side"] == "both")]
-        note = rules if c >= 1 else (f"{rules} Signals: the causal gate of D-31, strictly above the threshold; the "
-                                     f"10% target gave signals on {realised(both['n'] / N_TEST_DAYS)} of the "
-                                     f"{N_TEST_DAYS:,} test days (Trades, side 'both').")
+        note = rules if c >= 1 else (f"{rules} Signals come from the confidence gate of D-31; with the 10% "
+                                     f"target they fell on {realised(both['n'] / N_TEST_DAYS)} of the "
+                                     f"{N_TEST_DAYS:,} test days (Trades column, side 'both').")
         add(f"{k}-signals-{h}d-{'top10' if c < 1 else 'all'}",
-            f"Signal and risk layer, {h}-day trades {label}", signals_table(signals, h, c, traded), note, sig_src)
+            f"Trading the forecasts with a stop and a target: {h}-day holding, {label}",
+            signals_table(signals, h, c, traded), note, sig_src)
 
-    add("T22-sensitivity-selection-lab", "Ablations and sensitivity of the selection settings (development data)",
+    add("T22-sensitivity-selection-lab", "How the choice of edges and the score respond to each selection setting",
         lab_table(read("phase5-lab/lab_summary.csv")),
-        "Selection lab on cached networks at the 17 yearly tuning points (D-38). Joint loss: "
-        "logloss1 + logloss5 + ½(QLIKE1 + QLIKE5), out of fold. Edges moved: edges that differ from the "
-        "default's selection, per point. Development scores, not test performance. * p < 0.05.",
+        "Every variant reuses the same stored networks at the 17 yearly tuning points, so only the edge "
+        "selection changes (D-38). The joint score adds the two log losses and half of the two QLIKE values, "
+        "measured out of fold; lower is better. 'Edges differing' counts, per point, the edges that differ "
+        "from the default choice. These are development scores, not test results; a star marks p below 0.05.",
         ["phase5-lab/lab_summary.csv"], chapter="4 (F1)")
-    add("T23-sensitivity-walkforward", "Sensitivity of the sequential settings (development walk-forward)",
+    add("T23-sensitivity-walkforward", "Month-by-month settings tried over a single development year",
         walkforward_table(read("phase5-walkforward/walkforward.csv")),
-        "One development year replayed with each setting (D-38). Seconds: selection time for the year.",
+        "Each variant replays the same development year month by month (D-38); 'Seconds' is the selection "
+        "time for the whole year. With so few refits these numbers are only indicative.",
         ["phase5-walkforward/walkforward.csv"], chapter="4 (F1)")
     tests = read("edges-6.3/regime_tests.csv")
-    shift = ("One-sided circular-shift permutation test; hypotheses and regimes fixed before the results "
-             "by date were computed (D-40). Inside / outside: mean over months inside and outside the regime.")
-    add("T24-edge-regime-tests", "Edge clusters in stress months against the rest (primary tests)",
-        regime_table(tests, True), shift + " * p < 0.05.", ["edges-6.3/regime_tests.csv"], chapter="5")
-    add("T25-edge-regime-tests-per-regime", "Edge clusters per regime (descriptive)",
-        regime_table(tests, False), shift + " Not corrected for the 24 comparisons: descriptive only.",
+    shift = ("p-values come from rotating the monthly edge record against the calendar (circular shifts, one-"
+             "sided). The regimes and the expected directions were written down before any dated result (D-40). "
+             "The two month columns are averages over stress months and over all other months.")
+    add("T24-edge-regime-tests", "Do the edge groups behave differently in stress months? The six planned tests",
+        regime_table(tests, True), shift + " A star marks p below 0.05.", ["edges-6.3/regime_tests.csv"], chapter="5")
+    add("T25-edge-regime-tests-per-regime", "The same comparison for each stress regime on its own",
+        regime_table(tests, False), shift + " These 24 rows are descriptive and not corrected for multiple testing.",
         ["edges-6.3/regime_tests.csv"], chapter="Appendix")
-    add("T26-edge-persistence", "Persistence of the 15 edges over the 200 monthly selections",
+    add("T26-edge-persistence", "How often, and for how long, each of the 15 edges was switched on",
         persistence_table(read("edges-6.3/persistence.csv")), "", ["edges-6.3/persistence.csv"], chapter="5")
-    add("T27-development-scores", "Development scores of the tuned models",
+    add("T27-development-scores", "Scores of the tuned models during development",
         dev_table(read(f"{p4}/dev_scoreboard.csv")),
-        "Out-of-fold losses at the 17 yearly tuning points, mean. Used for design decisions only; they are "
-        "the best of the searched trials and so optimistic (about 0.01 in the joint loss).",
+        "Average out-of-fold losses over the 17 yearly tuning points. They guided design choices only, and "
+        "because each is the best of many trials they flatter the models slightly (by roughly 0.01 in the "
+        "joint score).",
         [f"{p4}/dev_scoreboard.csv"], chapter="Appendix")
     return tables
 

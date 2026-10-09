@@ -1,4 +1,4 @@
-Model,QLIKE 1d,QLIKE 5d,RMSE 1d,RMSE 5d,MZ R² 1d,MZ R² 5d
+Model,QLIKE (1-day),QLIKE (5-day),RMSE (1-day),RMSE (5-day),MZ R² (1-day),MZ R² (5-day)
 linear,-6.963,-5.315,0.0162,0.0237,0.081,0.165
 gbm,-6.945,-5.310,0.0169,0.0246,0.028,0.111
 static_gnn,-6.974,-5.315,0.0163,0.0229,0.059,0.253

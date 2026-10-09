@@ -1,6 +1,6 @@
-**T02. Direction forecasts of the nine models, 1-day horizon**
+**T02. How well each model called the direction of silver 1 trading day ahead**
 
-| Model | Brier | Log-loss | AUC | Hit rate | Balanced | Up calls | Up right | Down right |
+| Model | Brier score | Log loss | AUC | Accuracy | Balanced accuracy | Share called up | Up calls correct | Down calls correct |
 |---|---|---|---|---|---|---|---|---|
 | climatology | 0.2499 | 0.6930 | 0.491 | 51.8% | 50.0% | 100.0% | 51.8% | – |
 | ewma | 0.2499 | 0.6930 | 0.491 | 51.8% | 50.0% | 100.0% | 51.8% | – |
@@ -12,6 +12,6 @@
 | static_gnn | 0.2505 | 0.6941 | 0.505 | 50.4% | 49.6% | 72.0% | 51.6% | 47.5% |
 | aimdg | 0.2506 | 0.6944 | 0.504 | 50.8% | 50.1% | 69.8% | 51.9% | 48.3% |
 
-*Test period 4 Jan 2010 – 23 Jun 2026, 4,141 days, 8 folds, monthly refits. Up calls: share of days called up. Up right / Down right: share of each side's calls that were correct. Best value per column in bold.*
+*Scored over the 4,141 trading days from 4 Jan 2010 to 23 Jun 2026 (eight folds, refitted monthly). 'Share called up' is how often the model predicted a rise; the two 'calls correct' columns show how often each kind of call came true. Bold marks the leader of each column.*
 
 Source: `phase4-aimdg/scoreboard.csv`

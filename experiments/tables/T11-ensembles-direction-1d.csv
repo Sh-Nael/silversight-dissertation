@@ -1,4 +1,4 @@
-Model,Brier,Log-loss,AUC,Hit rate,Balanced,Up calls,Up right,Down right
+Model,Brier score,Log loss,AUC,Accuracy,Balanced accuracy,Share called up,Up calls correct,Down calls correct
 linear,0.2502,0.6935,0.524,52.1%,51.6%,63.9%,53.0%,50.3%
 gbm,0.2497,0.6926,0.532,53.8%,53.3%,64.1%,54.4%,52.8%
 static_gnn,0.2505,0.6941,0.505,50.4%,49.6%,72.0%,51.6%,47.5%

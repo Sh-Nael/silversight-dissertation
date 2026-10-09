@@ -1,4 +1,4 @@
-Model,Diff 1d,DM p 1d,Wilcoxon p 1d,Perm. p 1d,Folds 1d,Diff 5d,DM p 5d,Wilcoxon p 5d,Perm. p 5d,Folds 5d
+Model,Mean diff. (1-day),p DM (1-day),p Wilcoxon (1-day),p permutation (1-day),Folds won (1-day),Mean diff. (5-day),p DM (5-day),p Wilcoxon (5-day),p permutation (5-day),Folds won (5-day)
 linear,-0.018,0.134,0.148,0.131,6/8,-0.005,0.635,1.000,0.727,4/8
 static_gnn,-0.029,0.024*,0.195,0.031*,5/8,-0.005,0.698,0.945,0.765,4/8
 ens_lin_gbm,-0.021,0.002*,0.055,0.001*,7/8,-0.011,0.030*,0.039*,0.087,6/8

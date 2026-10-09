@@ -1,4 +1,4 @@
-Cluster,Measure,Hypothesis,Inside,Outside,Difference,p,Months inside
+Cluster,Quantity,Expected direction,Stress months,Other months,Gap,p,Stress months (n)
 industrial,activity,less,0.291,0.166,+0.125,0.935,39
 industrial,reliability,less,0.378,0.383,-0.005,0.450,39
 monetary,activity,greater,0.217,0.161,+0.056,0.060,39

@@ -1,6 +1,6 @@
-**T26. Persistence of the 15 edges over the 200 monthly selections**
+**T26. How often, and for how long, each of the 15 edges was switched on**
 
-| Edge | Cluster | Months active | Switches | Mean active spell (months) |
+| Edge | Group | Share of months on | On/off changes | Average run (months) |
 |---|---|---|---|---|
 | gold@1 | monetary | 23.0% | 42 | 2.2 |
 | gold@5 | monetary | 17.5% | 43 | 1.6 |

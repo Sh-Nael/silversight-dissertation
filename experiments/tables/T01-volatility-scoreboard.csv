@@ -1,4 +1,4 @@
-Model,QLIKE 1d,QLIKE 5d,RMSE 1d,RMSE 5d,MZ R² 1d,MZ R² 5d
+Model,QLIKE (1-day),QLIKE (5-day),RMSE (1-day),RMSE (5-day),MZ R² (1-day),MZ R² (5-day)
 climatology,-6.653,-5.046,0.0181,0.0292,0.000,0.000
 ewma,-6.925,-5.287,0.0165,0.0247,0.033,0.110
 ar_garch,-6.940,-5.306,0.0169,0.0251,0.029,0.094

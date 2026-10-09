@@ -1,6 +1,6 @@
-**T11. Equal-weight ensembles and their members: 1-day direction**
+**T11. Next-day direction: the two averages next to their members**
 
-| Model | Brier | Log-loss | AUC | Hit rate | Balanced | Up calls | Up right | Down right |
+| Model | Brier score | Log loss | AUC | Accuracy | Balanced accuracy | Share called up | Up calls correct | Down calls correct |
 |---|---|---|---|---|---|---|---|---|
 | linear | 0.2502 | 0.6935 | 0.524 | 52.1% | 51.6% | 63.9% | 53.0% | 50.3% |
 | gbm | 0.2497 | 0.6926 | **0.532** | **53.8%** | **53.3%** | 64.1% | **54.4%** | **52.8%** |
@@ -8,6 +8,6 @@
 | ens_lin_gbm | **0.2495** | **0.6922** | 0.530 | 52.3% | 51.8% | 65.0% | 53.2% | 50.7% |
 | ens_lin_gbm_sgnn | 0.2496 | 0.6923 | 0.524 | 51.8% | 51.2% | 67.0% | 52.7% | 50.0% |
 
-*Best value per column in bold.*
+*Bold marks the leader of each column.*
 
 Source: `ensemble-6.2/scoreboard.csv`

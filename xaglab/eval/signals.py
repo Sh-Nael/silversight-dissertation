@@ -6,8 +6,8 @@ selectivity, not from the hit rate alone.
 
 Rules (fixed before any result was computed; none of them is tuned):
   signal        confident days only: the causal gate of D-31 (a forecast is confident when its
-                |p − 0.5| is above the (1 − coverage) quantile of the model's own previous 252
-                forecasts); BUY if p ≥ 0.5, SELL otherwise
+                |p − 0.5| is above the (1 − coverage) quantile of the 252 forecasts the model itself made
+                earlier); BUY if p ≥ 0.5, SELL otherwise
   expected move σ = sqrt(var_h), the model's forecast standard deviation of the h-day log return
   entry         the close of the forecast day t (the forecast is for (t, t + h], as the labels)
   stop / target 1.0 σ / 1.5 σ from the entry, in log-price terms
